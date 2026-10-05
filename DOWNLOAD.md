@@ -12,6 +12,7 @@ by GitHub is a Git-tree snapshot; it does not contain every large complex field.
    file against DISTRIBUTION_MANIFEST.json. This verifies file integrity, not
    scientific accuracy. The separate REPRODUCE.md describes numerical checks.
 
-If using a Git clone, extract only the raw-field ZIPs into the clone root; the
-other files are already present. Use a separate working copy for commands that
+If using a Git clone, extract both the code/table ZIP and all raw-field ZIPs
+into the clone root. The code/table archive also contains smaller NPZ arrays
+that are not stored in Git. Use a separate working copy for commands that
 write results so the archived evidence remains unchanged.
