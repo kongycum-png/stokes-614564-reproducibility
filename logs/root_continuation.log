@@ -1,0 +1,7 @@
+{
+  "rows": 1800,
+  "status_changes": 0,
+  "defined_half_changes_above_1e-8": 0,
+  "maximum_defined_half_change": 6.661338147750939e-16,
+  "not_a_proof": "finite sampling and matching gates cannot certify branch topology through an unresolved merger"
+}

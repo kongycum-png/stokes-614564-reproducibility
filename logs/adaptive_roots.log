@@ -1,0 +1,16 @@
+START R24_eta0.35
+END R24_eta0.35 67.362675625 [('1', 'defined', 0.9634512369957664), ('4', 'defined', 0.7633549068833465), ('6', 'defined', 0.6006238609957005)]
+START R24_eta0.7
+END R24_eta0.7 43.097430375 [('1', 'defined', 1.1038779959510887), ('4', 'defined', 1.0565894969747374), ('6', 'defined', 2.155194551820361)]
+START R24_eta0.9
+END R24_eta0.9 36.676034500000014 [('1', 'defined', 1.3128800255697075), ('4', 'defined', 2.378920595120486), ('6', 'defined', 3.1237151300922408)]
+START R96_eta0.85
+END R96_eta0.85 102.24503295900001 [('1', 'defined', 1.3583722807239842), ('4', 'defined', 1.4496340185333416), ('6', 'defined', 4.3622519049426165)]
+START R96_eta0.9
+END R96_eta0.9 91.03113604199999 [('1', 'defined', 1.4308606696462747), ('4', 'root_branch_change', None), ('6', 'root_branch_change', None)]
+START R96_eta0.925
+END R96_eta0.925 97.39133425 [('1', 'defined', 1.4745551489930688), ('4', 'root_branch_change', None), ('6', 'root_branch_change', None)]
+START R96_eta0.95
+END R96_eta0.95 96.11516079199998 [('1', 'defined', 1.5259929157135022), ('4', 'root_branch_change', None), ('6', 'root_branch_change', None)]
+START R256_eta1
+END R256_eta1 178.121636459 [('1', 'no_peak_in_valid_interval', None), ('4', 'no_peak_in_valid_interval', None), ('6', 'no_peak_in_valid_interval', None)]

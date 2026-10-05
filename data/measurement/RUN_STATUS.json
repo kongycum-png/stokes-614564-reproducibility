@@ -1,0 +1,390 @@
+{
+  "completed": 96,
+  "planned": 96,
+  "jobs": [
+    {
+      "tag": "R24_eta0.35_pixel_pitch_mm_0.0005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_blur_sigma_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_dz_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_systematic_channel_bias",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_baseline",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_Nincident_10000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_Nincident_100000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_Nincident_1e+07",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_gain_sd_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_gain_sd_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_gain_sd_0.01",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_read_noise_e_per_pixel_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_read_noise_e_per_pixel_3",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_order_axial_offset_sd_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_order_axial_offset_sd_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_order_axial_offset_sd_mm_0.1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_dz_mm_0.2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_dz_mm_0.5",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_dz_mm_1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_blur_sigma_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_blur_sigma_mm_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_pixel_pitch_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_pixel_pitch_mm_0.004",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.35_low_counts_coarse_images",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_pixel_pitch_mm_0.0005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_blur_sigma_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_dz_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_systematic_channel_bias",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_baseline",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_Nincident_10000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_Nincident_100000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_Nincident_1e+07",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_gain_sd_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_gain_sd_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_gain_sd_0.01",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_read_noise_e_per_pixel_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_read_noise_e_per_pixel_3",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_order_axial_offset_sd_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_order_axial_offset_sd_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_order_axial_offset_sd_mm_0.1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_dz_mm_0.2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_dz_mm_0.5",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_dz_mm_1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_blur_sigma_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_blur_sigma_mm_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_pixel_pitch_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_pixel_pitch_mm_0.004",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R24_eta0.7_low_counts_coarse_images",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_pixel_pitch_mm_0.0005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_blur_sigma_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_dz_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_systematic_channel_bias",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_baseline",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_Nincident_10000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_Nincident_100000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_Nincident_1e+07",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_gain_sd_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_gain_sd_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_gain_sd_0.01",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_read_noise_e_per_pixel_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_read_noise_e_per_pixel_3",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_order_axial_offset_sd_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_order_axial_offset_sd_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_order_axial_offset_sd_mm_0.1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_dz_mm_0.2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_dz_mm_0.5",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_dz_mm_1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_blur_sigma_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_blur_sigma_mm_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_pixel_pitch_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_pixel_pitch_mm_0.004",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.35_low_counts_coarse_images",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_pixel_pitch_mm_0.0005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_blur_sigma_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_dz_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_systematic_channel_bias",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_baseline",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_Nincident_10000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_Nincident_100000",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_Nincident_1e+07",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_gain_sd_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_gain_sd_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_gain_sd_0.01",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_read_noise_e_per_pixel_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_read_noise_e_per_pixel_3",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_order_axial_offset_sd_mm_0",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_order_axial_offset_sd_mm_0.05",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_order_axial_offset_sd_mm_0.1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_dz_mm_0.2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_dz_mm_0.5",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_dz_mm_1",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_blur_sigma_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_blur_sigma_mm_0.005",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_pixel_pitch_mm_0.002",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_pixel_pitch_mm_0.004",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "R96_eta0.7_low_counts_coarse_images",
+      "status": "RUN_COMPLETED"
+    }
+  ]
+}

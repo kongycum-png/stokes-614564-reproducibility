@@ -1,0 +1,493 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.35cm]{geometry}
+\usepackage{amsmath,amssymb,bm,graphicx,booktabs,longtable,xcolor,placeins,array,calc,needspace}
+\usepackage{newtxtext,newtxmath}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\theequation}{TA\arabic{equation}}
+\renewcommand{\thefigure}{TA\arabic{figure}}
+\renewcommand{\thetable}{TA\arabic{table}}
+\setlength{\emergencystretch}{1em}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\Ai}{\operatorname{Ai}}
+\title{Extended Technical Appendix for ``Topological-order-dependent axial advance of a local Stokes domain in Poincar\'e circular Airy beams''}
+\author{Youchao Kong, Weiwei Liu, Ze Chen, and Xiyuan Feng}
+\date{}
+\begin{document}
+\maketitle
+
+This appendix contains the extended derivations and full numerical comparisons. Its equation, figure, and table numbering is independent of the accompanying Supplementary Material.
+
+
+\section{Transverse polarization and the measured signal}
+The phasor convention is $\exp(-\ii\omega t)$ and
+$\bm e_\pm=(\bm e_x\pm\ii\bm e_y)/\sqrt2$.
+For $u=U_{m-P}$, $v=U_{m+P}$, the Cartesian field is
+\begin{equation}
+E_x=\tfrac12(ue^{\ii(m-P)\theta}+ve^{\ii(m+P)\theta}),\qquad
+E_y=\tfrac{\ii}{2}(ue^{\ii(m-P)\theta}-ve^{\ii(m+P)\theta}).
+\end{equation}
+Direct Jones algebra gives $S_0=|E_x|^2+|E_y|^2$,
+$S_1=|E_x|^2-|E_y|^2$, $S_2=2\operatorname{Re}(E_x^*E_y)$, and
+$S_3=2\operatorname{Im}(E_x^*E_y)=(|u|^2-|v|^2)/2$.
+Thus, where $S_0>0$,
+\begin{equation}
+\begin{aligned}
+s_3&=\frac{|u|^2-|v|^2}{|u|^2+|v|^2}=\sin 2\chi,\\
+\psi&=P\theta-\frac{\arg u-\arg v}{2}\pmod\pi.
+\end{aligned}
+\end{equation}
+The second expression is undefined at circular polarization. The orientation
+is obtained in the calculations from $\frac12\operatorname{atan2}(S_2,S_1)$
+and checked against the circular-channel expression. A common relative
+intensity mask $S_0/\max S_0>10^{-9}$ is used for the displayed maps, with
+$10^{-12}$ and $10^{-6}$ checked separately. The orientation also requires
+$\sqrt{S_1^2+S_2^2}/S_0>10^{-8}$.
+
+For an ideal linear analyzer at angle $\vartheta$,
+\begin{equation}
+I_\vartheta=\tfrac12S_0[1+V\cos\{2(\vartheta-P\theta)+\delta\}],
+\quad V=\frac{2|u||v|}{|u|^2+|v|^2},\quad\delta=\arg u-\arg v.
+\end{equation}
+For a resolved coherent transverse field, $V^2+s_3^2=1$. Pixel, temporal,
+or ensemble averaging need not preserve this equality. A linear analyzer
+provides neither the sign of $s_3$ nor the individual circular-channel charges.
+For fixed $P=1$, its twofold modulation is common to all $m$. Stokes
+polarimetry and circularly matched reference interferometry serve distinct
+purposes, as also illustrated in Supplementary Notes 6--7 of Liu
+\emph{et al.}\cite{Liu2021} and the detection discussion of Yan
+\emph{et al.}\cite{Yan2025}. Here the charge relation is
+$m=(q_++q_-)/2$, $P=(q_--q_+)/2$.
+
+Uniform transformations $u\mapsto ue^{\ii\phi_+}$ and
+$v\mapsto ve^{\ii\phi_-}$ leave $S_3$ exactly unchanged. They change
+$\psi$ by $-(\phi_+-\phi_-)/2$. This control does not remove the effect of
+spatial propagation phases on radial amplitudes. In the cached-field check
+at $R_0=24$, $\eta=0.70$, $m=1,2,4$, and common planes
+$\tau=-0.5,0,1$, the maximum normalized discrepancy between Cartesian and
+channel-based $S_3$ was $9.3\times10^{-16}$; the uniform-phase control changed
+$S_3$ by less than $6.2\times10^{-16}$ of the plane's maximum $S_0$.
+
+For any common integration region,
+\begin{equation}
+Q=T\bar p_3,\qquad
+T=\frac{P_+^{\rm ROI}+P_-^{\rm ROI}}{P_{\rm in}},\qquad
+\bar p_3=\frac{P_+^{\rm ROI}-P_-^{\rm ROI}}{P_+^{\rm ROI}+P_-^{\rm ROI}}.
+\end{equation}
+The factor $T$ quantifies captured intensity; $\bar p_3$ quantifies its
+intensity-weighted circular imbalance. Neither is the arithmetic mean of
+$\chi$. A vanishing denominator makes $\bar p_3$ undefined.
+
+\subsection{What $Q$ adds to captured power}
+All $Q$, $T$, and $\bar p_3$ comparisons use the same propagated complex
+channels, input-power normalization, and ROI for each order. The $Q$ and
+$T$ events are nevertheless found independently from each signal's own
+first stationary maximum. Define
+\begin{equation}
+d_m=h_Q(m)-h_T(m),\qquad
+E_m=\Delta_Q(m)-\Delta_T(m)=d_1-d_m,
+\end{equation}
+where $\Delta_X(m)=h_X(1)-h_X(m)$. At $R_0=24$, $\eta=0.7$,
+$m=4$, $d_1=0.02626546$ and $d_4=0.02812356$, so the two order
+differences are close: $\Delta_Q=0.29196941$, $\Delta_T=0.29382751$,
+and $E_4=-0.00185811$. This is a near-common-mode cancellation at that
+condition, not a decomposition of the advance into intensity and
+polarization percentages. At $R_0=96$ with the same $\eta,m$,
+$\Delta_Q=0.07550782$, $\Delta_T=0.09514515$, and
+$E_4=-0.01963733$, or $-26.0\%$ of $\Delta_Q$.
+
+All 500 proxy comparisons for $m=2$--6 have defined $Q$ and $T$
+half-height events. Their median $|E_m|$ is $0.014207$, the maximum is
+$0.250949$, and the median $|E_m/\Delta_Q|$ is $0.13981$. These summary
+values establish neither equivalence nor a universal dominance by one
+factor. The full machine-readable table includes each single-order event,
+$d_m$, both order differences, $E_m$, and status.
+
+Without peak normalization, choose a common $\tau_*=0$ and define
+\begin{equation}
+\mathcal D_X(\tau)=R_0\ln\frac{X_m(\tau)X_1(\tau_*)}
+{X_1(\tau)X_m(\tau_*)}.
+\end{equation}
+The factorization gives the pointwise identity
+$\mathcal D_Q=\mathcal D_T+\mathcal D_{\bar p_3}$. Its maximum numerical
+error over all retained valid samples is below $7.4\times10^{-14}$.
+For $R_0=24$, $\eta=0.7$, $m=4$, the three slopes at $\tau=0$ are
+$-7.897934$, $-7.721899$, and $-0.176036$. At $R_0=96$ they are
+$-8.962823$, $-9.630689$, and $+0.667867$. The signed polarization
+factor therefore modifies amplitude and can also modify curve shape and
+event position.
+
+\input{qt_event_table.tex}
+
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{../figures/polarization_and_observable.pdf}
+\caption{Polarization and signal decomposition calculated from complex
+reduced R-S channels at $R_0=24$, $\eta=0.70$.
+Top: common $\tau=0$ planes, with $x=z\rho/(2kw^3)$.
+The color shows $S_3/S_0$; ellipses follow Cartesian Jones fields.
+Solid red circles mark the resolved actual $S_3=0$ contour; dashed circles
+mark $j'_{m,1}$. Bottom: $Q$ and $T$ separately normalized to their maxima
+over the stored interval, together with unscaled $\bar p_3$. The displayed
+interval is $-2\leq\tau\leq3$ and the stored interval is $[-3,5]$.
+These traces separate captured intensity from polarization composition.}
+\end{figure}
+
+\subsection{Short-distance radial mechanism}
+For a real radial envelope $f(s)$, $s=\rho/w$, and
+$\zeta=z/(kw^2)$, the paraxial radial operator is
+$\mathcal L_q=\partial_s^2+s^{-1}\partial_s-q^2s^{-2}$.
+At a smooth point away from the axis,
+\begin{equation}
+U_q=f+\frac{\ii\zeta}{2}\mathcal L_q f
+-\frac{\zeta^2}{8}\mathcal L_q^2f+\cdots.
+\end{equation}
+With $V=s^{-2}$, $[\mathcal D,V]f=4f/s^4-4f'/s^3$ for
+$\mathcal D=\partial_s^2+s^{-1}\partial_s$. Hence
+\begin{equation}
+S_3(s,\zeta)=2mP\zeta^2
+\left(\frac{ff'}{s^3}-\frac{f^2}{s^4}\right)+O(\zeta^4).
+\label{eq:short-distance-S3}
+\end{equation}
+The order-dependent current difference at first order is
+$j_3=-2mP\,z f^2/(k^2\rho^3)$ in physical coordinates.
+Its divergence produces the displayed second-order intensity imbalance.
+This is a local smooth-envelope expansion, not an expansion uniform at the
+axis or at the Airy caustic. It gives a direct connection between the radial
+phase gradient, current, and local circular imbalance. A uniform phase
+control removes none of these spatial gradients.
+
+\section{Moving integration regions}
+Let $b(z)$ denote a physical radius, distinct from a scaled upper limit.
+Leibniz differentiation at fixed physical $\rho$ gives
+\begin{equation}
+\frac{\mathrm{d}Q_b}{\mathrm{d}z}=\frac{2\pi}{P_{\rm in}}
+\left[\int_0^{b(z)}\partial_zS_3\,\rho\,\mathrm{d}\rho
++b(z)b'(z)S_3(b(z),z)\right].
+\label{eq:leibniz}
+\end{equation}
+The physical proxy radius is $b(z)=2kw^3j'_{m,1}/z$, so $b'=-b/z$.
+A radius fixed at its value at $z_c$ has $b'=0$. An actual zero contour also
+has zero moving-limit term, because its integrand vanishes; its signal still
+differs from the proxy integral.
+
+For lossless paraxial propagation, the radial channel currents are
+$j_\pm=\operatorname{Im}(U_\pm^*\partial_\rho U_\pm)/(2k)$.
+Writing $j_3=j_+-j_-$ gives
+\begin{equation}
+\frac{\mathrm{d}Q_b}{\mathrm{d}z}=\frac{2\pi b}{P_{\rm in}}
+[-j_3(b,z)+b'S_3(b,z)].
+\label{eq:current}
+\end{equation}
+The factor $1/2$ follows from the circular-channel amplitudes in the vector
+field. Equation~\eqref{eq:leibniz} is a kinematic identity;
+Eq.~\eqref{eq:current} additionally assumes the paraxial wave equation.
+It is not a complete Maxwell spin-conservation law and is not assumed exact
+for the reduced R-S kernel.
+For $R_0=24$, $\eta=0.70$, $m=1,2,4$ and the predeclared interval
+$-0.5\leq\tau\leq1.25$, fixed-physical-radius differentiation, direct
+Leibniz integration, and the boundary-current expression were compared using
+independent Fresnel--Hankel fields. The separate terms are shown in
+Fig.~\ref{fig:moving-domain}. The proxy has a nonzero moving-aperture
+contribution; the actual zero has a numerically vanishing one. This check
+tests the specified paraxial model and does not assert a full-field spin law.
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{../figures/moving_domain_decomposition.pdf}
+\caption{Derivative of the proxy-domain signal and its paraxial radial-current
+and moving-aperture contributions. The dimensionless axis is
+$\tau=(z-z_c)/L_c$; plotted derivatives are $\mathrm{d}Q/\mathrm{d}\tau=L_c\,\mathrm{d}Q/\mathrm{d}z$.
+All panels use common physical propagation planes. The dashed sum is
+independently compared with differentiation of the integrated signal.}
+\label{fig:moving-domain}
+\end{figure}
+
+
+\section{Full-amplitude fold expansion}
+The main-text normalization uses
+$\mathcal U_q^{\rm in}\sim(C_q/2\pi)\int_\Gamma\mathcal F_q e^{\ii(t^3/3+Xt)}\,\mathrm{d}t$,
+where
+\[
+\begin{aligned}
+C_q={}&E_0\sqrt{2\pi R_0}(-\ii)^q e^{-\ii\pi/4}
+e^{\alpha(R_0-\zeta^2/2)}\\
+&\times\exp\!\left\{\ii\left[kz+\zeta(R_0+\alpha^2)/2-\zeta^3/12\right]\right\}.
+\end{aligned}
+\]
+Here $s_c=R_0+(u+\ii\alpha)^2$ and $g=\sqrt{s_c/R_0}$.
+The contour runs from $\infty e^{5\pi\ii/6}$ through zero to
+$\infty e^{\pi\ii/6}$, with moments
+$(2\pi)^{-1}\int_\Gamma t^n e^{\ii(t^3/3+Xt)}\,\mathrm{d}t=(-\ii)^n\Ai^{(n)}(X)$.
+The center $t=0$ is the coalescence point at $X=0$, not a stationary point
+for general $X$. The common $z$-dependent prefactor is retained throughout
+the peak and crossing calculation.
+
+Put $\epsilon=R_0^{-1/2}$, $u_0=\epsilon^{-1}+\epsilon(\tau-\ii\eta)/2$,
+and $X_0=-\tau+\ii\eta$. With $u=u_0+t$,
+\begin{align}
+X&=X_0+\epsilon^2X_2,\qquad X_2=-\tau^2/4+\ii\eta\tau/2,\\
+\frac{u}{\sqrt{R_0}}&=1+\epsilon t+\tfrac12\epsilon^2(\tau-\ii\eta),\\
+\frac{s_c}{2R_0}&=1+\epsilon t+\tfrac12\epsilon^2(t^2+\tau)
++\tfrac12\epsilon^3t\tau+\tfrac18\epsilon^4\tau^2.
+\end{align}
+The amplitude $g\sqrt u$ must be expanded together with $J_q(uR)$.
+After removal of a common nonzero factor, define
+\begin{equation}
+\ell_q=J_q+xJ_q',\qquad
+n_q=(q^2-x^2+\tfrac12)J_q+xJ_q'.
+\end{equation}
+Writing $A=\Ai(X_0)$ and using the Airy moments
+$t^j\mapsto(-\ii)^j\Ai^{(j)}(X_0)$ gives
+\begin{align}
+H_q={}&AJ_q-\ii\epsilon A'\ell_q\\
+&+\epsilon^2\left[
+A\{(\tau/2-\ii\eta/4)J_q-\ii\eta xJ_q'/2\}
+-\tfrac12 A''n_q+X_2 A'J_q\right]+O(\epsilon^3).
+\end{align}
+The squared caustic prefactor contains
+$\exp[-2\eta\tau\epsilon-\eta\tau^2\epsilon^3/2]$ and the radial
+Jacobian contains $(1+\tau\epsilon^2/2)^{-2}$. A common multiplicative
+function of $\tau$ affects individual peaks and crossings and cannot be
+deleted before locating them.
+
+At $b_0=j'_{m,1}$, put $J_-=J_{m-1}$, $J_+=J_{m+1}$ and
+$I_0=\int_0^{b_0}x(J_-^2-J_+^2)\,\mathrm{d}x=2mJ_m^2(b_0)$.
+The complete amplitude obeys
+\begin{align}
+\int_0^{b_0}x(J_-\ell_--J_+\ell_+)\,\mathrm{d}x&=0,\\
+\int_0^{b_0}x(\ell_-^2-\ell_+^2)\,\mathrm{d}x&=0,\\
+\int_0^{b_0}x(J_-n_--J_+n_+)\,\mathrm{d}x&=(D_m-\tfrac14)I_0.
+\end{align}
+Together with $A''=X_0A$, these identities yield
+\begin{equation}
+\frac{Q_m}{\mathcal N_m}
+=f-2\eta\tau f\epsilon+
+\epsilon^2\left[(D_m-\tfrac14)\tau f+2\eta^2\tau^2f
++2\operatorname{Re}(A^*A'X_2)\right]+O(\epsilon^3),
+\end{equation}
+where $f=|A|^2$,
+$\mathcal N_m=4\pi^2|E_0|^2w^2\sqrt{R_0}e^{-\eta\sqrt{R_0}}I_0/\mathcal P_{\rm in}$,
+and $A'=\Ai'(X_0)$ is an argument derivative, so $\mathrm{d}A/\mathrm{d}\tau=-A'$.
+The amplitude $\mathcal N_m$ is distinct from the fourth-order event
+coefficient $C_m$. All displayed terms except $D_m\tau f$ are common to
+different orders. The finite polynomial calculation through $\epsilon^4$
+retains the complex shift of $u_0$, $X_2$, derivatives of $g$, the first
+Debye correction, and every intensity cross product. It expands intensity
+consistently in $\epsilon$; truncating the field at derivative number $N$
+and then squaring is a different operation. The opposite Hankel branch and
+the lower spectral endpoint are not included in this local fold series.
+Their contribution cannot be assigned to the series remainder without a
+separate comparison with the full propagated field.
+
+For reproducibility, let the complete slowly varying amplitude before the
+Airy integral be the finite bivariate polynomial
+\begin{equation}
+P_q(\epsilon,t,x)=\sum_{n=0}^4\sum_j
+p_{q,nj}(x)\epsilon^n t^j+O(\epsilon^5).
+\end{equation}
+The field coefficients used in the calculation are generated by
+\begin{equation}
+H_{q,n}=\sum_{r=0}^{\lfloor n/2\rfloor}\sum_j
+p_{q,n-2r,j}\frac{X_2^r}{r!}(-\ii)^j
+\Ai^{(j+r)}(X_0),\qquad 0\le n\le4.
+\label{eq:field-recursion}
+\end{equation}
+This rule includes the $X=X_0+\epsilon^2X_2$ shift and the derivatives of
+the full amplitude. If the upper sign denotes $T$ and the lower sign $Q$,
+the unprefactored intensity coefficient is
+\begin{equation}
+I^{T/Q}_{m,n}(x,\tau)=\sum_{a=0}^n\operatorname{Re}
+\left[H_{m-1,a}H_{m-1,n-a}^*\ \mathbin{\pm}\
+H_{m+1,a}H_{m+1,n-a}^*\right].
+\label{eq:intensity-recursion}
+\end{equation}
+It is integrated with the radial Jacobian and then convolved, order by
+order, with the common caustic-prefactor and moving-coordinate Jacobian
+series. Equation~\eqref{eq:intensity-recursion} keeps only products whose
+total order is $n$; simply squaring a field truncated at a derivative count
+also creates terms above the requested intensity order.
+
+Write the selected peak and rising crossing as
+\begin{equation}
+p_m=p_0+\sum_{n=1}^4p_{m,n}\epsilon^n,\qquad
+h_m=h_0+\sum_{n=1}^4h_{m,n}\epsilon^n.
+\end{equation}
+For a signal $X_m(\tau,\epsilon)=\sum_{n=0}^4x_{m,n}(\tau)\epsilon^n$,
+coefficient extraction from $X_m'(p_m)=0$ and
+$X_m(h_m)=\gamma X_m(p_m)$ gives
+\begin{align}
+p_{m,n}&=-\frac{[\epsilon^n]X_m'
+(p_0+\sum_{j<n}p_{m,j}\epsilon^j,\epsilon)}{x_{m,0}''(p_0)},\\
+h_{m,n}&=\frac{\gamma[\epsilon^n]X_m
+(p_0+\sum_{j<n}p_{m,j}\epsilon^j,\epsilon)
+-[\epsilon^n]X_m
+(h_0+\sum_{j<n}h_{m,j}\epsilon^j,\epsilon)}{x_{m,0}'(h_0)}.
+\label{eq:event-recursion}
+\end{align}
+Here $[\epsilon^n]$ means coefficient extraction after substituting only
+previously known event coefficients. The apparently missing $p_{m,n}$ term
+in the peak value vanishes because $x_{m,0}'(p_0)=0$. The difference
+$c_n=h_{1,n}-h_{m,n}$ gives
+\begin{equation}
+\Delta_X=c_1R_0^{-1/2}+c_2R_0^{-1}+c_3R_0^{-3/2}
++c_4R_0^{-2}+O(R_0^{-5/2}).
+\end{equation}
+For the proxy $Q$ event, $c_1=0$ analytically and
+$(A_m,B_m,C_m)=(c_2,c_3,c_4)$. For $T$, $c_1$ generally does not vanish.
+Table~\ref{tab:qt-formal} gives both observables.
+
+The following command was run from the revision root and reads no
+propagation fit data:
+\begin{verbatim}
+PYTHONPATH=code /usr/bin/python3 code/generate_event_coefficients.py \
+  --m 4 --eta 0.7 --observable Q --gamma 0.5 --points 25 --nx 1201 \
+  --output theory/generated_coefficients_Q_m4_eta0.7.json
+\end{verbatim}
+Replacing \texttt{Q} by \texttt{T} generated the corresponding $T$ record.
+The $m=4$, $\eta=0.7$ $Q$ result is
+$(c_1,c_2,c_3,c_4)=(9.2\times10^{-12},7.91778391,-8.32699328,
+15.71031482)$; refinement changed any coefficient by at most
+$1.9\times10^{-9}$. For $T$ the values are
+$(0.52165323,3.37061776,9.34708065,-45.57713040)$.
+
+\input{qt_formal_table.tex}
+
+\section{General boundaries and general polarization index}
+For $a=|m-P|$, $c=|m+P|$, define $B=J_a^2-J_c^2$ and
+\begin{equation}
+I_0(b)=\int_0^b xB(x)\,\mathrm{d}x,\quad
+L(b)=\frac{\int_0^b x(\ell_a^2-\ell_c^2)\,\mathrm{d}x}{I_0(b)},\quad
+N(b)=\frac{\int_0^b x(J_an_a-J_cn_c)\,\mathrm{d}x}{I_0(b)}.
+\end{equation}
+The complete first-order integral is
+$\int_0^b x(J_a\ell_a-J_c\ell_c)\,\mathrm{d}x=b^2B(b)/2$.
+For adjacent orders this reproduces the relative signal correction
+\begin{equation}
+2\epsilon\frac{\operatorname{Im}(A^*A')}{f}
+\frac{bJ_m'(b)}{J_m(b)}.
+\end{equation}
+Near $b=b_0(1+\delta_b)$,
+$bJ_m'(b)/J_m(b)=(m^2-b_0^2)\delta_b+O(\delta_b^2)$.
+For a general boundary, both second-order integrals must also be retained.
+An integration by parts and the Bessel equation give, for each order $q$,
+\begin{align}
+\int_0^b x\ell_q^2\,\mathrm{d}x
+&=b^3J_q(b)J_q'(b)+\int_0^b x^3J_q^2\,\mathrm{d}x
++(1-q^2)\int_0^b xJ_q^2\,\mathrm{d}x,\\
+\int_0^b xJ_qn_q\,\mathrm{d}x
+&=(q^2-\tfrac12)\int_0^b xJ_q^2\,\mathrm{d}x
+-\int_0^b x^3J_q^2\,\mathrm{d}x+\tfrac12b^2J_q^2(b).
+\end{align}
+
+For $P=2,3$, $b_0$ is independently defined as the first nontrivial
+positive-to-negative zero of $B$. It is generally not $j'_{m,1}$.
+At this root the first-order integral vanishes, but $L$ generally does not.
+The order-dependent part of the proxy signal is therefore
+\begin{equation}
+\epsilon^2\{N\tau f+L|A'|^2\}.
+\end{equation}
+For example, $(P,m)=(2,2)$ gives $b_0=2.29991033$,
+$L=1.74740368$, and $N=-1.78958753$; $(P,m)=(3,3)$ gives
+$b_0=2.39837324$, $L=2.22989242$, and $N=-1.76126354$.
+These coefficients were computed by direct Bessel integration and checked
+against the full-amplitude polynomial expansion before the new $P$-family
+propagation. They cannot be replaced by the $P=1$ coefficient $D_m$.
+For $m=0$ or $P=0$, the two absolute channel orders are equal and their
+balanced radial intensities give identically zero transverse $S_3$.
+
+\section{The moving actual zero}
+Write the normalized radial integrand as
+$H(x,\epsilon)=H_0(x)+\epsilon H_1(x)+\cdots$, where $H_0=xB$.
+Assume $H_0(b_0)=0$ and $H_0'(b_0)<0$. Then
+\begin{align}
+b_s&=b_0+\epsilon b_1+\cdots,\qquad
+b_1=-\frac{H_1(b_0)}{H_0'(b_0)},\\
+\int_0^{b_s}H\,\mathrm{d}x-\int_0^{b_0}H\,\mathrm{d}x
+&=-\epsilon^2\frac{H_1^2(b_0)}{2H_0'(b_0)}+O(\epsilon^3).
+\end{align}
+Since $H_1(b_0)=v b_0H_0'(b_0)$ with
+$v=\operatorname{Im}(A'/A)$, the root displacement is $b_1=-v b_0$.
+For adjacent orders,
+$H_0'(b_0)=4m(m^2/b_0^2-1)J_m^2(b_0)$, and the integral correction
+divided by $I_0$ is $(3/4-D_m)v^2\epsilon^2$.
+Consequently the actual-domain order dependence is
+$D_m[\tau-v(\tau)^2]/R_0$. These statements require the same simple root
+branch and $A\ne0$. They do not apply through root loss, merger, or a
+change in the identity of the first sign-changing root.
+
+\section{Event response and conditioning}
+Let a positive signal have a stationary maximum $p$ and preceding rising
+crossing $h_\gamma$ satisfying $Q(h_\gamma)=\gamma Q(p)$.
+For a small functional perturbation,
+\begin{equation}
+\delta p=-\frac{\delta Q'(p)}{Q''(p)},\qquad
+\delta h_\gamma=\frac{\gamma\delta Q(p)-\delta Q(h_\gamma)}{Q'(h_\gamma)}.
+\end{equation}
+For a relative perturbation $\epsilon^2 d\,W(\tau)$ of $f$,
+the event coefficient is
+\begin{equation}
+K_\gamma[W]=\frac{\gamma f(p)[W(p)-W(h_\gamma)]}{f'(h_\gamma)}.
+\end{equation}
+The proxy uses $W=\tau$; the actual adjacent-order domain uses
+$W=\tau-v^2$. The general $P$ proxy uses the two functions
+$\tau$ and $|A'/A|^2$, with coefficients $N$ and $L$.
+For the peak, the proxy coefficient is $-f(p)/f''(p)$.
+For a positive-weight centroid over a fixed common window, the coefficient
+of a relative linear tilt is its variance in that window. A signed centroid
+or an almost vanishing integral has a different interpretation and can be
+ill conditioned.
+
+In a statistical measurement, to first order,
+\begin{equation}
+\operatorname{Var}(\widehat h_\gamma)\simeq
+\frac{\gamma^2\sigma_p^2+\sigma_h^2
+-2\gamma\operatorname{Cov}(\delta Q_p,\delta Q_h)}{[Q'(h_\gamma)]^2}.
+\end{equation}
+For $\widehat\Delta=\widehat h_1-\widehat h_m$, its variance additionally
+contains $-2\operatorname{Cov}(\widehat h_1,\widehat h_m)$.
+This linear formula does not describe branch switching or disappearing
+peaks; those events must remain in a full measurement-chain simulation.
+
+\section{Monotonicity and physical scaling paths}
+For $m>0$, use the quadratic form
+\begin{equation}
+q_m[y]=\int_0^1r|y'|^2\,\mathrm{d}r+m^2\int_0^1|y|^2\,\frac{\mathrm{d}r}{r}
+\end{equation}
+in $L^2((0,1),r\,\mathrm{d}r)$, on its finite-energy domain. On compact positive-order
+intervals this domain is common. The natural outer boundary is Neumann,
+$y'(1)=0$, and the lowest regular mode is
+$y_m(r)=J_m(j'_{m,1}r)$. Its eigenvalue is simple. At the origin
+$y_m=O(r^m)$, so the boundary term $r y_m y_m'$ vanishes and both
+Hellmann--Feynman integrals converge. Hence
+\begin{equation}
+\frac{\mathrm{d}}{\mathrm{d}m}(j'_{m,1})^2
+=2m\frac{\int_0^1y_m^2\,\mathrm{d}r/r}{\int_0^1r y_m^2\,\mathrm{d}r}>2m,
+\end{equation}
+which proves $D'(m)<0$. At $m=0$ the constant Neumann mode has eigenvalue
+zero, while the first positive derivative zero follows a different indexing
+convention; it must not be substituted into this proof.
+
+At fixed $k,w,\eta$, the leading dimensionful advance is
+\begin{equation}
+\Delta z=\frac{kw^2}{\sqrt{R_0}}\Delta\tau
+\sim kw^2 K_\eta(D_1-D_m)R_0^{-3/2}.
+\end{equation}
+Holding $\alpha$ fixed instead gives $\eta=2\alpha\sqrt{R_0}$ and changes
+the axial profile and its event coefficient. When $kw$ is varied at fixed
+wavelength, $w=(kw)/k$ must be varied consistently. The accumulated
+nonparaxial phase depends on the occupied angular spectrum and propagation
+distance, not only on the maximum angle.
+
+\input{numerical_evidence.tex}
+
+\input{measurement.tex}
+
+\FloatBarrier
+\input{residual_mechanism.tex}
+
+\bibliographystyle{unsrtnat}
+\bibliography{../manuscript/references}
+\begin{enumerate}\setcounter{enumi}{3}
+\item G. A. Siviloglou and D. N. Christodoulides, Opt. Lett. 32, 979--981 (2007), \linebreak doi: 10.1364/OL.32.000979.
+\item NIST DLMF, Sections 9.5 and 10.9.2, \url{https://dlmf.nist.gov/10.9.E2}.
+\item NIST DLMF, Equation 9.7.15, \url{https://dlmf.nist.gov/9.7.E15}.
+\end{enumerate}
+\end{document}

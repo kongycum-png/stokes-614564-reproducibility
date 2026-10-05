@@ -1,0 +1,20 @@
+{
+  "principal_prediction_rows": 1000,
+  "common_moment_rows": 10200,
+  "input_beams": 324,
+  "translation_beams": 144,
+  "ellipticity_event_rows": 36,
+  "generalP_beams": 88,
+  "final_convergence_rows": 54,
+  "same_peak_FWHM_statuses": {
+    "defined": 6530,
+    "half_crossing_beyond_next_local_minimum": 278,
+    "no_pair_of_half_crossings": 3392
+  },
+  "maximum_final_single_half_change": 1.467197380949914e-08,
+  "maximum_final_order_difference_change": 1.8779066746077433e-08,
+  "input_statuses": {
+    "defined": 315,
+    "no_peak_in_valid_interval": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "job_status_counts": {
+    "RUN_COMPLETED": 61
+  },
+  "beam_cases": 276,
+  "boundary_rows": 4692,
+  "proxy_event_status_counts": {
+    "defined": 256,
+    "no_peak_in_valid_interval": 20
+  },
+  "proxy_nonpositive_advance_count": 0
+}

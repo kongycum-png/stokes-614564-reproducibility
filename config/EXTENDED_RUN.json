@@ -1,0 +1,56 @@
+{
+  "high_order_m": [
+    1,
+    8,
+    12,
+    16
+  ],
+  "high_order_R": [
+    24,
+    56,
+    96,
+    192,
+    256
+  ],
+  "eta": [
+    0.35,
+    0.7
+  ],
+  "small_R": [
+    8,
+    12
+  ],
+  "P_generalization": "all preregistered P=2,3 domains at R24,56,96,192",
+  "fixed_alpha": [
+    0.02,
+    0.04,
+    0.07
+  ],
+  "kw": [
+    200,
+    400,
+    800,
+    1600
+  ],
+  "source_ds": 0.025,
+  "source_cutoff": "ceil(16+eta*sqrt(R0)/2)",
+  "threads": 1,
+  "max_kernel_GiB": 5,
+  "high_order_tau": [
+    -6,
+    8,
+    0.025
+  ],
+  "ordinary_tau": [
+    -3,
+    5,
+    0.025
+  ],
+  "note": "test levels, not certified validity or instrument tolerances",
+  "code_hashes": {
+    "run_extended_matrix.py": "41e15fa3b8b3e71983bd54251c246fc4f795119d768320e526dcc5f6734bfa72",
+    "sparse_channels.py": "575ecea0984b1ce6adcfcec65c4583be37231036690dbc0cfe207f163ebf7ed6",
+    "revision_solver.py": "b1f950d90933276b556b16af20df7eccb061a160581ec408f3e5c43ae96f7f16",
+    "observables.py": "5b4acb7f67121df3087b8514137b45ff1b3a60970f76f3958ea731f66afb62c5"
+  }
+}

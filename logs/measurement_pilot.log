@@ -1,0 +1,8 @@
+START R24_eta0.35_baseline_pilot
+<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/measurement_detector.py:40: RuntimeWarning: divide by zero encountered in matmul
+  W,npx,geometry=pixel_geometry(bounds[j],pitch,rgrid,quadrature);arr=np.array([W@intensity[orders.index(q)].T for q in [m-1,m+1]])
+<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/measurement_detector.py:40: RuntimeWarning: overflow encountered in matmul
+  W,npx,geometry=pixel_geometry(bounds[j],pitch,rgrid,quadrature);arr=np.array([W@intensity[orders.index(q)].T for q in [m-1,m+1]])
+<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/measurement_detector.py:40: RuntimeWarning: invalid value encountered in matmul
+  W,npx,geometry=pixel_geometry(bounds[j],pitch,rgrid,quadrature);arr=np.array([W@intensity[orders.index(q)].T for q in [m-1,m+1]])
+END R24_eta0.35_baseline_pilot seconds 0.21720233400000005 m4 {'single_event_failure_rate': 0.0, 'single_event_bias_ideal_mm': 0.008823670066723466, 'single_event_SD_mm': 0.05590941722227945, 'single_event_CI_halfwidth_mm': 0.10532628592743458, 'single_event_coverage_ideal': 0.935, 'mean_extra_peak_count': 3.02, 'delta_ideal_mm': 3.6933404948718715, 'delta_pixel_blur_mm': 3.696881506771516, 'delta_mean_mm': 3.6900649326793062, 'delta_bias_ideal_mm': -0.0032755621925653067, 'delta_bias_pixel_blur_mm': -0.006816574092209926, 'delta_SD_mm': 0.056282001226884745, 'delta_CI_width_mm': 0.236274674549946, 'delta_CI_coverage_ideal': 0.96, 'delta_CI_coverage_pixel_blur': 0.96, 'advance_sign_recovery_rate': 1.0, 'paired_failure_rate': 0.0, 'undefined_count': 0, 'ignoring_cross_order_covariance_CI_width_mm': 0.2617648909152591}

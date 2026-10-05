@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "purpose": "Regression check for general rising-threshold gamma identity; no propagation data are read.",
+  "command_pattern": "/usr/bin/python3 code/generate_event_coefficients.py --m 4 --eta 0.7 --observable Q --gamma {0.3,0.5,0.7} --points 25 --nx 1201 --output <file>",
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "scipy": "1.13.1",
+  "numpy": "2.0.2",
+  "tolerance_absolute_A_identity_error": 1e-08,
+  "rows": [
+    {
+      "gamma": 0.3,
+      "file": "theory/generated_coefficients_Q_m4_eta0.7_gamma0.3.json",
+      "A_from_event_recursion": 8.35146604721684,
+      "A_from_gamma_identity": 8.351466047252565,
+      "independently_recomputed_identity": 8.351466047252565,
+      "identity_error": -3.572431239717844e-11,
+      "absolute_identity_error": 3.572431239717844e-11,
+      "B": -7.573836533001075,
+      "C": 15.242595538031846,
+      "generator_sha256": "3aeaab1a5800d9b11b483c8256549054fe1b0eedc831936e06594c02242bb5c4",
+      "file_sha256": "90876c191e30c3cfc30f46df4dab3f4fcec3c95f50a3bd7a90559ea0ca8a5f56"
+    },
+    {
+      "gamma": 0.5,
+      "file": "theory/generated_coefficients_Q_m4_eta0.7.json",
+      "A_from_event_recursion": 7.917783909019499,
+      "A_from_gamma_identity": 7.91778390905276,
+      "independently_recomputed_identity": 7.91778390905276,
+      "identity_error": -3.326139363934999e-11,
+      "absolute_identity_error": 3.326139363934999e-11,
+      "B": -8.326993280745617,
+      "C": 15.710314824712102,
+      "generator_sha256": "3aeaab1a5800d9b11b483c8256549054fe1b0eedc831936e06594c02242bb5c4",
+      "file_sha256": "ab6c66bcf9d4e2df45d809c51ebd10399834375bf80631c737d5d59f64218897"
+    },
+    {
+      "gamma": 0.7,
+      "file": "theory/generated_coefficients_Q_m4_eta0.7_gamma0.7.json",
+      "A_from_event_recursion": 7.565880247387558,
+      "A_from_gamma_identity": 7.56588024741954,
+      "independently_recomputed_identity": 7.56588024741954,
+      "identity_error": -3.198152853656211e-11,
+      "absolute_identity_error": 3.198152853656211e-11,
+      "B": -9.263453575142192,
+      "C": 16.375419462359833,
+      "generator_sha256": "3aeaab1a5800d9b11b483c8256549054fe1b0eedc831936e06594c02242bb5c4",
+      "file_sha256": "3db873633dc772e0745a61af328a8ff3881a559bb8ae99be3becbadc5d87b20c"
+    }
+  ],
+  "default_gamma_0p5_coefficients_unchanged_from_prepatch": {
+    "A_difference": 0.0,
+    "B_difference": 0.0,
+    "C_difference": 0.0,
+    "advance_coefficients_max_abs_difference": 0.0
+  }
+}

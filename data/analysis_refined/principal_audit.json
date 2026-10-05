@@ -1,0 +1,136 @@
+{
+  "beam_cases": 600,
+  "boundary_records": 10200,
+  "run_failures": 0,
+  "status_counts": [
+    {
+      "boundary": "actual_root",
+      "status": "defined",
+      "n": 537
+    },
+    {
+      "boundary": "actual_root",
+      "status": "no_peak_in_valid_interval",
+      "n": 35
+    },
+    {
+      "boundary": "actual_root",
+      "status": "root_branch_change",
+      "n": 28
+    },
+    {
+      "boundary": "physical_common",
+      "status": "defined",
+      "n": 596
+    },
+    {
+      "boundary": "physical_common",
+      "status": "no_peak_in_valid_interval",
+      "n": 4
+    },
+    {
+      "boundary": "physical_frozen",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_0.8",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_0.85",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_0.9",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_0.925",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_0.95",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_0.975",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_1",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_1.025",
+      "status": "defined",
+      "n": 600
+    },
+    {
+      "boundary": "scaled_1.05",
+      "status": "defined",
+      "n": 592
+    },
+    {
+      "boundary": "scaled_1.05",
+      "status": "no_peak_in_valid_interval",
+      "n": 8
+    },
+    {
+      "boundary": "scaled_1.075",
+      "status": "defined",
+      "n": 586
+    },
+    {
+      "boundary": "scaled_1.075",
+      "status": "no_peak_in_valid_interval",
+      "n": 14
+    },
+    {
+      "boundary": "scaled_1.1",
+      "status": "defined",
+      "n": 577
+    },
+    {
+      "boundary": "scaled_1.1",
+      "status": "no_peak_in_valid_interval",
+      "n": 23
+    },
+    {
+      "boundary": "scaled_1.15",
+      "status": "defined",
+      "n": 554
+    },
+    {
+      "boundary": "scaled_1.15",
+      "status": "no_peak_in_valid_interval",
+      "n": 46
+    },
+    {
+      "boundary": "scaled_1.2",
+      "status": "defined",
+      "n": 533
+    },
+    {
+      "boundary": "scaled_1.2",
+      "status": "no_peak_in_valid_interval",
+      "n": 67
+    },
+    {
+      "boundary": "soft_cosine",
+      "status": "defined",
+      "n": 600
+    }
+  ],
+  "proxy_halfheight_undefined": [],
+  "proxy_nonpositive_advances": [],
+  "Q_equals_Tpbar_max_absolute": 1.3877787807814457e-17,
+  "scientific_status": "PROPAGATION_AND_POSTPROCESSING_COMPLETE_VALIDATION_IN_PROGRESS"
+}

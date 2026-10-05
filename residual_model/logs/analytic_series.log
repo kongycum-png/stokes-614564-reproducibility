@@ -1,0 +1,12 @@
+COEFFICIENTS {'N': 10, 'nx': 32, 'nt': 64, 'points': 48, 'radius': 0.7} [ 0.00000000e+00  1.27675648e-15  4.41467829e+00 -1.44016808e+00
+  2.58765835e+00  3.36680300e+00  1.33529860e+01  2.11128977e+01
+ -4.98888464e+01  9.15175674e+01  2.37809936e+02]
+<original-local-root>/Documents/光学模拟/residual_mechanism_research/code/analytic_series.py:46: RuntimeWarning: divide by zero encountered in matmul
+  return H@proj.T/nt
+<original-local-root>/Documents/光学模拟/residual_mechanism_research/code/analytic_series.py:46: RuntimeWarning: overflow encountered in matmul
+  return H@proj.T/nt
+<original-local-root>/Documents/光学模拟/residual_mechanism_research/code/analytic_series.py:46: RuntimeWarning: invalid value encountered in matmul
+  return H@proj.T/nt
+COEFFICIENTS {'N': 10, 'nx': 48, 'nt': 96, 'points': 64, 'radius': 0.8} [ 0.00000000e+00  2.99760217e-15  4.41467829e+00 -1.44016808e+00
+  2.58765835e+00  3.36680300e+00  1.33529860e+01  2.11128977e+01
+ -4.98888464e+01  9.15175674e+01  2.37809936e+02]

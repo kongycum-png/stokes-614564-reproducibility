@@ -1,0 +1,16 @@
+{
+  "layout_source": "<original-local-root>/Documents/\u5149\u5b66\u6a21\u62df/residual_mechanism_research/deliverables/Manuscript_614564_Clean.pdf",
+  "pdf_pages": 20,
+  "formula_objects": 479,
+  "red_formula_objects": 317,
+  "black_formula_objects": 162,
+  "body_nonwhitespace_characters_verified": 30804,
+  "plain_glyphs": 36140,
+  "glyph_bytes_and_spacing_operators_unchanged": true,
+  "fonts_images_and_geometry_operators_unchanged": true,
+  "page_text_unchanged": true,
+  "body_character_colors_verified": true,
+  "formula_character_colors_verified": true,
+  "max_character_position_roundoff_pt": 2.550000033352262e-07,
+  "final_pdf_sha256": "203771b546a8c857bc13513e007f35bc3f4187e08cccecf2a2367840781559f1"
+}

@@ -1,0 +1,25 @@
+{
+  "tau_min": -3.0,
+  "tau_max": 5.0,
+  "tau_step": 0.025,
+  "source_cutoff_exponents": 13.0,
+  "source_ds": 0.025,
+  "ny": 601,
+  "ymax": 16.0,
+  "phase_terms": 4,
+  "source_cutoff_test_required": [
+    11,
+    13,
+    15
+  ],
+  "max_processes": 1,
+  "thread_limit": 1,
+  "memory_target_GiB": 8,
+  "purpose": "main model; independent exact-kz and convergence coverage separate",
+  "source_truncation_is_not_certified_by_phase_bound": true,
+  "code_hashes": {
+    "run_principal.py": "35d42cf6367bd7a3549a23db5ef1c6ad5d328809354e5e57a6476a23606fb0d6",
+    "revision_solver.py": "a425c4b010e63b413954d0f12e8843f2e59548ca4b1ba3b0a0c40fc3f4bff71f",
+    "observables.py": "992217ac4872fc08f4ae1d4ec4cb9b02687167345b2f01ad1704cce9f26752e3"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "status": "FORMAL_INWARD_BRANCH_COEFFICIENTS_NOT_FIT_TO_PROPAGATION",
+  "m": 4,
+  "reference_m": 1,
+  "eta": 0.7,
+  "gamma": 0.5,
+  "observable": "Q",
+  "epsilon": "R0^(-1/2)",
+  "event": {
+    "peak": 1.3045606520596236,
+    "crossing": 0.27658470304579985,
+    "peak_value": 0.4828579599949892,
+    "crossing_slope": 0.3098899420770408,
+    "gamma": 0.5
+  },
+  "reference_event_coefficients": {
+    "p0": 1.3045606520596236,
+    "h0": 0.27658470304579985,
+    "gamma": 0.5,
+    "observable": "Q",
+    "peak_coefficients": [
+      0.0,
+      -1.0095708582585978,
+      -0.8632951131657141,
+      -0.5071912330140295,
+      4.414336903136361
+    ],
+    "half_height_coefficients": [
+      0.0,
+      -1.1212253499954534,
+      -1.194881779463123,
+      -0.25914520533314844,
+      1.7834297426467327
+    ]
+  },
+  "target_event_coefficients": {
+    "p0": 1.3045606520596236,
+    "h0": 0.27658470304579985,
+    "gamma": 0.5,
+    "observable": "Q",
+    "peak_coefficients": [
+      0.0,
+      -1.009570858274549,
+      -7.992605823610691,
+      14.475556362130357,
+      -19.27254492233023
+    ],
+    "half_height_coefficients": [
+      0.0,
+      -1.1212253500046607,
+      -9.112665688482622,
+      8.067848075412469,
+      -13.926885082065368
+    ]
+  },
+  "advance_coefficients_epsilon_0_to_4": [
+    0.0,
+    9.207301587821348e-12,
+    7.917783909019499,
+    -8.326993280745617,
+    15.710314824712102
+  ],
+  "event_difference_coefficients": {
+    "epsilon": 9.207301587821348e-12,
+    "epsilon2": 7.917783909019499,
+    "epsilon3": -8.326993280745617,
+    "epsilon4": 15.710314824712102
+  },
+  "A": 7.917783909019499,
+  "B": -8.326993280745617,
+  "C": 15.710314824712102,
+  "A_from_K_times_D_difference": 7.91778390905276,
+  "A_identity_error": -3.326139363934999e-11,
+  "refinement_difference_epsilon_0_to_4": [
+    0.0,
+    -6.318723322351616e-12,
+    2.2096990903719416e-11,
+    2.1600499167107046e-12,
+    1.8619541464204303e-09
+  ],
+  "retained_terms": [
+    "complex Airy argument and derivatives",
+    "full amplitude g",
+    "radial Jacobian",
+    "first required Debye term",
+    "all field cross-products through consistent intensity order epsilon^4"
+  ],
+  "excluded_from_local_series": [
+    "outward Hankel branch",
+    "spectral endpoint"
+  ],
+  "reads_propagation_fit_data": false,
+  "generator_sha256": "3aeaab1a5800d9b11b483c8256549054fe1b0eedc831936e06594c02242bb5c4"
+}

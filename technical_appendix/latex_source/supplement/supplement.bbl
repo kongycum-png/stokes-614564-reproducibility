@@ -1,0 +1,34 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Liu et~al.(2021)Liu, Huo, Zhu, Zhang, Zhang, Song, Zhang, Zhou, Chen,
+  Lezec, Agrawal, Lu, and Xu]{Liu2021}
+Mingze Liu, Pengcheng Huo, Wenqi Zhu, Cheng Zhang, Si~Zhang, Maowen Song, Song
+  Zhang, Qianwei Zhou, Lu~Chen, Henri~J. Lezec, Amit Agrawal, Yanqing Lu, and
+  Ting Xu.
+\newblock Broadband generation of perfect Poincaré beams via dielectric
+  spin-multiplexed metasurface.
+\newblock \emph{Nature Communications}, 12:\penalty0 2230, 2021.
+\newblock \doi{10.1038/s41467-021-22462-z}.
+
+\bibitem[Yan et~al.(2025)Yan, Tao, Guo, Zhou, Chen, Shang, and Li]{Yan2025}
+Xin Yan, Xin Tao, Minghao Guo, Chunliang Zhou, Jingzhao Chen, Guanyu Shang, and
+  Peng Li.
+\newblock Vector vortex beams: Theory, generation, and detection of
+  Laguerre–Gaussian and Bessel–Gaussian types.
+\newblock \emph{Photonics}, 12:\penalty0 1029, 2025.
+\newblock \doi{10.3390/photonics12101029}.
+
+\bibitem[Zhu et~al.(2025)Zhu, Zhang, Zang, Rui, He, Xu, and Gu]{Zhu2025}
+Liu-Hao Zhu, Xiao-He Zhang, Xiang Zang, Guang-Hao Rui, Jun He, Chun-Xiang Xu,
+  and Bing Gu.
+\newblock Diverse particle manipulation within different 2D planes via
+  orientation-selective Airy vortex beams.
+\newblock \emph{Journal of Applied Physics}, 137:\penalty0 223105, 2025.
+\newblock \doi{10.1063/5.0270605}.
+
+\end{thebibliography}

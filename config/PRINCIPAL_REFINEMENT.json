@@ -1,0 +1,24 @@
+{
+  "reason": "source-cutoff convergence failed for large R0 and strong eta in v1",
+  "change_type": "numerical_quadrature_refinement",
+  "original_archive": "data/principal",
+  "source_cutoff_rule": "ceil(16 + eta*sqrt(R0)/2)",
+  "source_ds": 0.025,
+  "ny": 601,
+  "ymax": 16,
+  "phase_terms": 4,
+  "tau": [
+    -3,
+    5,
+    0.025
+  ],
+  "tail_added_as_complex_amplitudes": true,
+  "crosscheck": "baseline/tail_correction_check.json",
+  "scientific_scope_unchanged": true,
+  "remaining_check": "two further source cutoffs at critical points",
+  "code_hashes": {
+    "refine_principal_tail.py": "6d11136da2634652527594cd9ae9dc14fa456ce7fda661d2d650fe06a1c74e67",
+    "revision_solver.py": "b1f950d90933276b556b16af20df7eccb061a160581ec408f3e5c43ae96f7f16",
+    "observables.py": "5b4acb7f67121df3087b8514137b45ff1b3a60970f76f3958ea731f66afb62c5"
+  }
+}

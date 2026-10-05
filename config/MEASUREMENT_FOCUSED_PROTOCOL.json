@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_BEFORE_FOCUSED_RANDOM_DRAWS",
+  "purpose": "Diagnose the previously observed R0=96, eta=0.7, N=1e6 failure and add m=3 without replacing the retained baseline results.",
+  "orders": [1, 2, 3, 4],
+  "groups": [
+    {"R0": 24, "eta": 0.35, "Nincident": 1000000.0},
+    {"R0": 24, "eta": 0.7, "Nincident": 1000000.0},
+    {"R0": 96, "eta": 0.35, "Nincident": 1000000.0},
+    {"R0": 96, "eta": 0.7, "Nincident": 1000000.0},
+    {"R0": 96, "eta": 0.7, "Nincident": 10000000.0}
+  ],
+  "calibration_replicates": 1000,
+  "validation_replicates": 3000,
+  "seed_base": 614564900,
+  "estimators": {
+    "known_peak_location_assisted_diagnostic": {
+      "savgol_polynomial": 3,
+      "smoothing_width_tau": 0.25,
+      "peak_search_tau": [0.2, 1.8],
+      "peak_selection": "local maximum nearest the noise-free detector peak",
+      "role": "diagnostic only; uses the noiseless peak location but does not fix the noisy peak value, physical branch, or half-height crossing; not experimental feasibility evidence"
+    },
+    "current_blind": {
+      "savgol_polynomial": 3,
+      "smoothing_width_tau": 0.25,
+      "peak_search_tau": [0.2, 1.8],
+      "peak_selection": "largest smoothed local maximum"
+    },
+    "wide_blind": {
+      "savgol_polynomial": 3,
+      "smoothing_width_tau": 0.75,
+      "peak_search_tau": [0.2, 1.8],
+      "peak_selection": "largest smoothed local maximum",
+      "selection_basis": "post-failure alternative chosen using noise-free detector curves only; all four orders retain one peak and deterministic half-height bias remains below 0.007 mm in the R0=96, eta=0.7 diagnostic"
+    }
+  },
+  "event": "quadratic peak interpolation and nearest preceding rising half-height crossing",
+  "discrete_maximum_comparison": "A blind selection is counted as the same discrete local maximum when its selected sample index equals the index selected by the known-peak-location-assisted diagnostic in that realization. This equality is not a physical peak-identity classification.",
+  "semantic_label_amendment": "The 2026-09-20 audit replaced the misleading oracle-identity label. The peak-selection algorithm, smoothing widths, search window, random seeds, and replicate counts are unchanged.",
+  "interval_calibration": "Estimate event covariance from the calibration replicates; evaluate fixed normal intervals on independent validation replicates.",
+  "preserve_existing_method_results": true,
+  "do_not_use_theoretical_shift_or_Dm_in_blind_estimators": true
+}

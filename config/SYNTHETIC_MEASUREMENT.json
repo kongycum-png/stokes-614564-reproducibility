@@ -1,0 +1,161 @@
+{
+  "status": "PREREGISTERED_SYNTHETIC_CONDITIONS_NOT_HARDWARE_SPECIFICATIONS",
+  "timestamp_utc": "2026-09-18T05:17:07.039845+00:00",
+  "groups": [
+    {
+      "R0": 24,
+      "eta": 0.35,
+      "m": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "R0": 24,
+      "eta": 0.7,
+      "m": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "R0": 96,
+      "eta": 0.35,
+      "m": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "R0": 96,
+      "eta": 0.7,
+      "m": [
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "incident_reference_counts": [
+    10000.0,
+    100000.0,
+    1000000.0,
+    10000000.0
+  ],
+  "axial_step_mm": [
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "replicates": 1000,
+  "seed": 614564,
+  "baseline": {
+    "Nincident": 1000000.0,
+    "dz_mm": 0.1,
+    "pixel_pitch_mm": 0.001,
+    "blur_sigma_mm": 0.001,
+    "read_noise_e_per_pixel": 1.0,
+    "background_e_per_pixel": 0.1,
+    "gain_sd": 0.001,
+    "gain_cross_order_correlation": 0.8,
+    "background_calibration_sd_e_per_pixel": 0.001,
+    "background_cross_channel_correlation": 0.5,
+    "polarimetric_cross_talk_mean": 0.002,
+    "polarimetric_cross_talk_asymmetry_sd": 0.0002,
+    "common_axial_offset_sd_mm": 0.02,
+    "order_axial_offset_sd_mm": 0.01,
+    "smooth_scan_drift_sd_mm": 0.01,
+    "monitor_reference_count_multiplier": 100
+  },
+  "marginals": {
+    "Nincident": [
+      10000.0,
+      100000.0,
+      1000000.0,
+      10000000.0
+    ],
+    "dz_mm": [
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "gain_sd": [
+      0.0,
+      0.001,
+      0.005,
+      0.01
+    ],
+    "blur_sigma_mm": [
+      0.0,
+      0.001,
+      0.002,
+      0.005
+    ],
+    "pixel_pitch_mm": [
+      0.0005,
+      0.001,
+      0.002,
+      0.004
+    ],
+    "read_noise_e_per_pixel": [
+      0.0,
+      1.0,
+      3.0
+    ],
+    "order_axial_offset_sd_mm": [
+      0.0,
+      0.01,
+      0.05,
+      0.1
+    ]
+  },
+  "interactions": [
+    {
+      "name": "low_counts_coarse_images",
+      "Nincident": 10000.0,
+      "dz_mm": 1.0,
+      "pixel_pitch_mm": 0.004,
+      "blur_sigma_mm": 0.005,
+      "gain_sd": 0.01,
+      "order_axial_offset_sd_mm": 0.1
+    },
+    {
+      "name": "systematic_channel_bias",
+      "Nincident": 10000000.0,
+      "dz_mm": 0.05,
+      "gain_mean": 0.01,
+      "gain_sd": 0.001
+    }
+  ],
+  "scan_tau": [
+    -1.5,
+    2.5
+  ],
+  "estimator": {
+    "smoothing": "Savitzky-Golay cubic; window tau width 0.25; minimum five points; odd sample count",
+    "peak_search_tau": [
+      0.2,
+      1.8
+    ],
+    "peak_selection": "largest interior smoothed maximum in the predeclared first-caustic window; record additional maxima",
+    "peak_location": "three-point quadratic interpolation, nonnegative curvature or outside vertex is failure",
+    "crossing": "nearest preceding rising linear interpolation at half smoothed peak; no clipping of negative counts",
+    "CI": "linearized 95% normal interval with smoothing covariance, peak-crossing covariance, and stated cross-order calibration/drift covariance",
+    "targets": [
+      "ideal continuous aperture signal",
+      "noise-free pixel-and-blur measurement estimator"
+    ],
+    "failure_retention": true
+  },
+  "counting_algorithm": "pixel-integrated and blurred Iplus/Iminus images -> exact Poisson aggregation over binary pixel-center ROI, plus summed read noise; representative full raw images retained. Aggregation is an exact Poisson identity, not percentage noise on Q.",
+  "pixel_integration": "at least 3x3 quadrature within each pixel; convergence against higher order",
+  "gain_definition": "effective relative channel detection efficiency 1+g and 1-g acting on optical signal; background is additive after this calibration",
+  "measurement_has_not_been_run": true
+}

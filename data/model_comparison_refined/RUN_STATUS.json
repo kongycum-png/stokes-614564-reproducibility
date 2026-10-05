@@ -1,0 +1,91 @@
+{
+  "completed_parameter_sets": 17,
+  "planned": 17,
+  "jobs": [
+    {
+      "tag": "R16_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 43.742328083000004
+    },
+    {
+      "tag": "R16_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 36.01602875
+    },
+    {
+      "tag": "R16_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 29.265043000000006
+    },
+    {
+      "tag": "R24_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 48.200877167000016
+    },
+    {
+      "tag": "R24_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 38.991602708000016
+    },
+    {
+      "tag": "R24_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 31.44318095899999
+    },
+    {
+      "tag": "R56_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 104.19060983400001
+    },
+    {
+      "tag": "R56_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 83.22490916699996
+    },
+    {
+      "tag": "R56_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 63.26260816600001
+    },
+    {
+      "tag": "R96_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 120.21937004200004
+    },
+    {
+      "tag": "R96_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 95.64774625000007
+    },
+    {
+      "tag": "R96_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 71.46922791700001
+    },
+    {
+      "tag": "R192_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 278.77093887499996
+    },
+    {
+      "tag": "R192_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 217.44338783400008
+    },
+    {
+      "tag": "R192_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 156.94891966699993
+    },
+    {
+      "tag": "R256_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 145.27781462500002
+    },
+    {
+      "tag": "R256_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 136.699577375
+    }
+  ]
+}

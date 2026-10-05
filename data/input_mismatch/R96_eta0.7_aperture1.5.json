@@ -1,0 +1,64 @@
+{
+  "tag": "R96_eta0.7_aperture1.5",
+  "metadata": {
+    "R0": 96,
+    "eta": 0.7,
+    "kind": "finite_aperture",
+    "radius_r0": 1.5,
+    "transition_w": 0.5,
+    "transmitted_input_fraction": 0.986243839898314,
+    "source_ids": [
+      "aperture1.5",
+      "aperture1.5"
+    ]
+  },
+  "events": {
+    "1": {
+      "status": "no_peak_in_valid_interval",
+      "window": [
+        -8.0,
+        8.0
+      ],
+      "tau_peak": null,
+      "q_peak": null,
+      "thresholds": {},
+      "fwhm": null,
+      "centroid": null,
+      "all_stationary_maxima": [],
+      "largest_stationary_peak_tau_diagnostic": null,
+      "first_peak_is_largest": false
+    },
+    "2": {
+      "status": "no_peak_in_valid_interval",
+      "window": [
+        -8.0,
+        8.0
+      ],
+      "tau_peak": null,
+      "q_peak": null,
+      "thresholds": {},
+      "fwhm": null,
+      "centroid": null,
+      "all_stationary_maxima": [],
+      "largest_stationary_peak_tau_diagnostic": null,
+      "first_peak_is_largest": false
+    },
+    "4": {
+      "status": "no_peak_in_valid_interval",
+      "window": [
+        -8.0,
+        8.0
+      ],
+      "tau_peak": null,
+      "q_peak": null,
+      "thresholds": {},
+      "fwhm": null,
+      "centroid": null,
+      "all_stationary_maxima": [],
+      "largest_stationary_peak_tau_diagnostic": null,
+      "first_peak_is_largest": false
+    }
+  },
+  "Pin": 4.3111873549476964,
+  "job_status": "RUN_COMPLETED"
+}

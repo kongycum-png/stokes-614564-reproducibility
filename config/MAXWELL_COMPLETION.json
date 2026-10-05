@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-09-18T10:18:46.442307+00:00",
+  "input": "given transverse field preserved on common stated spectral band",
+  "cases": [
+    [
+      24,
+      0.7
+    ],
+    [
+      192,
+      0.2
+    ],
+    [
+      256,
+      0.9
+    ]
+  ],
+  "kw": [
+    200,
+    800,
+    1600
+  ],
+  "m": [
+    1,
+    4,
+    6
+  ],
+  "tau": [
+    -1,
+    -0.5,
+    0,
+    0.5,
+    1,
+    1.5,
+    2
+  ],
+  "ny": 401,
+  "xmax_at_zc": 12,
+  "spectral_cut": 24,
+  "nlog": "2097152 if R<192 else 4194304",
+  "du": "0.000625 if R<192 else 0.0003125",
+  "mask_relative_S0": [
+    1e-09,
+    1e-06
+  ],
+  "formulas": "theory/maxwell_completion.md",
+  "quantity": "electric longitudinal fraction and normalized axial Poynting flux; not a redefinition of transverse Stokes"
+}

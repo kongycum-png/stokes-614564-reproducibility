@@ -1,0 +1,137 @@
+[
+  {
+    "m": 1,
+    "boundary": "scaled_1",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 2.9254420193465065e-10,
+    "paraxial_current_relative_L2": 3.892096605824119e-08,
+    "max_absolute_error_dQdtau": 3.471228766260175e-10,
+    "moving_contribution_relative_L2": 0.012297871115224806,
+    "moving_term_at_tau0": -3.4928224666833316e-05,
+    "current_term_at_tau0": 0.006473567555856336
+  },
+  {
+    "m": 1,
+    "boundary": "physical_frozen",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 3.62134366781709e-14,
+    "paraxial_current_relative_L2": 3.840482547934658e-08,
+    "max_absolute_error_dQdtau": 3.44675748879808e-10,
+    "moving_contribution_relative_L2": 0.0,
+    "moving_term_at_tau0": 0.0,
+    "current_term_at_tau0": 0.006473567555856336
+  },
+  {
+    "m": 1,
+    "boundary": "actual_root",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 1.0892044824738114e-08,
+    "paraxial_current_relative_L2": 4.427163035284352e-08,
+    "max_absolute_error_dQdtau": 3.914675531269273e-10,
+    "moving_contribution_relative_L2": 5.6740892762723056e-14,
+    "moving_term_at_tau0": 5.854189594931335e-20,
+    "current_term_at_tau0": 0.006511902133492126
+  },
+  {
+    "m": 2,
+    "boundary": "scaled_1",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 1.1796935942605023e-09,
+    "paraxial_current_relative_L2": 3.3930283858947506e-08,
+    "max_absolute_error_dQdtau": 3.613647598928009e-10,
+    "moving_contribution_relative_L2": 0.025399033722723768,
+    "moving_term_at_tau0": -9.823454065049885e-05,
+    "current_term_at_tau0": 0.008166507295670181
+  },
+  {
+    "m": 2,
+    "boundary": "physical_frozen",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 4.8697466419298635e-14,
+    "paraxial_current_relative_L2": 3.2541548359253516e-08,
+    "max_absolute_error_dQdtau": 3.524707960396445e-10,
+    "moving_contribution_relative_L2": 0.0,
+    "moving_term_at_tau0": 0.0,
+    "current_term_at_tau0": 0.008166507295670181
+  },
+  {
+    "m": 2,
+    "boundary": "actual_root",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 3.167575937968448e-08,
+    "paraxial_current_relative_L2": 5.278184401619243e-08,
+    "max_absolute_error_dQdtau": 6.026764998285095e-10,
+    "moving_contribution_relative_L2": 1.7023784366056407e-14,
+    "moving_term_at_tau0": 9.711995234001516e-17,
+    "current_term_at_tau0": 0.008198858346905235
+  },
+  {
+    "m": 4,
+    "boundary": "scaled_1",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 4.81465643016042e-09,
+    "paraxial_current_relative_L2": 2.6434010735277525e-08,
+    "max_absolute_error_dQdtau": 2.702538872485956e-10,
+    "moving_contribution_relative_L2": 0.05156809531332062,
+    "moving_term_at_tau0": -0.00023534254931344004,
+    "current_term_at_tau0": 0.008399095492247039
+  },
+  {
+    "m": 4,
+    "boundary": "physical_frozen",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 8.429985426001719e-14,
+    "paraxial_current_relative_L2": 2.59969634293859e-08,
+    "max_absolute_error_dQdtau": 2.611875125901886e-10,
+    "moving_contribution_relative_L2": 0.0,
+    "moving_term_at_tau0": 0.0,
+    "current_term_at_tau0": 0.008399095492247039
+  },
+  {
+    "m": 4,
+    "boundary": "actual_root",
+    "status": "checked",
+    "tau_window": [
+      -0.5,
+      1.25
+    ],
+    "leibniz_relative_L2": 5.426990522450181e-07,
+    "paraxial_current_relative_L2": 5.542515683261396e-07,
+    "max_absolute_error_dQdtau": 1.6913202288288483e-08,
+    "moving_contribution_relative_L2": 5.406596497551863e-15,
+    "moving_term_at_tau0": -1.6053847850344434e-18,
+    "current_term_at_tau0": 0.008159515654027357
+  }
+]

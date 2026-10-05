@@ -1,0 +1,40 @@
+{
+  "pixel_q3": {
+    "half_tau": [
+      -0.018713977866571405,
+      -0.10186819412641729,
+      -0.3037619236590155
+    ],
+    "pixel_area_sum_max_relative_error": 4.700935303672302e-16
+  },
+  "pixel_q5": {
+    "half_tau": [
+      -0.018713976013421143,
+      -0.10186818219795639,
+      -0.3037619425007593
+    ],
+    "pixel_area_sum_max_relative_error": 4.850790350869573e-16
+  },
+  "pixel_q7": {
+    "half_tau": [
+      -0.018713975353794918,
+      -0.10186819202403523,
+      -0.30376193039856925
+    ],
+    "pixel_area_sum_max_relative_error": 4.360245006853858e-16
+  },
+  "pixel_quadrature_max_event_changes_tau": [
+    1.8841743776309983e-08,
+    1.2102190027896143e-08
+  ],
+  "event_gradient": {
+    "finite_difference": 12.25926013481704,
+    "analytic": 12.25926022454978,
+    "relative_difference": 7.319588569170214e-09
+  },
+  "zero_drift_mean_max_absolute_difference": 0.0,
+  "fixed_nominal_aperture_drift_derivative_relative_error": 4.3325984341686296e-11,
+  "Gaussian_blur_relative_L2": 2.9212154470778676e-09,
+  "gain_leakage_identity_max_absolute": 1.3877787807814457e-17,
+  "status": "NUMERICAL_COMPONENT_CHECKS_COMPLETED"
+}

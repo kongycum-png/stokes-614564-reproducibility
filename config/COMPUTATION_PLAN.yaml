@@ -1,0 +1,452 @@
+# Execution specification only. No new scientific simulations have been run for this bundle.
+version: 2
+status: PROPOSED_NOT_EXECUTED
+project: STOKES_614564_REVISION
+scope:
+  principal_polarization_index: 1
+  principal_observable: input-normalized integrated transverse S3
+  reference_order: 1
+  do_not_presuppose:
+  - boundary independence
+  - existence of every peak or threshold
+  - universal inverse-radius behavior for every boundary
+  - negligible longitudinal fields or model bias
+  - experimental detectability under unspecified conditions
+baseline:
+  m:
+  - 1
+  - 2
+  - 3
+  eta:
+  - 0.35
+  - 0.7
+  R0:
+  - 24
+  - 32
+  - 40
+  - 56
+  - 72
+  - 96
+  beam_combinations: 36
+  alpha_rule: eta / (2 * sqrt(R0))
+  lambda_m: 6.328e-07
+  w_m: 8.0e-05
+  kw_rule: 2*pi*w_m/lambda_m
+  preserve_original_results_read_only: true
+principal_grid:
+  m:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  eta:
+  - 0.2
+  - 0.3
+  - 0.35
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1.0
+  R0:
+  - 16
+  - 24
+  - 32
+  - 40
+  - 56
+  - 72
+  - 96
+  - 128
+  - 192
+  - 256
+  beam_combinations: 600
+  unique_channel_orders:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  nominal_channel_parameter_combinations: 800
+  preregister_m4_coefficients_before_new_propagation: true
+  cache_complex_fields: true
+  cache_radial_cumulative_integrals: true
+  missing_event_value: null
+  retain_failed_and_undefined_cases: true
+  result_status_at_delivery: NOT_STARTED
+  baseline_is_subset: true
+  stress_cases_not_automatically_valid: true
+  all_solvers_on_all_600_required: false
+  solver_coverage_rule: All 600 with the independently checked main reference solver; independent solver comparison
+    on the specified comparison grid plus disagreements, edge cases and claim-critical points.
+stress_tests:
+  high_order:
+    m:
+    - 8
+    - 12
+    - 16
+    eta:
+    - 0.35
+    - 0.7
+    R0:
+    - 24
+    - 56
+    - 96
+    - 192
+    - 256
+  small_ring:
+    m:
+    - 1
+    - 2
+    - 3
+    - 4
+    eta:
+    - 0.35
+    - 0.7
+    R0:
+    - 8
+    - 12
+  adaptive_refinement:
+  - peak disappearance or degeneracy
+  - first-root branch changes
+  - non-monotonic residual regions
+  - rapid change of event condition number
+  do_not_extend_validity_claims_automatically: true
+boundary_tests:
+  reference: scaled first Bessel derivative zero
+  mandatory_scale_factors:
+  - 0.9
+  - 1.0
+  - 1.1
+  scale_factors:
+  - 0.8
+  - 0.85
+  - 0.9
+  - 0.925
+  - 0.95
+  - 0.975
+  - 1.0
+  - 1.025
+  - 1.05
+  - 1.075
+  - 1.1
+  - 1.15
+  - 1.2
+  include_actual_first_positive_sign_change_root: true
+  exclude_trivial_axis_zero: true
+  track_root_continuously: true
+  recompute_peak_for_each_boundary: true
+  recompute_thresholds_for_each_boundary: true
+  additional_controls:
+  - physical radius frozen at zc for each m
+  - common physical aperture across all compared m
+  - soft-edged integration window with declared transition width
+  report_negative_domain_leakage: true
+  relative_change_when_reference_is_near_zero: not_applicable
+observables:
+  rising_thresholds:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  first_stationary_peak: true
+  same_peak_fwhm_when_both_crossings_exist: true
+  centroid_in_declared_common_window: true
+  full_curve_registration_with_shape_residual: true
+  intensity_fraction_T: true
+  integrated_circular_imbalance_pbar3: true
+  moving_boundary_flux_decomposition_in_paraxial_model: true
+  double_ratio:
+    enabled: true
+    default_common_tau_star: 0.0
+    condition: all four signal values positive and above declared numerical floor
+    predicted_slope: D_m - D_1
+    fit_slope_must_not_replace_analytic_prediction: true
+asymptotics:
+  small_parameter: R0^(-0.5)
+  target_event_orders:
+  - 1.0
+  - 1.5
+  - 2.0
+  retain_full_amplitude_g_and_derivatives: true
+  retain_complex_u0_and_X_corrections: true
+  retain_debye_term_and_cross_products: true
+  distinguish_field_truncation_from_consistent_power_series: true
+  evaluate_other_hankel_branch_and_endpoint_contributions: true
+  residual_checks:
+  - R0^(1.5) * (Delta_tau - A/R0)
+  - R0^2 * (Delta_tau - A/R0 - B/R0^(1.5))
+  leading_A_fixed_to_analytic_value: true
+  higher_order_fit_and_prediction_separate: true
+  high_radius_holdout:
+  - 128
+  - 192
+  - 256
+independent_solvers:
+  required:
+  - reduced_Rayleigh_Sommerfeld_original_equation_7
+  - paraxial_Fresnel_Hankel
+  - exact_kz_angular_spectrum_or_Hankel
+  - matching_unexpanded_scalar_RS_independent_implementation
+  - Maxwell_consistent_completion_of_prescribed_transverse_spectrum
+  initial_comparison_grid:
+    m:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    eta:
+    - 0.2
+    - 0.35
+    - 0.7
+    R0:
+    - 16
+    - 24
+    - 56
+    - 96
+    - 192
+  refine_at_detected_disagreements: true
+  scalar_RS_and_exact_AS_are_matching_model_representations: true
+  forbid_double_counting_overlapping_model_differences: true
+  compare_single_event_and_order_difference: true
+  vector_completion:
+    preserve_given_Ex_Ey: true
+    Ez_rule: -(kx*Ex + ky*Ey)/kz
+    avoid_grazing_spectrum_singularities: true
+    distinguish_transverse_projection_as_new_input_model: true
+    compute_longitudinal_fraction_and_power_flux_diagnostics: true
+convergence:
+  at_least_three_resolution_levels: true
+  vary_independently:
+  - source_radial_extent
+  - source_quadrature_resolution
+  - observation_radial_resolution
+  - spectral_extent_and_sampling
+  - axial_sampling
+  - event_locator_settings
+  observation_x_extent: adaptive_to_order_and_actual_boundary
+  original_tau_range_is_not_a_universal_event_search_domain: true
+  prohibit_using_interval_endpoint_as_peak: true
+  proposed_absolute_event_refinement_target: 1.0e-06
+  target_note: tighten relative to the effect and residual under study; report unresolved cases rather than claim
+    a guaranteed bound
+  root_tolerance_is_not_total_accuracy: true
+  power_convergence_is_not_event_convergence: true
+physical_paths:
+  fixed_eta_principal_path: true
+  fixed_alpha_control:
+    alpha:
+    - 0.02
+    - 0.04
+    - 0.07
+    R0:
+    - 24
+    - 56
+    - 96
+    - 192
+    - 256
+    m:
+    - 1
+    - 2
+    - 4
+    - 6
+    eta_rule: 2*alpha*sqrt(R0)
+  kw_control:
+    kw:
+    - 200
+    - 400
+    - 800
+    - 1600
+    R0:
+    - 24
+    - 96
+    - 256
+    m:
+    - 1
+    - 2
+    - 4
+    eta:
+    - 0.35
+    - 0.7
+    note: derive w from kw and wavelength; do not simultaneously impose the fixed baseline w
+  dimensionful_rule: Delta_z = k*w^2/sqrt(R0) * Delta_tau
+polarization_generalization:
+  P:
+  - 2
+  - 3
+  m_rule: include m=P, m=P+1, m=P+2, m=P+4 and selected 0<m<P cases
+  eta:
+  - 0.35
+  - 0.7
+  R0:
+  - 24
+  - 56
+  - 96
+  - 192
+  rederive_boundary_and_integrals: true
+  do_not_reuse_P1_D_without_proof: true
+  degeneracy_controls:
+  - m_equal_zero
+  - P_equal_zero
+  - swapped_circular_channels
+  - uniform_channel_phase
+input_tolerances:
+  representative_m:
+  - 1
+  - 2
+  - 4
+  representative_R0:
+  - 24
+  - 96
+  representative_eta:
+  - 0.35
+  - 0.7
+  signed_channel_power_imbalance:
+  - -0.05
+  - -0.02
+  - -0.01
+  - -0.005
+  - 0.0
+  - 0.005
+  - 0.01
+  - 0.02
+  - 0.05
+  differential_radial_scale_fraction:
+  - -0.02
+  - -0.01
+  - 0.0
+  - 0.01
+  - 0.02
+  include_differential_ring_radius_and_radial_phase_tests: true
+  include_finite_source_aperture: true
+  selected_2d_misalignment_and_ellipticity_cases: true
+  distinguish_common_mode_from_differential_errors: true
+  values_are_test_levels_not_accepted_instrument_tolerances: true
+synthetic_measurement:
+  status: proposed_conditions_not_hardware_specifications
+  start_from_raw_Iplus_Iminus: true
+  photons_convention: declared incident reference counts per axial plane; report resulting ROI counts
+  incident_reference_counts:
+  - 1.0e4
+  - 1.0e5
+  - 1.0e6
+  - 1.0e7
+  axial_step_mm:
+  - 0.05
+  - 0.1
+  - 0.2
+  - 0.5
+  - 1.0
+  noise_sources:
+  - photon_counting_Poisson
+  - declared_readout_noise
+  - channel_gain_mismatch
+  - background_and_polarimetric_calibration
+  - pixel_integration_and_imaging_blur
+  - axial_drift_and_cross_order_covariance
+  replicates_initial: 1000
+  check_Monte_Carlo_stability: true
+  design: marginal sweeps plus preregistered interacting stress scenarios; do not silently run a full arbitrary
+    Cartesian product
+  report:
+  - event_estimation_bias
+  - confidence_interval_width
+  - confidence_interval_coverage
+  - advance_sign_recovery_rate
+  - event_extraction_failure_rate
+  do_not_inject_percentage_noise_only_into_Q: true
+  keep_peak_and_crossing_covariance: true
+  keep_cross_order_covariance: true
+records:
+  retain:
+  - parameters_and_physical_path
+  - code_version_and_configuration_hash
+  - unique_channel_order
+  - complex_field_locations
+  - source_cutoff_and_grids
+  - boundary_definition_and_root_branch
+  - event_existence_and_branch_id
+  - peak_and_threshold_positions
+  - Delta_tau_and_Delta_z
+  - numerical_and_model_comparison_metadata
+  - failed_or_undefined_reason
+  statuses:
+  - defined
+  - no_peak_in_valid_interval
+  - no_valid_rising_crossing
+  - degenerate_or_ill_conditioned_event
+  - root_branch_change
+  - numerical_failure
+  - outside_asymptotic_scope
+  job_statuses:
+  - NOT_STARTED
+  - IMPLEMENTED
+  - RUNNING
+  - RUN_COMPLETED
+  - VERIFIED
+  - FAILED
+  - BLOCKED
+  scientific_event_status_separate_from_job_status: true
+preserves_previous_max_depth_scope: true
+local_polarization_diagnostics:
+  provenance: PROPOSED_DERIVATION_FROM_MANUSCRIPT_EQ_9_TO_11
+  verify_basis_and_phasor_before_use: true
+  quantities:
+  - Iplus
+  - Iminus
+  - S0
+  - S1
+  - S2
+  - S3
+  - s3
+  - chi
+  - psi
+  - delta_channel
+  - analyzer_visibility
+  ellipticity_rule: sin(2*chi)=S3/S0, under the manuscript circular/phasor convention
+  orientation_candidate: psi=theta-(arg(U_m_minus_1)-arg(U_m_plus_1))/2 modulo pi
+  exact_S3_zero_interpretation: local linear polarization only where S0>0 and the resolved transverse field is fully
+    polarized
+  proxy_boundary_not_exact_linear_contour: true
+  phase_only_control: true
+  analyzer_relation_candidate: V^2+(S3/S0)^2=1 for the ideal resolved coherent two-component field
+  mask_rule: Declare common numerical intensity floor; check floor sensitivity; mark circular-polarization orientation
+    undefined; do not force the relation after averaging/noise.
+  fixed_P1_petals_not_m_validation: true
+  use_common_axial_planes_and_common_normalization: true
+literature_scope:
+  primary_basis: six files in inputs
+  recommended_papers:
+  - 10.1063/5.0270605
+  - 10.1038/s41467-021-22462-z
+  - 10.3390/photonics12101029
+  Liu_SI_provided: false
+  other_prior_literature_mentions: unverified leads until original full text and metadata are accessed
+  do_not_import_reference_typographic_or_coherence_issues: true
+  no_new_metadevice_or_tweezer_research_branch: true
+execution_management:
+  single_agent: true
+  subagents_authorized: false
+  submission_authorized: false
+  hardware_profile: discover only within user-authorized local environment
+  run_pilot_before_production: true
+  silently_reduce_scope: false
+  allow_batched_numerical_processes_within_existing_limits: true
+  do_not_override_existing_jobs_or_system_configuration: true
+  if_budget_insufficient: save completed outputs, measure remaining cost, ask for resource/scope decision; do not
+    label partial execution as complete
+  failing_prediction: investigate and revise the claim, not data, boundary or analytic coefficient retrospectively
+  near_zero_difference_relative_errors: report absolute error and undefined relative value

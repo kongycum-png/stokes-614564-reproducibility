@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-18T10:35:58.652763+00:00",
+  "groups": [
+    [
+      24,
+      0.35
+    ],
+    [
+      24,
+      0.7
+    ],
+    [
+      96,
+      0.35
+    ],
+    [
+      96,
+      0.7
+    ]
+  ],
+  "m": [
+    1,
+    2,
+    4
+  ],
+  "relative_translation_w": [
+    0,
+    0.01,
+    0.05,
+    0.1
+  ],
+  "families": [
+    "plus_channel_only",
+    "opposite_half_shifts",
+    "common_half_shift"
+  ],
+  "model": "exact-kz scalar AS; translation invariance applied to saved complex fields",
+  "aperture": "fixed scaled proxy centered on nominal axis; no claim it follows the actual zero contour",
+  "quadrature": [
+    128,
+    128
+  ],
+  "validation_levels": [
+    64,
+    128,
+    256
+  ],
+  "no_new_propagation_for_translations": true
+}

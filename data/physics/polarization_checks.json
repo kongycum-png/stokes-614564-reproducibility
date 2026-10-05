@@ -1,0 +1,227 @@
+{
+  "basis_tests": {
+    "horizontal": 0.0,
+    "vertical": 0.0,
+    "diagonal": 2.220446049250313e-16,
+    "antidiagonal": 2.220446049250313e-16,
+    "eplus": 2.220446049250313e-16,
+    "eminus": 2.220446049250313e-16
+  },
+  "phasor": "exp(-i omega t)",
+  "S3_convention": "2 Im(Ex* Ey)",
+  "mask_intensity_floors_relative": [
+    1e-12,
+    1e-09,
+    1e-06
+  ],
+  "orientation_mask_linear_fraction": 1e-08,
+  "checks": [
+    {
+      "m": 1,
+      "tau": -0.5,
+      "S3_channel_vs_Jones_max_relative": 4.0805460924461323e-16,
+      "psi_mod_pi_max_error": 6.273904326877356e-14,
+      "phase_only_S3_max_relative": 4.0805460924461323e-16,
+      "analyzer_projection_max_relative": 3.4004550770384436e-16,
+      "visibility_identity_max_error": 1.9984014443252818e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 0.0
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 0.0
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "m": 1,
+      "tau": 0,
+      "S3_channel_vs_Jones_max_relative": 3.885680776550639e-16,
+      "psi_mod_pi_max_error": 9.467426842491022e-14,
+      "phase_only_S3_max_relative": 3.885680776550639e-16,
+      "analyzer_projection_max_relative": 3.2380673137921993e-16,
+      "visibility_identity_max_error": 1.7763568394002505e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 0.0
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 0.0
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "m": 1,
+      "tau": 1.0,
+      "S3_channel_vs_Jones_max_relative": 3.9352445359332495e-16,
+      "psi_mod_pi_max_error": 7.127631818093505e-14,
+      "phase_only_S3_max_relative": 3.9352445359332495e-16,
+      "analyzer_projection_max_relative": 3.279370446611041e-16,
+      "visibility_identity_max_error": 1.7763568394002505e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 0.0
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 0.0
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "m": 2,
+      "tau": -0.5,
+      "S3_channel_vs_Jones_max_relative": 9.186096503134344e-16,
+      "psi_mod_pi_max_error": 2.6968461505890277e-13,
+      "phase_only_S3_max_relative": 5.511657901880607e-16,
+      "analyzer_projection_max_relative": 9.186096503134344e-16,
+      "visibility_identity_max_error": 1.9984014443252818e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 1.721733441228629e-05
+        }
+      ]
+    },
+    {
+      "m": 2,
+      "tau": 0,
+      "S3_channel_vs_Jones_max_relative": 5.537647696739543e-16,
+      "psi_mod_pi_max_error": 1.517674874662589e-13,
+      "phase_only_S3_max_relative": 5.537647696739543e-16,
+      "analyzer_projection_max_relative": 5.999118338134505e-16,
+      "visibility_identity_max_error": 1.9984014443252818e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 1.721733441228629e-05
+        }
+      ]
+    },
+    {
+      "m": 2,
+      "tau": 1.0,
+      "S3_channel_vs_Jones_max_relative": 8.169741265424352e-16,
+      "psi_mod_pi_max_error": 2.989945029090069e-13,
+      "phase_only_S3_max_relative": 5.10608829089022e-16,
+      "analyzer_projection_max_relative": 6.127305949068264e-16,
+      "visibility_identity_max_error": 1.7763568394002505e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 1.721733441228629e-05
+        }
+      ]
+    },
+    {
+      "m": 4,
+      "tau": -0.5,
+      "S3_channel_vs_Jones_max_relative": 6.213965052283423e-16,
+      "psi_mod_pi_max_error": 3.7414515929867775e-13,
+      "phase_only_S3_max_relative": 3.728379031370054e-16,
+      "analyzer_projection_max_relative": 1.3670723115023532e-15,
+      "visibility_identity_max_error": 1.7763568394002505e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 0.00015495600971057662
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 0.0016700814379917701
+        }
+      ]
+    },
+    {
+      "m": 4,
+      "tau": 0,
+      "S3_channel_vs_Jones_max_relative": 5.952091682616404e-16,
+      "psi_mod_pi_max_error": 3.2518432391270835e-13,
+      "phase_only_S3_max_relative": 4.464068761962303e-16,
+      "analyzer_projection_max_relative": 1.1532177635069283e-15,
+      "visibility_identity_max_error": 1.7763568394002505e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 0.00015495600971057662
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 0.00153234276269348
+        }
+      ]
+    },
+    {
+      "m": 4,
+      "tau": 1.0,
+      "S3_channel_vs_Jones_max_relative": 7.188476439337135e-16,
+      "psi_mod_pi_max_error": 3.5860203695392556e-13,
+      "phase_only_S3_max_relative": 4.1077008224783627e-16,
+      "analyzer_projection_max_relative": 1.437695287867427e-15,
+      "visibility_identity_max_error": 1.6653345369377348e-15,
+      "mask_sensitivity": [
+        {
+          "floor": 1e-12,
+          "masked_fraction": 1.721733441228629e-05
+        },
+        {
+          "floor": 1e-09,
+          "masked_fraction": 0.00015495600971057662
+        },
+        {
+          "floor": 1e-06,
+          "masked_fraction": 0.00153234276269348
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-09-18T10:25:51.967061+00:00",
+  "groups": [
+    [
+      24,
+      0.35
+    ],
+    [
+      24,
+      0.7
+    ],
+    [
+      96,
+      0.35
+    ],
+    [
+      96,
+      0.7
+    ]
+  ],
+  "m": [
+    1,
+    2,
+    4
+  ],
+  "tau": [
+    -8,
+    8,
+    0.025
+  ],
+  "source_cut": "ceil(20+eta sqrtR/2)",
+  "source_ds": 0.025,
+  "ny": 601,
+  "xmax_at_zc": 16,
+  "power_imbalance": [
+    -0.05,
+    -0.02,
+    -0.01,
+    -0.005,
+    0,
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "differential_scale": [
+    -0.02,
+    -0.01,
+    0,
+    0.01,
+    0.02
+  ],
+  "differential_ring_fraction": [
+    -0.01,
+    -0.005,
+    0,
+    0.005,
+    0.01
+  ],
+  "differential_quadratic_phase_rad_at_r0": [
+    -0.3,
+    -0.1,
+    0,
+    0.1,
+    0.3
+  ],
+  "finite_aperture_r0_factors": [
+    1.5,
+    2,
+    3
+  ],
+  "finite_aperture_transition_w": 0.5,
+  "common_scale": [
+    0.99,
+    1.01
+  ],
+  "common_quadratic_phase_rad_at_r0": 0.3,
+  "definitions": {
+    "scale": "f(s/(1+delta/2)) versus f(s/(1-delta/2)); both r0 and w scale; alpha dimensionless unchanged",
+    "ring": "r0 plus/minus delta*r0/2; w and alpha fixed",
+    "phase": "opposite phases plus/minus beta*(r/r0)^2/2",
+    "normalization": "separate equal channel input powers for scale/ring/phase; actual transmitted Pin for finite common aperture",
+    "power": "intensity weights 1+epsilon and 1-epsilon, total incident power unchanged",
+    "event": "first interior positive stationary maximum in declared broad window; all maxima and crossings retained. Also report largest interior maximum as a labelled diagnostic, without replacing the first-peak definition."
+  },
+  "test_levels_not_instrument_tolerances": true,
+  "actual_running_code_sha256": "1dbf1d4ba87402279eeffc4fc08ec5c340e8af462bac87906e9ae549d92a8109",
+  "numerical_warning_check": "baseline/input_multiplier_warning_check.json"
+}

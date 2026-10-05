@@ -1,0 +1,97 @@
+{
+  "balanced": {
+    "raw_input_power_relative_baseline": 1.0,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "scale+0.01": {
+    "raw_input_power_relative_baseline": 1.0100249999999997,
+    "normalization_multiplier": 0.9950248756218907,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "scale-0.01": {
+    "raw_input_power_relative_baseline": 0.9900250000000003,
+    "normalization_multiplier": 1.0050251256281406,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "scale+0.02": {
+    "raw_input_power_relative_baseline": 1.0200999999999998,
+    "normalization_multiplier": 0.9900990099009902,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "scale-0.02": {
+    "raw_input_power_relative_baseline": 0.9800999999999997,
+    "normalization_multiplier": 1.0101010101010104,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "ring+0.005": {
+    "raw_input_power_relative_baseline": 1.0023301589365707,
+    "normalization_multiplier": 0.9988369527012834,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "ring-0.005": {
+    "raw_input_power_relative_baseline": 0.9976698410634294,
+    "normalization_multiplier": 1.0011671195453413,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "ring+0.01": {
+    "raw_input_power_relative_baseline": 1.0046603178731415,
+    "normalization_multiplier": 0.9976779540230601,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "ring-0.01": {
+    "raw_input_power_relative_baseline": 0.9953396821268583,
+    "normalization_multiplier": 1.0023383351569124,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "phase+0.1": {
+    "raw_input_power_relative_baseline": 0.9999999999999998,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "phase-0.1": {
+    "raw_input_power_relative_baseline": 0.9999999999999998,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "phase+0.3": {
+    "raw_input_power_relative_baseline": 1.0,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "phase-0.3": {
+    "raw_input_power_relative_baseline": 1.0,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "aperture1.5": {
+    "raw_input_power_relative_baseline": 0.986243839898314,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "aperture2": {
+    "raw_input_power_relative_baseline": 0.9995673167936544,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "aperture3": {
+    "raw_input_power_relative_baseline": 0.9999995135095672,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "common_scale0.99": {
+    "raw_input_power_relative_baseline": 0.9800999999999997,
+    "normalization_multiplier": 1.0101010101010104,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "common_scale1.01": {
+    "raw_input_power_relative_baseline": 1.0200999999999998,
+    "normalization_multiplier": 0.9900990099009902,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  },
+  "common_phase": {
+    "raw_input_power_relative_baseline": 1.0,
+    "normalization_multiplier": 1.0,
+    "omitted_source_max_amplitude_under_base_floor": 0
+  }
+}

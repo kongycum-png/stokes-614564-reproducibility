@@ -1,0 +1,36 @@
+START source_R24_eta0.7_cutplus2
+END source_R24_eta0.7_cutplus2 2.769092083
+START source_R24_eta0.7_cutplus4
+END source_R24_eta0.7_cutplus4 5.375775166
+START source_R192_eta0.2_cutplus2
+END source_R192_eta0.2_cutplus2 25.246175792000003
+START source_R192_eta0.2_cutplus4
+END source_R192_eta0.2_cutplus4 50.60803225
+START source_R256_eta0.9_cutplus2
+END source_R256_eta0.9_cutplus2 10.519803374999995
+START source_R256_eta0.9_cutplus4
+END source_R256_eta0.9_cutplus4 20.587129292
+START source_R256_eta1_cutplus2
+END source_R256_eta1_cutplus2 10.160849708
+START source_R256_eta1_cutplus4
+END source_R256_eta1_cutplus4 19.711972250000002
+START spectral_R192_eta0.2_nlog2M
+END spectral_R192_eta0.2_nlog2M 246.624139292
+START spectral_R192_eta0.2_nlog8M
+END spectral_R192_eta0.2_nlog8M 245.79548862500002
+START spectral_R192_eta0.2_du000625
+END spectral_R192_eta0.2_du000625 121.52879220900002
+START spectral_R192_eta0.2_du00015625
+END spectral_R192_eta0.2_du00015625 481.9026204170001
+START spectral_R192_eta0.2_ny201
+END spectral_R192_eta0.2_ny201 126.10123687500004
+START spectral_R192_eta0.2_ny801
+END spectral_R192_eta0.2_ny801 470.057081167
+START spectral_R24_eta0.7_ny201
+END spectral_R24_eta0.7_ny201 12.772340874999827
+START spectral_R24_eta0.7_ny801
+END spectral_R24_eta0.7_ny801 40.42691100000002
+START spectral_R256_eta0.9_nlog8M
+END spectral_R256_eta0.9_nlog8M 127.60106158299982
+START spectral_R256_eta0.9_dt00125
+END spectral_R256_eta0.9_dt00125 137.00076112500005

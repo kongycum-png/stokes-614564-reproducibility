@@ -1,0 +1,259 @@
+{
+  "tag": "R24_eta0.35_pixel_pitch_mm_0.0005",
+  "config": {
+    "Nincident": 1000000.0,
+    "dz_mm": 0.1,
+    "pixel_pitch_mm": 0.0005,
+    "blur_sigma_mm": 0.001,
+    "read_noise_e_per_pixel": 1.0,
+    "background_e_per_pixel": 0.1,
+    "gain_sd": 0.001,
+    "gain_cross_order_correlation": 0.8,
+    "background_calibration_sd_e_per_pixel": 0.001,
+    "background_cross_channel_correlation": 0.5,
+    "polarimetric_cross_talk_mean": 0.002,
+    "polarimetric_cross_talk_asymmetry_sd": 0.0002,
+    "common_axial_offset_sd_mm": 0.02,
+    "order_axial_offset_sd_mm": 0.01,
+    "smooth_scan_drift_sd_mm": 0.01,
+    "monitor_reference_count_multiplier": 100
+  },
+  "seed": 614578,
+  "replicates": 1000,
+  "job_status": "RUN_COMPLETED",
+  "CI_kind": "oracle first-order normal covariance at expected detector signal, fixed smoothing; systematic unknown gain mean excluded from uncertainty",
+  "mean_event_linearization_mm_relative_zc": [
+    -0.2434750716728598,
+    -1.3242586130032776,
+    -3.9361941257240227
+  ],
+  "pixel_blur_target_mm_relative_zc": [
+    -0.24347507167285828,
+    -1.3242586130032767,
+    -3.936194125724024
+  ],
+  "ideal_target_mm_relative_zc": [
+    -0.2409663701440442,
+    -1.3225743310161875,
+    -3.9343068650159156
+  ],
+  "event_covariance_mm2": [
+    [
+      0.002303807348873932,
+      0.00043669379755533724,
+      0.0005157539690349574
+    ],
+    [
+      0.00043669379755533724,
+      0.003127859749328107,
+      0.0006558195210340983
+    ],
+    [
+      0.0005157539690349574,
+      0.0006558195210340983,
+      0.007631652077998103
+    ]
+  ],
+  "covariance_parts_mm2": {
+    "photon_background_read": [
+      [
+        0.0017813857166116389,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0025352597232458523,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.006338296256589415
+      ]
+    ],
+    "monitor_shared_per_plane": [
+      [
+        1.3731157831164244e-07,
+        5.882807841169757e-08,
+        -4.006169927308776e-09
+      ],
+      [
+        5.882807841169757e-08,
+        1.4337726316446204e-07,
+        -8.534055706089968e-09
+      ],
+      [
+        -4.006169927308776e-09,
+        -8.534055706089968e-09,
+        1.5911412515252113e-07
+      ]
+    ],
+    "gain": [
+      [
+        3.0005571019300046e-08,
+        1.552880056641605e-08,
+        -8.994845052291372e-08
+      ],
+      [
+        1.552880056641605e-08,
+        1.2557233063300146e-08,
+        -5.818884218742373e-08
+      ],
+      [
+        -8.994845052291372e-08,
+        -5.818884218742373e-08,
+        4.213136238448945e-07
+      ]
+    ],
+    "background_calibration": [
+      [
+        1.602176049049604e-05,
+        3.620627771596928e-05,
+        0.00011051887441529297
+      ],
+      [
+        3.620627771596928e-05,
+        8.181963192019404e-05,
+        0.00024975264499241934
+      ],
+      [
+        0.00011051887441529297,
+        0.00024975264499241934,
+        0.0007623645110204198
+      ]
+    ],
+    "polarimetric_asymmetry": [
+      [
+        1.200222840772002e-09,
+        7.764400283208025e-10,
+        -4.497422526145686e-09
+      ],
+      [
+        7.764400283208025e-10,
+        5.02289322532006e-10,
+        -2.9094421093711863e-09
+      ],
+      [
+        -4.497422526145686e-09,
+        -2.9094421093711863e-09,
+        1.6852544953795785e-08
+      ]
+    ],
+    "axial_drift": [
+      [
+        0.0005062313543996255,
+        0.00040041238652036156,
+        0.00040533354666264084
+      ],
+      [
+        0.00040041238652036156,
+        0.0005106239573765106,
+        0.0004061365083816819
+      ],
+      [
+        0.00040533354666264084,
+        0.0004061365083816819,
+        0.000530394030094316
+      ]
+    ]
+  },
+  "condition": [
+    {
+      "smoothing_samples": 33,
+      "extra_maxima": 0,
+      "defined": true
+    },
+    {
+      "smoothing_samples": 33,
+      "extra_maxima": 0,
+      "defined": true
+    },
+    {
+      "smoothing_samples": 33,
+      "extra_maxima": 0,
+      "defined": true
+    }
+  ],
+  "ROI_optical_counts_range": [
+    [
+      1084.538546843799,
+      34972.347566637254
+    ],
+    [
+      1965.9569535214341,
+      49187.78544979646
+    ],
+    [
+      4119.079809300798,
+      63874.15772877554
+    ]
+  ],
+  "ROI_pixel_counts_range": [
+    [
+      10261,
+      12101
+    ],
+    [
+      28221,
+      33313
+    ],
+    [
+      85645,
+      100981
+    ]
+  ],
+  "orders": {
+    "1": {
+      "single_event_failure_rate": 0.0,
+      "single_event_bias_ideal_mm": 0.006629014520003557,
+      "single_event_SD_mm": 0.04590440423342862,
+      "single_event_CI_halfwidth_mm": 0.09407433795414788,
+      "single_event_coverage_ideal": 0.96,
+      "mean_extra_peak_count": 2.387
+    },
+    "2": {
+      "single_event_failure_rate": 0.0,
+      "single_event_bias_ideal_mm": 0.006788634835144469,
+      "single_event_SD_mm": 0.05500753790715711,
+      "single_event_CI_halfwidth_mm": 0.10961543880288903,
+      "single_event_coverage_ideal": 0.947,
+      "mean_extra_peak_count": 2.832,
+      "delta_ideal_mm": 1.0816079608721432,
+      "delta_pixel_blur_mm": 1.0807835413304185,
+      "delta_mean_mm": 1.0814483405570023,
+      "delta_bias_ideal_mm": -0.0001596203151408293,
+      "delta_bias_pixel_blur_mm": 0.000664799226583801,
+      "delta_SD_mm": 0.06437311084072085,
+      "delta_CI_width_mm": 0.26465406102562333,
+      "delta_CI_coverage_ideal": 0.953,
+      "delta_CI_coverage_pixel_blur": 0.954,
+      "advance_sign_recovery_rate": 1.0,
+      "paired_failure_rate": 0.0,
+      "undefined_count": 0,
+      "ignoring_cross_order_covariance_CI_width_mm": 0.2888980822744321
+    },
+    "4": {
+      "single_event_failure_rate": 0.0,
+      "single_event_bias_ideal_mm": 0.017272543006576768,
+      "single_event_SD_mm": 0.084269432405366,
+      "single_event_CI_halfwidth_mm": 0.1712211353527737,
+      "single_event_coverage_ideal": 0.955,
+      "mean_extra_peak_count": 5.113,
+      "delta_ideal_mm": 3.6933404948718715,
+      "delta_pixel_blur_mm": 3.6927190540511656,
+      "delta_mean_mm": 3.6826969663852984,
+      "delta_bias_ideal_mm": -0.010643528486573128,
+      "delta_bias_pixel_blur_mm": -0.010022087665867208,
+      "delta_SD_mm": 0.09210517553105332,
+      "delta_CI_width_mm": 0.3698873503416391,
+      "delta_CI_coverage_ideal": 0.958,
+      "delta_CI_coverage_pixel_blur": 0.958,
+      "advance_sign_recovery_rate": 1.0,
+      "paired_failure_rate": 0.0,
+      "undefined_count": 0,
+      "ignoring_cross_order_covariance_CI_width_mm": 0.3907257772556302
+    }
+  },
+  "seconds": 0.45847379099999996
+}

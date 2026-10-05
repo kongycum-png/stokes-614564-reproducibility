@@ -1,0 +1,61 @@
+{
+  "version": "v1.0.0",
+  "assets": [
+    {
+      "name": "Reproducibility_Code_Tables_614564_v1.0.0.zip",
+      "bytes": 385178483,
+      "sha256": "374b13af86e0c2adc36f49ae570bee29cca493e56a08b8acada5d5536ed5828d",
+      "files": 1544,
+      "zip_crc": "passed"
+    },
+    {
+      "name": "Reproducibility_Raw_Fields_614564_v1.0.0_part01.zip",
+      "bytes": 1830878978,
+      "sha256": "d57256e5fdfe78e1fd3dfea0447ca89b05b148c720081f0e72a37556930bb24c",
+      "files": 54,
+      "zip_crc": "passed"
+    },
+    {
+      "name": "Reproducibility_Raw_Fields_614564_v1.0.0_part02.zip",
+      "bytes": 1776535927,
+      "sha256": "e7b34520f994a6a10f2c903294a33d9528087b190490ea52ee1ed36f2194ef9b",
+      "files": 60,
+      "zip_crc": "passed"
+    },
+    {
+      "name": "Reproducibility_Raw_Fields_614564_v1.0.0_part03.zip",
+      "bytes": 1885667794,
+      "sha256": "2c727210bc76442565be5044afe4dc62eb5472359d97bdaf265a2cb917c03211",
+      "files": 47,
+      "zip_crc": "passed"
+    },
+    {
+      "name": "Reproducibility_Raw_Fields_614564_v1.0.0_part04.zip",
+      "bytes": 1866924175,
+      "sha256": "9695b9a08c20c9a0920005cfd4805940f08e79a1f29cdee24aa964305d2d71d6",
+      "files": 78,
+      "zip_crc": "passed"
+    },
+    {
+      "name": "Reproducibility_Raw_Fields_614564_v1.0.0_part05.zip",
+      "bytes": 1863684516,
+      "sha256": "dea61bd553e9df59f9f548718750a5dbf8fe21e845e5f7e5ebd4a5764e24efc6",
+      "files": 94,
+      "zip_crc": "passed"
+    },
+    {
+      "name": "Reproducibility_Raw_Fields_614564_v1.0.0_part06.zip",
+      "bytes": 1873743185,
+      "sha256": "084d92134e781fff1b703b8e89c60c84bbd664657ec3e7cb70bedf37aa637340",
+      "files": 94,
+      "zip_crc": "passed"
+    },
+    {
+      "name": "Reproducibility_Raw_Fields_614564_v1.0.0_part07.zip",
+      "bytes": 66058176,
+      "sha256": "469811c7828341fb62bca5982fd62147f52a7dc7621ba1297f95c856078ef4e3",
+      "files": 3,
+      "zip_crc": "passed"
+    }
+  ]
+}

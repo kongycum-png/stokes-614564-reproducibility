@@ -1,0 +1,19 @@
+
+WARNING: Inconsistency in length of input string and parsed string:
+     This often indicates faulty or non-standard latex code.
+     In many cases you can ignore this and the following warning messages.
+ Note that character numbers in the following are counted beginning after \begin{document} and are only approximate.
+{*}Corresponding author: chenz@yctu.edu.cn 
+                              ^^^^^                              
+Missing characters near word 46 character index: 340-345 Length: 4 Match: |yctu| (expected match marked above).
+
+WARNING: Inconsistency in length of input string and parsed string:
+     This often indicates faulty or non-standard latex code.
+     In many cases you can ignore this and the following warning messages.
+ Note that character numbers in the following are counted beginning after \begin{document} and are only approximate.
+{*}Corresponding author: chenz@yctu.edu.cn 
+                              ^^^^^                              
+Missing characters near word 46 character index: 340-345 Length: 4 Match: |yctu| (expected match marked above).
+Can't exec "kpsewhich": No such file or directory at <original-local-root>/Documents/åå­¦æ¨¡æ/poincare_rs_aligned/revision_614564/tools/vendor/latexdiff line 1230, <DATA> line 90149.
+Use of uninitialized value in string ne at <original-local-root>/Documents/åå­¦æ¨¡æ/poincare_rs_aligned/revision_614564/tools/vendor/latexdiff line 1230, <DATA> line 90149.
+WARNING: listings package not detected. Disabling mark-up in verbatim environments 

@@ -1,0 +1,93 @@
+SI S2/S3 regenerated from retained data; scientific labels and legend clearance updated.
+{
+  "edited_response_paragraphs": [
+    "Thank you for the two detailed reports",
+    "The result is boundary dependent."
+  ],
+  "response_boundary_cells_spaced": 0,
+  "si_boundary_cells_spaced": 0,
+  "S1_native_equation_headers": 9,
+  "S2_existing_lowercase_coefficients_preserved": true,
+  "source_signs_and_commas_already_correct": true,
+  "tables_reformatted": [
+    "Response M2",
+    "SI S1",
+    "SI S2",
+    "SI S4"
+  ],
+  "figures_updated": [
+    "SI S2",
+    "SI S3"
+  ],
+  "primary_manuscript_edited": false,
+  "scientific_numeric_cells_formatted_this_run": 0,
+  "normalized_boundary_cells": {
+    "Response M2": 48,
+    "SI S4": 144
+  },
+  "final_evidence_table_rows_kept_intact": true
+}
+Pages rendered to <original-local-root>/Documents/光学模拟/residual_mechanism_research/qa/copyedit_20261004/response
+Pages rendered to <original-local-root>/Documents/光学模拟/residual_mechanism_research/qa/copyedit_20261004/si
+{
+  "reviewer_comments_preserved_in_full": 18,
+  "Response_614564": {
+    "changed_prose_paragraph_indices": [
+      1,
+      16,
+      75
+    ],
+    "numeric_and_text_body_cells_unchanged": 96,
+    "changed_media": []
+  },
+  "Supplementary_614564": {
+    "changed_prose_paragraph_indices": [],
+    "numeric_and_text_body_cells_unchanged": 788,
+    "changed_media": [
+      "word/media/rId30.png",
+      "word/media/rId15.png"
+    ]
+  },
+  "main_manuscripts_and_original_zip_unchanged": true,
+  "original_scientific_data_and_theory_files_unchanged": 24,
+  "pdf_pages": {
+    "Response_614564": 11,
+    "Supplementary_614564": 38
+  },
+  "cited_si_section_and_figure_pages_unchanged": true,
+  "passed": true
+}
+{
+  "original_sources_unchanged": {
+    "<original-local-root>/Documents/光学模拟/revision_delivery_614564_verified_20261003/deliverables_final/Manuscript_614564_Clean.docx": true,
+    "<original-local-root>/Documents/光学模拟/revision_delivery_614564_verified_20261003/deliverables_final/Manuscript_614564_Marked_Final.docx": true,
+    "<original-local-root>/Documents/光学模拟/revision_delivery_614564_verified_20261003/deliverables_final/Supplementary_614564.docx": true,
+    "<original-local-root>/Documents/光学模拟/revision_delivery_614564_verified_20261003/deliverables_final/Response_614564.docx": true,
+    "<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/revision_solver.py": true,
+    "<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/formal_asymptotics.py": true,
+    "<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/formal_event_coefficients.py": true,
+    "<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/observables.py": true,
+    "<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/hankel_branch_diagnostics.py": true,
+    "<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/provenance/review comments 1.flow.txt": true,
+    "<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/data/final_analysis/eta035_branch_residuals.csv": true,
+    "<original-local-root>/Documents/光学模拟/revision_delivery_614564_verified_20261003/latex_source/figure_data/analytic_predictions.csv": true
+  },
+  "main_clean_and_marked_identical_except_color": true,
+  "main_scope": "Only original paragraph 111 replaced by two paragraphs; all other paragraph text and mathematics unchanged.",
+  "reviewer_quotations_preserved": 18,
+  "si_scope": "Original paragraph 151 replaced; all remaining pre-reference paragraph text retained; new section 14 and three references added; reference-list spacing adjusted.",
+  "pdf_pages": {
+    "Mechanism_Report_614564.pdf": 8,
+    "Supplementary_614564.pdf": 38,
+    "Manuscript_614564_Clean.pdf": 20,
+    "Manuscript_614564_Marked.pdf": 20,
+    "Response_614564.pdf": 11
+  },
+  "redline_verified_math_objects": 479,
+  "redline_verified_body_characters": 30804,
+  "direct_source_vs_compact_scaled_max": 1.3784529073745944e-12,
+  "direct_source_refinement_scaled_max": 4.637259465312127e-10,
+  "numerical_json_finite": true,
+  "scope_limit": "No interval-certified global uniqueness theorem; numerical evidence is for eta=0.35, m=3, fixed proxy aperture and declared first-peak event.",
+  "passed": true
+}

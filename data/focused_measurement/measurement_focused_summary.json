@@ -1,0 +1,16 @@
+{
+  "status": "RUN_COMPLETED",
+  "protocol_sha256": "3d0fb867f625abb22a4549850736aadf7eb688c5352aa6d09305e36b88095ff1",
+  "code_sha256": "9a830d0b0d269dcd76c41efd9b65827bc3b793d9943d20acf738e36858c80972",
+  "groups": [
+    "R24_eta0.35_N1e+06",
+    "R24_eta0.7_N1e+06",
+    "R96_eta0.35_N1e+06",
+    "R96_eta0.7_N1e+06",
+    "R96_eta0.7_N1e+07"
+  ],
+  "event_rows": 60,
+  "pair_rows": 45,
+  "channel_definition": "Each circular channel intensity includes the 1/2 factor in measurement_detector.detector_response; Poisson draws are made from separate I+ and I- aggregate counts before differencing.",
+  "assisted_diagnostic_role": "Uses the noiseless detector peak location to select the nearest noisy local maximum. It does not fix the noisy peak value, physical branch, or half-height crossing and is excluded from experimental-feasibility claims."
+}

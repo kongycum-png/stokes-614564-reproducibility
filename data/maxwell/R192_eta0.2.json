@@ -1,0 +1,887 @@
+{
+  "records": [
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 1,
+      "kw": 200,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.2883373696961705,
+      "retained_transverse_power_relative_input": 0.9999999995552539,
+      "retained_fullplane_S3_relative_input": 2.0321382062273788e-10,
+      "fullplane_longitudinal_fraction": 0.0011331208025712688,
+      "fullplane_flux_relative_transverse_input": 1.0005667456812526,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.0007876865352519063,
+          "T": 0.0009438857406919755,
+          "longitudinal_fraction_ROI": 0.004834535374481504,
+          "axial_flux_ROI": 0.0009461506283386282,
+          "flux_relative_correction": 0.002399535821986598,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.01563526967662568,
+            "1e-06": 0.01563526967662568
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.0014654907422731358,
+          "T": 0.0017536324366563656,
+          "longitudinal_fraction_ROI": 0.004810481492402666,
+          "axial_flux_ROI": 0.0017578478496877116,
+          "flux_relative_correction": 0.0024038178943492916,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.015714334574196867,
+            "1e-06": 0.015714334574196867
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.0019466407214577064,
+          "T": 0.002323903769970879,
+          "longitudinal_fraction_ROI": 0.0047635733037389985,
+          "axial_flux_ROI": 0.0023294796662281197,
+          "flux_relative_correction": 0.002399366242824552,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.015644294155832315,
+            "1e-06": 0.015644294155832315
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.0015909496142606976,
+          "T": 0.0018885041013503676,
+          "longitudinal_fraction_ROI": 0.004636142724740784,
+          "axial_flux_ROI": 0.001892968665548211,
+          "flux_relative_correction": 0.0023640743987005663,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.015049920093194318,
+            "1e-06": 0.015049920093194318
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.0005377799891735208,
+          "T": 0.0006197321384219789,
+          "longitudinal_fraction_ROI": 0.0039185328152192824,
+          "axial_flux_ROI": 0.0006210350518500994,
+          "flux_relative_correction": 0.0021023815731715523,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.011239089769860435,
+            "1e-06": 0.011239089769860435
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.00017972423744974306,
+          "T": 0.0001896498692943441,
+          "longitudinal_fraction_ROI": 0.0016184221695885617,
+          "axial_flux_ROI": 0.00018988311568985162,
+          "flux_relative_correction": 0.00122987902061511,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.003593692628100911,
+            "1e-06": 0.003593692628100911
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.0009716527160135272,
+          "T": 0.0011378264827847154,
+          "longitudinal_fraction_ROI": 0.004330361696237543,
+          "axial_flux_ROI": 0.001140425214231928,
+          "flux_relative_correction": 0.0022839435419472753,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.013767349597726906,
+            "1e-06": 0.013767349597726906
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 4,
+      "kw": 200,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.2883373696961705,
+      "retained_transverse_power_relative_input": 0.999999999344194,
+      "retained_fullplane_S3_relative_input": -5.366535895417617e-15,
+      "fullplane_longitudinal_fraction": 0.001133120807926957,
+      "fullplane_flux_relative_transverse_input": 1.0005667417010127,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.0014906534895723958,
+          "T": 0.0023161697164798913,
+          "longitudinal_fraction_ROI": 0.004852770016807961,
+          "axial_flux_ROI": 0.002321754791447162,
+          "flux_relative_correction": 0.0024113409857369206,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.008205450217396146,
+            "1e-06": 0.008205450217396146
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.002702728868312902,
+          "T": 0.004203818086838276,
+          "longitudinal_fraction_ROI": 0.00485667032281978,
+          "axial_flux_ROI": 0.004213984808866017,
+          "flux_relative_correction": 0.002418449566019998,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.008296025523955128,
+            "1e-06": 0.008296025523955128
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.0035005562846329337,
+          "T": 0.005439495208753919,
+          "longitudinal_fraction_ROI": 0.004842853155259155,
+          "axial_flux_ROI": 0.005452657711303085,
+          "flux_relative_correction": 0.0024198022139965136,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00828281342607357,
+            "1e-06": 0.00828281342607357
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.0027952103859098776,
+          "T": 0.00430833692242031,
+          "longitudinal_fraction_ROI": 0.004765338560077068,
+          "axial_flux_ROI": 0.0043186804771030325,
+          "flux_relative_correction": 0.002400823071402769,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.007892639271029957,
+            "1e-06": 0.007892639271029957
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.0009355707245862844,
+          "T": 0.0013583512637118246,
+          "longitudinal_fraction_ROI": 0.004208200933443063,
+          "axial_flux_ROI": 0.0013613801701763564,
+          "flux_relative_correction": 0.002229840355325363,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00542197774492444,
+            "1e-06": 0.00542197774492444
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.0003156139748699583,
+          "T": 0.00037898063991065767,
+          "longitudinal_fraction_ROI": 0.0021925775535458197,
+          "axial_flux_ROI": 0.00037958661541417704,
+          "flux_relative_correction": 0.0015989616347216185,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.004619254819730242,
+            "1e-06": 0.004619254819730242
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.0015813820747200072,
+          "T": 0.0023959800929048538,
+          "longitudinal_fraction_ROI": 0.004589201016280108,
+          "axial_flux_ROI": 0.0024016369688046615,
+          "flux_relative_correction": 0.002360986185385716,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.007065286100024752,
+            "1e-06": 0.007065286100024752
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 6,
+      "kw": 200,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.2883373696961705,
+      "retained_transverse_power_relative_input": 0.9999999993441938,
+      "retained_fullplane_S3_relative_input": 5.419719411577643e-15,
+      "fullplane_longitudinal_fraction": 0.001133120814832476,
+      "fullplane_flux_relative_transverse_input": 1.0005667366754813,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.001758336511166079,
+          "T": 0.003029941159202466,
+          "longitudinal_fraction_ROI": 0.004863158486317809,
+          "axial_flux_ROI": 0.0030372672028753022,
+          "flux_relative_correction": 0.002417883149508082,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.007244464294327982,
+            "1e-06": 0.007244464294327982
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.00312249251322508,
+          "T": 0.005409852877381378,
+          "longitudinal_fraction_ROI": 0.0048813753226766045,
+          "axial_flux_ROI": 0.00542297953224274,
+          "flux_relative_correction": 0.002426434721773063,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.007342786716422936,
+            "1e-06": 0.007342786716422936
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.0039628197359654485,
+          "T": 0.006889591385472294,
+          "longitudinal_fraction_ROI": 0.004884567766242267,
+          "axial_flux_ROI": 0.006906338949825625,
+          "flux_relative_correction": 0.0024308501645895486,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.007335044075215714,
+            "1e-06": 0.007335044075215714
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.0031075267844732414,
+          "T": 0.0053811051828771,
+          "longitudinal_fraction_ROI": 0.004832516824003902,
+          "axial_flux_ROI": 0.005394132145098323,
+          "flux_relative_correction": 0.0024208711367834646,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.006904839808913883,
+            "1e-06": 0.006904839808913883
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.0010373965739710808,
+          "T": 0.0016958617129593269,
+          "longitudinal_fraction_ROI": 0.004370701042971306,
+          "axial_flux_ROI": 0.001699773437139018,
+          "flux_relative_correction": 0.0023066292197051474,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.004815779316601495,
+            "1e-06": 0.004815779316601495
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.00035582009031328074,
+          "T": 0.0004854990787536835,
+          "longitudinal_fraction_ROI": 0.0027630628019621063,
+          "axial_flux_ROI": 0.0004864254805876155,
+          "flux_relative_correction": 0.0019081433404779524,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.008574689088165176,
+            "1e-06": 0.008574689088165176
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.0016487156588031711,
+          "T": 0.002848038321818947,
+          "longitudinal_fraction_ROI": 0.004733402170074913,
+          "axial_flux_ROI": 0.0028548925688774577,
+          "flux_relative_correction": 0.0024066554884460967,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0061425360398672186,
+            "1e-06": 0.0061425360398672186
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 1,
+      "kw": 800,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.07208434242404263,
+      "retained_transverse_power_relative_input": 0.9999999995552539,
+      "retained_fullplane_S3_relative_input": 2.0321382062273788e-10,
+      "fullplane_longitudinal_fraction": 7.068178347940633e-05,
+      "fullplane_flux_relative_transverse_input": 1.0000353411582288,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.00015285082321646627,
+          "T": 0.00018242575292380536,
+          "longitudinal_fraction_ROI": 0.00029689140520028535,
+          "axial_flux_ROI": 0.00018245261426918792,
+          "flux_relative_correction": 0.00014724535846522002,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0009542919522313196,
+            "1e-06": 0.0009542919522313196
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.00042986917236696487,
+          "T": 0.0005126025758680391,
+          "longitudinal_fraction_ROI": 0.0002961730768515292,
+          "axial_flux_ROI": 0.000512678335489087,
+          "flux_relative_correction": 0.00014779407013221224,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0009637186165046742,
+            "1e-06": 0.0009637186165046742
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.0009663897673540316,
+          "T": 0.0011511526623576589,
+          "longitudinal_fraction_ROI": 0.0002951370198896536,
+          "axial_flux_ROI": 0.0011513232870632762,
+          "flux_relative_correction": 0.0001482207453422646,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0009713078528042068,
+            "1e-06": 0.0009713078528042068
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.0016551111782770636,
+          "T": 0.001968585078344116,
+          "longitudinal_fraction_ROI": 0.000293432821204688,
+          "axial_flux_ROI": 0.0019688771961163046,
+          "flux_relative_correction": 0.00014838971167763226,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0009745726355032691,
+            "1e-06": 0.0009745726355032691
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.001986488444035439,
+          "T": 0.002356461154835841,
+          "longitudinal_fraction_ROI": 0.00028996943101566966,
+          "axial_flux_ROI": 0.002356809624161419,
+          "flux_relative_correction": 0.00014787823888484652,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0009658990401417934,
+            "1e-06": 0.0009658990401417934
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.001399800303411737,
+          "T": 0.0016486956136948076,
+          "longitudinal_fraction_ROI": 0.00027960856819203567,
+          "axial_flux_ROI": 0.0016489341684835107,
+          "flux_relative_correction": 0.00014469304504816094,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0009115281085876304,
+            "1e-06": 0.0009115281085876304
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.0003523393954928258,
+          "T": 0.00039553304110301823,
+          "longitudinal_fraction_ROI": 0.00020439351190798378,
+          "axial_flux_ROI": 0.0003955790428555211,
+          "flux_relative_correction": 0.00011630318512612092,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0005388553873765444,
+            "1e-06": 0.0005388553873765444
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 4,
+      "kw": 800,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.07208434242404263,
+      "retained_transverse_power_relative_input": 0.999999999344194,
+      "retained_fullplane_S3_relative_input": -5.366535895417617e-15,
+      "fullplane_longitudinal_fraction": 7.068178351065217e-05,
+      "fullplane_flux_relative_transverse_input": 1.0000353407115192,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.0003020198582552796,
+          "T": 0.00045983199926715205,
+          "longitudinal_fraction_ROI": 0.000295557748360561,
+          "axial_flux_ROI": 0.00045989997734734476,
+          "flux_relative_correction": 0.00014783242641014382,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0004922691205268282,
+            "1e-06": 0.0004922691205268282
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.000828290791024184,
+          "T": 0.0012633655229894348,
+          "longitudinal_fraction_ROI": 0.0002963143476186869,
+          "axial_flux_ROI": 0.0012635530766394749,
+          "flux_relative_correction": 0.00014845557095477524,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0005003718530904495,
+            "1e-06": 0.0005003718530904495
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.0018158364817477807,
+          "T": 0.002773620311737899,
+          "longitudinal_fraction_ROI": 0.00029685300825098635,
+          "axial_flux_ROI": 0.0027740335799823685,
+          "flux_relative_correction": 0.00014899957384950646,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0005075623214246196,
+            "1e-06": 0.0005075623214246196
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.003032957258317342,
+          "T": 0.004635559298040239,
+          "longitudinal_fraction_ROI": 0.0002969081165088004,
+          "axial_flux_ROI": 0.004636251743360899,
+          "flux_relative_correction": 0.00014937686612115364,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0005120576592846493,
+            "1e-06": 0.0005120576592846493
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.0035512475292523217,
+          "T": 0.005418803167598745,
+          "longitudinal_fraction_ROI": 0.0002956506048479239,
+          "axial_flux_ROI": 0.00541961227461119,
+          "flux_relative_correction": 0.00014931470795698232,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0005030713804250414,
+            "1e-06": 0.0005030713804250414
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.002444430606286309,
+          "T": 0.0036906653026964466,
+          "longitudinal_fraction_ROI": 0.0002891477619738983,
+          "axial_flux_ROI": 0.003691209752681763,
+          "flux_relative_correction": 0.00014752082366253916,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00046887060652357196,
+            "1e-06": 0.00046887060652357196
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.0006068091819540244,
+          "T": 0.000834309576963454,
+          "longitudinal_fraction_ROI": 0.00023085478673329064,
+          "axial_flux_ROI": 0.000834416963273152,
+          "flux_relative_correction": 0.00012871278559312138,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.000253721561294904,
+            "1e-06": 0.000253721561294904
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 6,
+      "kw": 800,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.07208434242404263,
+      "retained_transverse_power_relative_input": 0.9999999993441938,
+      "retained_fullplane_S3_relative_input": 5.419719411577643e-15,
+      "fullplane_longitudinal_fraction": 7.068178353757794e-05,
+      "fullplane_flux_relative_transverse_input": 1.0000353403973217,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.00036859657211819847,
+          "T": 0.0006144981207192919,
+          "longitudinal_fraction_ROI": 0.0002950122533734076,
+          "axial_flux_ROI": 0.0006145891715644755,
+          "flux_relative_correction": 0.0001481710718287399,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.000432484737805936,
+            "1e-06": 0.000432484737805936
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.0009910807777467794,
+          "T": 0.0016614208999014917,
+          "longitudinal_fraction_ROI": 0.00029650527531672804,
+          "axial_flux_ROI": 0.001661668171769638,
+          "flux_relative_correction": 0.0001488315622857339,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00044080478167269683,
+            "1e-06": 0.00044080478167269683
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.002129840414191967,
+          "T": 0.0035895255540362467,
+          "longitudinal_fraction_ROI": 0.0002978497547478649,
+          "axial_flux_ROI": 0.003590061957937173,
+          "flux_relative_correction": 0.00014943587748605935,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0004483949941989516,
+            "1e-06": 0.0004483949941989516
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.0034871161947449456,
+          "T": 0.005904736627822092,
+          "longitudinal_fraction_ROI": 0.0002988237510770883,
+          "axial_flux_ROI": 0.005905621884502008,
+          "flux_relative_correction": 0.00014992314403072804,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00045031635107805414,
+            "1e-06": 0.00045031635107805414
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.004003594813986701,
+          "T": 0.006797538440389019,
+          "longitudinal_fraction_ROI": 0.0002987356756985742,
+          "axial_flux_ROI": 0.006798558789445844,
+          "flux_relative_correction": 0.0001501056692467806,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0004471983377597602,
+            "1e-06": 0.0004471983377597602
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.0027070468183349986,
+          "T": 0.004569805171070769,
+          "longitudinal_fraction_ROI": 0.0002943315721344084,
+          "axial_flux_ROI": 0.004570486557213849,
+          "flux_relative_correction": 0.0001491061692069362,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00041245682615934673,
+            "1e-06": 0.00041245682615934673
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.000669852305329286,
+          "T": 0.0010406928913909705,
+          "longitudinal_fraction_ROI": 0.00024839293824186235,
+          "axial_flux_ROI": 0.0010408354169703501,
+          "flux_relative_correction": 0.00013695258280188582,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0002940770518819235,
+            "1e-06": 0.0002940770518819235
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 1,
+      "kw": 1600,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.036042171212021315,
+      "retained_transverse_power_relative_input": 0.9999999995552539,
+      "retained_fullplane_S3_relative_input": 2.0321382062273788e-10,
+      "fullplane_longitudinal_fraction": 1.7668726202494763e-05,
+      "fullplane_flux_relative_transverse_input": 1.0000088339598598,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.00013875363487670156,
+          "T": 0.0001655665433969484,
+          "longitudinal_fraction_ROI": 7.415400131741625e-05,
+          "axial_flux_ROI": 0.0001655726323461855,
+          "flux_relative_correction": 3.67764471747023e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00023826770163815671,
+            "1e-06": 0.00023826770163815671
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.00039690222654082676,
+          "T": 0.00047319871868257193,
+          "longitudinal_fraction_ROI": 7.397903778493908e-05,
+          "axial_flux_ROI": 0.0004732161868979731,
+          "flux_relative_correction": 3.691517899673258e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00024064622659353846,
+            "1e-06": 0.00024064622659353846
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.0009106805351698036,
+          "T": 0.0010846089431639702,
+          "longitudinal_fraction_ROI": 7.372922006740015e-05,
+          "axial_flux_ROI": 0.0010846491009788785,
+          "flux_relative_correction": 3.702515562076236e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00024259687802987193,
+            "1e-06": 0.00024259687802987193
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.0016005803935799955,
+          "T": 0.0019035129711250118,
+          "longitudinal_fraction_ROI": 7.332438449095485e-05,
+          "axial_flux_ROI": 0.0019035835444834446,
+          "flux_relative_correction": 3.70753231018206e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00024354949102283326,
+            "1e-06": 0.00024354949102283326
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.0019912258351296058,
+          "T": 0.0023622100739436078,
+          "longitudinal_fraction_ROI": 7.252144186801732e-05,
+          "axial_flux_ROI": 0.002362297408273267,
+          "flux_relative_correction": 3.697144916214867e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00024180068323207966,
+            "1e-06": 0.00024180068323207966
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.0014886990728703079,
+          "T": 0.001754865599275062,
+          "longitudinal_fraction_ROI": 7.023001027343368e-05,
+          "axial_flux_ROI": 0.0017549292839673272,
+          "flux_relative_correction": 3.629035311392137e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0002301096903987921,
+            "1e-06": 0.0002301096903987921
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.00042557485522956,
+          "T": 0.0004829116801102725,
+          "longitudinal_fraction_ROI": 5.5423027181001476e-05,
+          "axial_flux_ROI": 0.00048292652653254695,
+          "flux_relative_correction": 3.074355598742251e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0001529161583541838,
+            "1e-06": 0.0001529161583541838
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 4,
+      "kw": 1600,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.036042171212021315,
+      "retained_transverse_power_relative_input": 0.999999999344194,
+      "retained_fullplane_S3_relative_input": -5.366535895417617e-15,
+      "fullplane_longitudinal_fraction": 1.7668726206520148e-05,
+      "fullplane_flux_relative_transverse_input": 1.0000088336898867,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.0002747275120765172,
+          "T": 0.00041786718496033355,
+          "longitudinal_fraction_ROI": 7.379240371240785e-05,
+          "axial_flux_ROI": 0.000417882613435679,
+          "flux_relative_correction": 3.692195965787626e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00012280760364202277,
+            "1e-06": 0.00012280760364202277
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.0007663704333892103,
+          "T": 0.001167779175262802,
+          "longitudinal_fraction_ROI": 7.398377483194916e-05,
+          "axial_flux_ROI": 0.0011678224749584016,
+          "flux_relative_correction": 3.707866736868404e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0001248389810162393,
+            "1e-06": 0.0001248389810162393
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.0017148048631914592,
+          "T": 0.0026168282541719854,
+          "longitudinal_fraction_ROI": 7.412422200276632e-05,
+          "axial_flux_ROI": 0.0026169256439941935,
+          "flux_relative_correction": 3.721674208190251e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00012666457712748986,
+            "1e-06": 0.00012666457712748986
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.0029393344277504996,
+          "T": 0.004488677923289179,
+          "longitudinal_fraction_ROI": 7.415313288845592e-05,
+          "axial_flux_ROI": 0.004488845423504799,
+          "flux_relative_correction": 3.73161582278847e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0001278771673370816,
+            "1e-06": 0.0001278771673370816
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.003567252530685168,
+          "T": 0.00544041524230514,
+          "longitudinal_fraction_ROI": 7.388626836273055e-05,
+          "axial_flux_ROI": 0.005440618257843708,
+          "flux_relative_correction": 3.7316184431812616e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00012591343728511294,
+            "1e-06": 0.00012591343728511294
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.0026044943830104087,
+          "T": 0.003936549224770533,
+          "longitudinal_fraction_ROI": 7.249187731462048e-05,
+          "axial_flux_ROI": 0.003936694652616707,
+          "flux_relative_correction": 3.694297667089508e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00011863719215220395,
+            "1e-06": 0.00011863719215220395
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.0007323528014550956,
+          "T": 0.0010289892151008249,
+          "longitudinal_fraction_ROI": 6.122671539604176e-05,
+          "axial_flux_ROI": 0.0010290235011019223,
+          "flux_relative_correction": 3.332007818390714e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 7.214114284340059e-05,
+            "1e-06": 7.214114284340059e-05
+          }
+        }
+      ]
+    },
+    {
+      "R0": 192,
+      "eta": 0.2,
+      "m": 6,
+      "kw": 1600,
+      "spectral_umax": 57.6674739392341,
+      "max_retained_sin_theta": 0.036042171212021315,
+      "retained_transverse_power_relative_input": 0.9999999993441938,
+      "retained_fullplane_S3_relative_input": 5.419719411577643e-15,
+      "fullplane_longitudinal_fraction": 1.7668726208203216e-05,
+      "fullplane_flux_relative_transverse_input": 1.0000088336113362,
+      "planes": [
+        {
+          "tau": -1.0,
+          "Q": 0.00033581985446340455,
+          "T": 0.0005589830510411043,
+          "longitudinal_fraction_ROI": 7.364267333987009e-05,
+          "axial_flux_ROI": 0.0005590037367938564,
+          "flux_relative_correction": 3.7006046450960284e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.0001078684493736041,
+            "1e-06": 0.0001078684493736041
+          }
+        },
+        {
+          "tau": -0.5,
+          "Q": 0.0009184990794932809,
+          "T": 0.001537309695387853,
+          "longitudinal_fraction_ROI": 7.401660293500831e-05,
+          "axial_flux_ROI": 0.001537366839908591,
+          "flux_relative_correction": 3.7171768908716984e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00010995009491475065,
+            "1e-06": 0.00010995009491475065
+          }
+        },
+        {
+          "tau": 0.0,
+          "Q": 0.002014750218594592,
+          "T": 0.0033901826165444364,
+          "longitudinal_fraction_ROI": 7.435645503323901e-05,
+          "axial_flux_ROI": 0.003390309152655178,
+          "flux_relative_correction": 3.7324275726113854e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00011187192942958259,
+            "1e-06": 0.00011187192942958259
+          }
+        },
+        {
+          "tau": 0.5,
+          "Q": 0.003385315322091282,
+          "T": 0.0057236654752428045,
+          "longitudinal_fraction_ROI": 7.461173735061657e-05,
+          "axial_flux_ROI": 0.005723879824559284,
+          "flux_relative_correction": 3.744965833640812e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00011243796087296371,
+            "1e-06": 0.00011243796087296371
+          }
+        },
+        {
+          "tau": 1.0,
+          "Q": 0.004028455595285995,
+          "T": 0.006831407065214583,
+          "longitudinal_fraction_ROI": 7.462914960726823e-05,
+          "axial_flux_ROI": 0.00683166328501873,
+          "flux_relative_correction": 3.750615381292732e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00011195370190142323,
+            "1e-06": 0.00011195370190142323
+          }
+        },
+        {
+          "tau": 1.5,
+          "Q": 0.0028882006929432115,
+          "T": 0.004877191858118698,
+          "longitudinal_fraction_ROI": 7.372171094898566e-05,
+          "axial_flux_ROI": 0.004877373815828147,
+          "flux_relative_correction": 3.7307884279025316e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 0.00010457385643716178,
+            "1e-06": 0.00010457385643716178
+          }
+        },
+        {
+          "tau": 2.0,
+          "Q": 0.0008065365543394697,
+          "T": 0.0012778027278286962,
+          "longitudinal_fraction_ROI": 6.486851228681355e-05,
+          "axial_flux_ROI": 0.00127784740826461,
+          "flux_relative_correction": 3.496661490909325e-05,
+          "max_bright_local_longitudinal_fraction": {
+            "1e-09": 7.216136218992284e-05,
+            "1e-06": 7.216136218992284e-05
+          }
+        }
+      ]
+    }
+  ],
+  "seconds": 230.856006875
+}

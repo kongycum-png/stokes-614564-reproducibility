@@ -1,0 +1,44 @@
+{
+  "R0": [
+    16,
+    24,
+    56,
+    96,
+    192
+  ],
+  "eta": [
+    0.2,
+    0.35,
+    0.7
+  ],
+  "m": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "tau": [
+    -3,
+    5,
+    0.025
+  ],
+  "ny": 601,
+  "xmax_at_zc": 16,
+  "forward_nlog": 262144,
+  "inverse_du": 0.0025,
+  "spectral_umax_rule": "sqrt(24/alpha)",
+  "models": [
+    "fresnel",
+    "exact_kz"
+  ],
+  "threads": 1,
+  "status": "requires_independent_grid_convergence",
+  "code_hashes": {
+    "run_model_comparison.py": "e3ca1b3bea7f64f28e72cba6c047e404621ce0a17289a976175b8e92e9309c67",
+    "spectral_solver.py": "d2250672d98b7fc0df914e7d9fed14d9f8b9dcb40ce759ccd4c77bac9c75a13a",
+    "spectral_quadrature.py": "704f9fd55f9df364a24e8ba8d297e9cddb1b8b1abcc344fa6fbfb92d268d76d6",
+    "observables.py": "992217ac4872fc08f4ae1d4ec4cb9b02687167345b2f01ad1704cce9f26752e3"
+  }
+}

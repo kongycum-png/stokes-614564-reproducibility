@@ -1,0 +1,78 @@
+{
+  "completed": 18,
+  "planned": 18,
+  "jobs": [
+    {
+      "tag": "source_R24_eta0.7_cutplus2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "source_R24_eta0.7_cutplus4",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "source_R192_eta0.2_cutplus2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "source_R192_eta0.2_cutplus4",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "source_R256_eta0.9_cutplus2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "source_R256_eta0.9_cutplus4",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "source_R256_eta1_cutplus2",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "source_R256_eta1_cutplus4",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R192_eta0.2_nlog2M",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R192_eta0.2_nlog8M",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R192_eta0.2_du000625",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R192_eta0.2_du00015625",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R192_eta0.2_ny201",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R192_eta0.2_ny801",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R24_eta0.7_ny201",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R24_eta0.7_ny801",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R256_eta0.9_nlog8M",
+      "status": "RUN_COMPLETED"
+    },
+    {
+      "tag": "spectral_R256_eta0.9_dt00125",
+      "status": "RUN_COMPLETED"
+    }
+  ]
+}

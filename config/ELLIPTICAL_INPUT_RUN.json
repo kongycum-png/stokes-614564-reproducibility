@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-09-18T10:58:58.561857+00:00",
+  "R0": 24,
+  "eta": 0.7,
+  "m": [
+    1,
+    4
+  ],
+  "q": [
+    0,
+    2,
+    3,
+    5
+  ],
+  "elliptic_log_axis_ratio": [
+    0.005,
+    0.01
+  ],
+  "coordinate_map": "sprime=s sqrt(cos(phi)^2/a^2+a^2 sin(phi)^2); a=exp(e/2); phase q atan2(a sin(phi),cos(phi)/a)",
+  "families": [
+    "plus_channel_only",
+    "common_ellipticity",
+    "opposite_axis_ellipticity"
+  ],
+  "model": "paraxial Fresnel, compared to matched circular-input Fresnel fields",
+  "tau": [
+    -3,
+    5,
+    0.025
+  ],
+  "ny": 401,
+  "xmax_at_zc": 12,
+  "ds": 0.025,
+  "source_cutoff": 24,
+  "angular_samples": 256,
+  "mode_offset_levels": [
+    16,
+    24,
+    32
+  ],
+  "criterion": "report input modal power outside retained offsets and event changes; do not drop parameter cases",
+  "aperture": "nominal circular proxy, not a distorted actual zero contour"
+}

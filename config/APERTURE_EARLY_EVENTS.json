@@ -1,0 +1,28 @@
+{
+  "R0": 24,
+  "eta": 0.7,
+  "source_aperture_r0": 3,
+  "levels": [
+    [
+      0.025,
+      601,
+      0.025
+    ],
+    [
+      0.0125,
+      601,
+      0.0125
+    ],
+    [
+      0.0125,
+      1201,
+      0.00625
+    ]
+  ],
+  "tau_window": [
+    -8,
+    -4
+  ],
+  "purpose": "check tiny early stationary maxima, without discarding or changing the event definition",
+  "code_sha256": "34e5389319a7359bc5d840fda821d012ac5e4c1a0a4095c9072d9a14a8bf9b9a"
+}

@@ -1,0 +1,16 @@
+{
+  "peak_status": {
+    "defined": 315,
+    "no_peak_in_valid_interval": 9
+  },
+  "half_status": {
+    "defined": 309,
+    "no_valid_rising_crossing": 6,
+    "no_selected_peak": 9
+  },
+  "paired_advance_status": {
+    "defined": 304,
+    "missing_order_half": 15,
+    "missing_reference_half": 5
+  }
+}

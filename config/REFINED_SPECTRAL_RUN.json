@@ -1,0 +1,99 @@
+{
+  "type": "numerical refinement following observed aliasing and exact-logstep bug fix",
+  "grid": [
+    [
+      16,
+      0.2
+    ],
+    [
+      16,
+      0.35
+    ],
+    [
+      16,
+      0.7
+    ],
+    [
+      24,
+      0.2
+    ],
+    [
+      24,
+      0.35
+    ],
+    [
+      24,
+      0.7
+    ],
+    [
+      56,
+      0.2
+    ],
+    [
+      56,
+      0.35
+    ],
+    [
+      56,
+      0.7
+    ],
+    [
+      96,
+      0.2
+    ],
+    [
+      96,
+      0.35
+    ],
+    [
+      96,
+      0.7
+    ],
+    [
+      192,
+      0.2
+    ],
+    [
+      192,
+      0.35
+    ],
+    [
+      192,
+      0.7
+    ]
+  ],
+  "extra_cases": [
+    [
+      256,
+      0.9
+    ],
+    [
+      256,
+      1.0
+    ]
+  ],
+  "nlog_rule": "2097152 for R<192;4194304 for R>=192",
+  "du_rule": ".00125 for R<=24;.000625 for R<=96;.0003125 for R>=192",
+  "radial_grid": [
+    401,
+    16
+  ],
+  "tau": [
+    -3,
+    5,
+    0.025
+  ],
+  "model_names": [
+    "fresnel",
+    "exact_kz"
+  ],
+  "reference": "unexpanded scalar RS at three shared planes and four radii; separate event grid convergence retained",
+  "timestamp": "2026-09-18T05:47:41.515120+00:00",
+  "memory_bounded_phase_columns": 48,
+  "code_hashes": {
+    "run_refined_spectrum.py": "a5d359f55a90ea1ea024291e5cbd583637a0a51772921fb1c9a9b1cdaef99800",
+    "refined_spectral_grid.py": "6cab9a8b04b6b050da093ceba906df8a02123ede0a1625cee07c62e86a6c0bac",
+    "spectral_solver.py": "392cd1cd7393ea5d565fe1d7e09d7cbd09871d0ebc8cecc3aeed48ac59b59168",
+    "unexpanded_rs.py": "712ca937cd658e9af7ebd566e716e5ec54ba674e8827ee384ad30fe426dc1818"
+  }
+}

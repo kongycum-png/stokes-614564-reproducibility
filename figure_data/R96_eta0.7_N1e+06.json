@@ -1,0 +1,112 @@
+{
+  "tag": "R96_eta0.7_N1e+06",
+  "config": {
+    "Nincident": 1000000.0,
+    "dz_mm": 0.1,
+    "pixel_pitch_mm": 0.001,
+    "blur_sigma_mm": 0.001,
+    "read_noise_e_per_pixel": 1.0,
+    "background_e_per_pixel": 0.1,
+    "gain_sd": 0.001,
+    "gain_cross_order_correlation": 0.8,
+    "background_calibration_sd_e_per_pixel": 0.001,
+    "background_cross_channel_correlation": 0.5,
+    "polarimetric_cross_talk_mean": 0.002,
+    "polarimetric_cross_talk_asymmetry_sd": 0.0002,
+    "common_axial_offset_sd_mm": 0.02,
+    "order_axial_offset_sd_mm": 0.01,
+    "smooth_scan_drift_sd_mm": 0.01,
+    "monitor_reference_count_multiplier": 100
+  },
+  "Lc_mm": 6.485713426861514,
+  "orders": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "ideal_half_tau": [
+    0.1495800990916436,
+    0.1264528337148335,
+    0.10110620954829663,
+    0.07407227623662549
+  ],
+  "detector_half_tau": [
+    0.14906219498816053,
+    0.12791014877810117,
+    0.10097786249235234,
+    0.07439847853265219
+  ],
+  "detector_peak_tau": [
+    1.193528124572288,
+    1.1764549616872795,
+    1.1573640089718444,
+    1.1373415865535825
+  ],
+  "noiseless_estimators": {
+    "known_peak_location_assisted": {
+      "half_tau": [
+        0.1490484837026652,
+        0.12788587575517266,
+        0.10095945859508361,
+        0.07438632040366623
+      ],
+      "peak_tau": [
+        1.193517709625866,
+        1.176445269303408,
+        1.1573537115636499,
+        1.1327076172294825
+      ],
+      "selected_index": [
+        175.0,
+        174.0,
+        172.0,
+        171.0
+      ]
+    },
+    "current_blind": {
+      "half_tau": [
+        0.1490484837026652,
+        0.12788587575517266,
+        0.10095945859508361,
+        0.07438632040366623
+      ],
+      "peak_tau": [
+        1.193517709625866,
+        1.176445269303408,
+        1.1573537115636499,
+        1.1327076172294825
+      ],
+      "selected_index": [
+        175.0,
+        174.0,
+        172.0,
+        171.0
+      ]
+    },
+    "wide_blind": {
+      "half_tau": [
+        0.14805182250920498,
+        0.12719733351089293,
+        0.10025824398543912,
+        0.07374420371956347
+      ],
+      "peak_tau": [
+        1.1929569369499542,
+        1.176561791973312,
+        1.1526181940433038,
+        1.1312741439471794
+      ],
+      "selected_index": [
+        175.0,
+        174.0,
+        172.0,
+        171.0
+      ]
+    }
+  },
+  "calibration_seed": 614564960,
+  "validation_seed": 614564961,
+  "calibration_replicates": 1000,
+  "validation_replicates": 3000
+}

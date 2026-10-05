@@ -1,0 +1,20 @@
+{
+  "beam_cases": 600,
+  "boundary_records": 10200,
+  "run_failures": 0,
+  "proxy_halfheight_undefined": [],
+  "Q_equals_Tpbar_max_absolute": 1.3877787807814457e-17,
+  "scientific_status": "PROPAGATION_AND_POSTPROCESSING_COMPLETE_VALIDATION_IN_PROGRESS"
+}
+{'m': 2, 'boundary': 'scaled_0.9', 'advance_0.5': 0.09082324475945346, 'boundary_change_relative': 0.02090439798811816, 'event_status': 'defined'}
+{'m': 2, 'boundary': 'scaled_1', 'advance_0.5': 0.08896351601426886, 'boundary_change_relative': 0.0, 'event_status': 'defined'}
+{'m': 2, 'boundary': 'scaled_1.1', 'advance_0.5': 0.08345752454178479, 'boundary_change_relative': -0.06189044362411397, 'event_status': 'defined'}
+{'m': 2, 'boundary': 'actual_root', 'advance_0.5': 0.08429347379129881, 'boundary_change_relative': -0.05249390348084957, 'event_status': 'defined'}
+{'m': 3, 'boundary': 'scaled_0.9', 'advance_0.5': 0.18232276634562428, 'boundary_change_relative': -0.02269528522941202, 'event_status': 'defined'}
+{'m': 3, 'boundary': 'scaled_1', 'advance_0.5': 0.18655672441774993, 'boundary_change_relative': 0.0, 'event_status': 'defined'}
+{'m': 3, 'boundary': 'scaled_1.1', 'advance_0.5': 0.18377225479027104, 'boundary_change_relative': -0.014925592396464472, 'event_status': 'defined'}
+{'m': 3, 'boundary': 'actual_root', 'advance_0.5': 0.18516793872589798, 'boundary_change_relative': -0.007444307870361624, 'event_status': 'defined'}
+{'m': 4, 'boundary': 'scaled_0.9', 'advance_0.5': 0.2736875948487648, 'boundary_change_relative': -0.06261550214176236, 'event_status': 'defined'}
+{'m': 4, 'boundary': 'scaled_1', 'advance_0.5': 0.2919694058031618, 'boundary_change_relative': 0.0, 'event_status': 'defined'}
+{'m': 4, 'boundary': 'scaled_1.1', 'advance_0.5': 0.3013373189064108, 'boundary_change_relative': 0.0320852559105615, 'event_status': 'defined'}
+{'m': 4, 'boundary': 'actual_root', 'advance_0.5': 0.30217516227564756, 'boundary_change_relative': 0.034954883181720214, 'event_status': 'defined'}

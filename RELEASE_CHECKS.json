@@ -1,0 +1,14 @@
+{
+  "coefficient_check": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONPATH=code python3 code/generate_event_coefficients.py --m 4 --eta 0.7 --observable Q --gamma 0.5 --points 25 --nx 1201 --output Q_m4_eta07.json",
+    "exit_code": 0,
+    "A": 7.917783909019499,
+    "B": -8.326993280745617,
+    "C": 15.710314824712102,
+    "reads_propagation_fit_data": false
+  },
+  "appendix_pages": 29,
+  "new_propagation_runs": 0,
+  "code_license": "MIT",
+  "data_figure_license": "CC-BY-4.0"
+}

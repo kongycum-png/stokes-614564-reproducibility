@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-09-18T12:07:54.980804+00:00",
+  "reason": "distinguish finite observation extent, first-root branch changes and event disappearance",
+  "change_type": "explicit observation-domain extension; previous window results preserved",
+  "cases": [
+    [
+      24,
+      0.35
+    ],
+    [
+      24,
+      0.7
+    ],
+    [
+      24,
+      0.9
+    ],
+    [
+      96,
+      0.85
+    ],
+    [
+      96,
+      0.9
+    ],
+    [
+      96,
+      0.925
+    ],
+    [
+      96,
+      0.95
+    ],
+    [
+      256,
+      1.0
+    ]
+  ],
+  "m": [
+    1,
+    4,
+    6
+  ],
+  "tau": [
+    -8,
+    12,
+    0.025
+  ],
+  "y": [
+    0,
+    32,
+    1201
+  ],
+  "source_ds": 0.025,
+  "cutoff": "ceil(16+alpha R)",
+  "root": "desingularized Uq/x^q; no signal floor; all candidates retained",
+  "branch_jump_diagnostic": 0.3,
+  "claimed_scope": "finite search windows only; no global absence inferred"
+}

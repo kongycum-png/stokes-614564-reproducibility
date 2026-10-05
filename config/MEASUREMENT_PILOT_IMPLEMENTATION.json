@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-18T05:42:30.220293+00:00",
+  "covariance_conventions": {
+    "gain": "common fraction rho=.8 plus independent per-order constant; no axial dependence",
+    "background": "two correlated per-channel calibration offsets shared by all orders and planes",
+    "polarimetric_asymmetry": "one shared per-scan channel mixing asymmetry; a=c+delta/2,b=c-delta/2",
+    "z": "common offset shared by orders; independent order offsets; independent order linear drift with stated RMS amplitude at scan endpoints",
+    "monitor": "independent Poisson per plane, shared across orders",
+    "CI": "simulation-known mean covariance (oracle linearization), not a claimed deployable calibration estimate"
+  },
+  "frozen_before_count_draws": true,
+  "pilot": true,
+  "code_hashes": {
+    "measurement_detector.py": "5503b4a114d6ed9765ecf2784b3351bde7b8bec81524a69635b8fad05ed1cdb7",
+    "measurement_estimator.py": "5621852b4f11bc4d25dfe8dde8e1da210d669d54a81e78a296fea9a2c70f6882",
+    "run_measurement.py": "17a68ff0678e55e5052afe3219a1d5a59ee04ba7ff6ef04d03a5803585fa181e"
+  }
+}

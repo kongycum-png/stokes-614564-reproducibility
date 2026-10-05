@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "payload_files": 274,
+  "manifest_lines": 275,
+  "package_files_total": 276,
+  "tracker_comments_closed": 18,
+  "evidence_entries": 38,
+  "key_artifact_copy_hashes": "PASS",
+  "author_review_mirrors": "PASS",
+  "archive_crc": "PASS",
+  "archive_bytes": 10358127,
+  "archive_sha256": "084a9a2674866a4c356fb37ab3e80fe188df88c291eddf7935be62650c8df1e3"
+}

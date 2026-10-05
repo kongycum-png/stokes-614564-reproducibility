@@ -1,0 +1,8 @@
+{
+  "m0_P1_max_abs_S3": 0.0,
+  "P0_same_q_max_abs_S3": 0.0,
+  "swapped_channel_sign_max_residual": 0.0,
+  "uniform_phase_max_relative_S3_difference": 6.558740893222082e-16,
+  "degenerate_event_status": "degenerate_or_ill_conditioned_event",
+  "note": "m=0 and P=0 compare equal-magnitude orders; they do not have a positive local-domain event"
+}

@@ -1,0 +1,6 @@
+{'R0': 24, 'eta': 0.7, 'level': 'base', 'relative_L2_to_base': 0.0, 'seconds': 0.200528792, 'max_angular_samples': 128, 'source_n': 12159}
+{'R0': 24, 'eta': 0.7, 'level': 'source_fine', 'relative_L2_to_base': 3.2393955067856404e-13, 'seconds': 0.395311958, 'max_angular_samples': 128, 'source_n': 24317}
+{'R0': 24, 'eta': 0.7, 'level': 'angular_double', 'relative_L2_to_base': 3.7284717429204437e-16, 'seconds': 0.3754290840000001, 'max_angular_samples': 256, 'source_n': 12159}
+{'R0': 192, 'eta': 0.2, 'level': 'base', 'relative_L2_to_base': 0.0, 'seconds': 2.523106208, 'max_angular_samples': 256, 'source_n': 118533}
+{'R0': 192, 'eta': 0.2, 'level': 'source_fine', 'relative_L2_to_base': 2.0997105715500837e-07, 'seconds': 5.029207958000001, 'max_angular_samples': 256, 'source_n': 237065}
+{'R0': 192, 'eta': 0.2, 'level': 'angular_double', 'relative_L2_to_base': 4.358746185576612e-15, 'seconds': 4.835569625, 'max_angular_samples': 512, 'source_n': 118533}

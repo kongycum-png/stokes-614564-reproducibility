@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-09-18T11:05:52.053059+00:00",
+  "cases": [
+    [
+      24,
+      0.7
+    ],
+    [
+      96,
+      0.7
+    ],
+    [
+      256,
+      0.7
+    ]
+  ],
+  "q": [
+    0,
+    2,
+    3,
+    5
+  ],
+  "m": [
+    1,
+    4
+  ],
+  "source_axis_partition": "zero below R-10; raised cosine to one at R-8; omitted core remains in remainder",
+  "spectral_partition": "zero below ua=sqrtR/divisor; raised cosine to one at 2ua",
+  "divisors": [
+    6,
+    4,
+    3
+  ],
+  "Debye_terms": [
+    8,
+    12
+  ],
+  "source_ds": 0.0125,
+  "source_cut": "ceil(22+alpha R)",
+  "inverse_du": 0.0003125,
+  "tau": [
+    -3,
+    5,
+    0.025
+  ],
+  "ny": 301,
+  "xmax_at_zc": 12,
+  "interpretation": "partition-dependent components; no globally uniform individual Hankel branch at endpoint; compare coherent sums",
+  "CZT_method": "ZoomFFT on a uniform source grid, conjugated for positive Fourier sign"
+}

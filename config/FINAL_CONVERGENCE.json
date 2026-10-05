@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-09-18T10:29:45.268992+00:00",
+  "source_tail_cases": [
+    [
+      24,
+      0.7
+    ],
+    [
+      192,
+      0.2
+    ],
+    [
+      256,
+      0.9
+    ],
+    [
+      256,
+      1.0
+    ]
+  ],
+  "extra_cutoffs": [
+    2,
+    4
+  ],
+  "tail_ds": 0.0125,
+  "spectral_tasks": [
+    [
+      192,
+      0.2,
+      "nlog2M",
+      2097152,
+      0.0003125,
+      401,
+      0.025
+    ],
+    [
+      192,
+      0.2,
+      "nlog8M",
+      8388608,
+      0.0003125,
+      401,
+      0.025
+    ],
+    [
+      192,
+      0.2,
+      "du000625",
+      4194304,
+      0.000625,
+      401,
+      0.025
+    ],
+    [
+      192,
+      0.2,
+      "du00015625",
+      4194304,
+      0.00015625,
+      401,
+      0.025
+    ],
+    [
+      192,
+      0.2,
+      "ny201",
+      4194304,
+      0.0003125,
+      201,
+      0.025
+    ],
+    [
+      192,
+      0.2,
+      "ny801",
+      4194304,
+      0.0003125,
+      801,
+      0.025
+    ],
+    [
+      24,
+      0.7,
+      "ny201",
+      2097152,
+      0.00125,
+      201,
+      0.025
+    ],
+    [
+      24,
+      0.7,
+      "ny801",
+      2097152,
+      0.00125,
+      801,
+      0.025
+    ],
+    [
+      256,
+      0.9,
+      "nlog8M",
+      8388608,
+      0.0003125,
+      401,
+      0.025
+    ],
+    [
+      256,
+      0.9,
+      "dt00125",
+      4194304,
+      0.0003125,
+      401,
+      0.0125
+    ]
+  ],
+  "comparison": "corresponding production refined spectral grid; all changes isolated",
+  "event_absolute_target": 1e-06,
+  "small_difference_target": "report actual differences against the order effect and higher-order residual; no fixed uniform bound claimed",
+  "code_hashes": {
+    "final_convergence.py": "8301653a24eb31b2be66b3cc309d9f7699eee93a42231c3fe572fd07fc5048e1",
+    "refined_spectral_grid.py": "6cab9a8b04b6b050da093ceba906df8a02123ede0a1625cee07c62e86a6c0bac",
+    "spectral_solver.py": "392cd1cd7393ea5d565fe1d7e09d7cbd09871d0ebc8cecc3aeed48ac59b59168",
+    "revision_solver.py": "b1f950d90933276b556b16af20df7eccb061a160581ec408f3e5c43ae96f7f16"
+  }
+}

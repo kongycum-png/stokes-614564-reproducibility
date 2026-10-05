@@ -1,0 +1,185 @@
+representative fields 1/301
+representative fields 26/301
+representative fields 51/301
+representative fields 76/301
+representative fields 101/301
+representative fields 126/301
+representative fields 151/301
+representative fields 176/301
+representative fields 201/301
+representative fields 226/301
+representative fields 251/301
+representative fields 276/301
+representative fields 301/301
+events R0=24, eta=0.35
+events R0=32, eta=0.35
+<original-local-root>/Documents/光学模拟/project/src/uniform_airy_hankel.py:357: IntegrationWarning: The maximum number of subdivisions (1200) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  value, _ = quad(
+events R0=40, eta=0.35
+events R0=56, eta=0.35
+events R0=72, eta=0.35
+events R0=96, eta=0.35
+events R0=24, eta=0.70
+events R0=32, eta=0.70
+events R0=40, eta=0.70
+events R0=56, eta=0.70
+events R0=72, eta=0.70
+events R0=96, eta=0.70
+{
+  "scientific_question": "topological-order advance of the first local transverse Stokes domain",
+  "boundary_definition": "rho_s^(0)=2*k*w^3*jprime(m,1)/z",
+  "asymptotic_law": "Delta_tau50=K_eta*(D_1-D_m)/R0+O(R0^-3/2)",
+  "parameters": {
+    "m": [
+      1,
+      2,
+      3
+    ],
+    "eta": [
+      0.35,
+      0.7
+    ],
+    "R0": [
+      24.0,
+      32.0,
+      40.0,
+      56.0,
+      72.0,
+      96.0
+    ],
+    "representative": {
+      "R0": 24.0,
+      "eta": 0.7,
+      "m": 3
+    }
+  },
+  "topology": {
+    "channel_orders": "q_plus=m-1, q_minus=m+1",
+    "mean_channel_order": "(q_plus+q_minus)/2=m",
+    "half_channel_order_difference": "(q_minus-q_plus)/2=1",
+    "all_identities_pass": true
+  },
+  "resolutions": [
+    {
+      "name": "production",
+      "n_x": 301,
+      "source_ds": 0.055
+    },
+    {
+      "name": "refined",
+      "n_x": 451,
+      "source_ds": 0.04
+    }
+  ],
+  "illustrative_mapping_file": "illustrative_physical_mapping.json",
+  "D_m": {
+    "1": -1.6399577166718888,
+    "2": -4.578363213746359,
+    "3": -7.899988519749641
+  },
+  "K_eta": [
+    {
+      "eta": 0.35,
+      "tau_peak_0": 1.0810386470278983,
+      "tau_half_0": 0.13476066834955955,
+      "f_peak": 0.3254366009167959,
+      "f_prime_half": 0.21833961527478388,
+      "K_eta": 0.705216706816879
+    },
+    {
+      "eta": 0.7,
+      "tau_peak_0": 1.3045606700433814,
+      "tau_half_0": 0.27658470304579996,
+      "f_peak": 0.4828579599949892,
+      "f_prime_half": 0.3098899420770408,
+      "K_eta": 0.8008752640073236
+    }
+  ],
+  "maxima": {
+    "advance_grid_change": 4.142026850187386e-07,
+    "event_grid_change": 3.708301782590073e-07,
+    "N4_event_error": 0.0016390884411491002,
+    "N4_error_floor": 3.7155587440801385e-07,
+    "source_power_relative_error": 2.931886739358816e-08
+  },
+  "gates": {
+    "all_events_resolved": true,
+    "all_advance_grid_changes_below_0p0005": true,
+    "R0_24_N4_error_below_0p002": true,
+    "R0_24_error_floor_below_0p0005": true,
+    "all_source_power_errors_below_1e_6": true
+  },
+  "decision_pass": true,
+  "limitations": [
+    "S3 is the transverse Stokes numerator, not the full dual-symmetric E/H spin density.",
+    "The reduced Rayleigh-Sommerfeld radial quadrature is the primary numerical reference.",
+    "All current main-scan advances exceed three times their grid-refinement uncertainty; the uncertainty-limited rule remains part of the plotting protocol."
+  ]
+}
+{
+  "status": "complete",
+  "representative_case": {
+    "R0": 24.0,
+    "eta": 0.7,
+    "m": 3,
+    "q_plus": 2,
+    "q_minus": 4
+  },
+  "figure1_intensity_ridge": {
+    "resolved_samples": 269,
+    "tau_min": -0.9566666666666667,
+    "tau_max": 1.5,
+    "definition": "first resolved local S0 maximum in 2<=x<=5.5",
+    "interpolation": false,
+    "smoothing": false
+  },
+  "figure1_transverse": {
+    "tau": 0.9247639244247845,
+    "z_mm": 634.6239965813432,
+    "boundary_theory_mm": 0.06730837077034084,
+    "boundary_RS_mm": 0.07363244802001935,
+    "cartesian_samples_per_axis": 241,
+    "distinct_cartesian_radii_evaluated": 5251,
+    "radial_boundary_samples": 901
+  },
+  "figure2_integrand": {
+    "tau": -0.18898316388096117,
+    "z_mm": 620.1771076918383,
+    "boundary_theory_mm": 0.06887630441670158,
+    "boundary_RS_mm": 0.07466569379449751,
+    "negative_region_sampled": true,
+    "rho_max_over_boundary": 1.55
+  },
+  "figure4_truncation": {
+    "tau": 0.9247639244247845,
+    "z_mm": 634.6239965813432,
+    "boundary_x": 4.201188941210528,
+    "relative_L2_error_dQdrho_against_RS": {
+      "N0": 1.1735936562221876,
+      "N1": 1.1703037412289385,
+      "N2": 0.41599963157285086,
+      "N4": 0.1292326930655365
+    }
+  },
+  "data_treatment": {
+    "interpolation": false,
+    "smoothing": false,
+    "image_rotation": false,
+    "artificial_field_construction": false
+  }
+}
+Figures written to <original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/baseline/recomputed/figures
+{
+  "beam_cases": 36,
+  "comparison_rows": 432,
+  "seconds": 286.60008975,
+  "maxrss_bytes_macos": 825999360,
+  "max_abs_tau50_difference": 0.0,
+  "max_abs_peak_difference": 0.0,
+  "scope": "author_program_reproduction; independent_validation_pending"
+}

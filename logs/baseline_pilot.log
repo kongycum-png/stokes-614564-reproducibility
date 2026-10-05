@@ -1,0 +1,71 @@
+Recomputing original Eq.7; R0=24 eta=.70; one process
+{
+  "status": "RUN_COMPLETED",
+  "scope": "REPRODUCTION_NOT_INDEPENDENT_VALIDATION",
+  "R0": 24.0,
+  "eta": 0.7,
+  "comparison": {
+    "1": {
+      "actual": {
+        "tau_peak": 1.0638727486903947,
+        "tau_50": -0.0024250872880593392,
+        "q_peak": 0.010569835442352854
+      },
+      "archived": {
+        "tau_peak": 1.0638727471096783,
+        "tau_50": -0.00242508728805516,
+        "q_peak": 0.010569835442352857
+      },
+      "difference": {
+        "tau_peak": 1.5807164466252743e-09,
+        "tau_50": -4.1793825344971225e-15,
+        "q_peak": -3.469446951953614e-18
+      }
+    },
+    "2": {
+      "actual": {
+        "tau_peak": 0.9958085099945706,
+        "tau_50": -0.09138672337786279,
+        "q_peak": 0.013085359135121731
+      },
+      "archived": {
+        "tau_peak": 0.9958085315760513,
+        "tau_50": -0.0913867233778622,
+        "q_peak": 0.013085359135121736
+      },
+      "difference": {
+        "tau_peak": -2.158148071362831e-08,
+        "tau_50": -5.828670879282072e-16,
+        "q_peak": -5.204170427930421e-18
+      }
+    },
+    "3": {
+      "actual": {
+        "tau_peak": 0.924763851577869,
+        "tau_50": -0.18898316280643926,
+        "q_peak": 0.013785885408819148
+      },
+      "archived": {
+        "tau_peak": 0.9247638722707504,
+        "tau_50": -0.18898316280643862,
+        "q_peak": 0.013785885408819152
+      },
+      "difference": {
+        "tau_peak": -2.069288140837955e-08,
+        "tau_50": -6.38378239159465e-16,
+        "q_peak": -3.469446951953614e-18
+      }
+    }
+  },
+  "seconds": 1.9782640419999997,
+  "maxrss_bytes_macos": 174145536,
+  "field_evaluations": 50,
+  "source_diagnostics": {
+    "source_r_max_mm": 11.997900656022216,
+    "source_n_r": 2729,
+    "source_endpoint_amplitude_ratio": 3.287911038104363e-05,
+    "source_power_relative_error": 1.1321595211307624e-08
+  },
+  "python": "3.9.6",
+  "code_sha256": "374163b0d8e3d5d0f9d59fcaf94462002c389c1f672ff5908f00ae50cdef496e"
+}

@@ -1,0 +1,145 @@
+{
+  "R0": 256,
+  "eta": 1.0,
+  "q0_axis_max_absolute_check": 1.5515838457795457e-17,
+  "m": {
+    "1": {
+      "new_event": {
+        "status": "no_peak_in_valid_interval",
+        "tau_peak": null,
+        "thresholds": {},
+        "fwhm": null,
+        "centroid": null,
+        "full_search_window": [
+          -3.0,
+          5.0
+        ],
+        "valid_segments": [
+          {
+            "start": -3.0,
+            "end": 5.0,
+            "status": "no_peak_in_valid_interval"
+          }
+        ],
+        "missing_plane_count": 0,
+        "root_jumps": 0
+      },
+      "old_event": {
+        "status": "no_peak_in_valid_interval",
+        "tau_peak": null,
+        "thresholds": {},
+        "fwhm": null,
+        "centroid": null,
+        "full_search_window": [
+          -3.0,
+          5.0
+        ],
+        "valid_segments": [
+          {
+            "start": -3.0,
+            "end": 5.0,
+            "status": "no_peak_in_valid_interval"
+          }
+        ],
+        "missing_plane_count": 0,
+        "root_jumps": 0
+      },
+      "new_missing_planes": 0,
+      "old_missing_planes": 0,
+      "root_below_original_sampling_cell_count": 0,
+      "root_min": 1.891464596396521
+    },
+    "4": {
+      "new_event": {
+        "status": "no_peak_in_valid_interval",
+        "tau_peak": null,
+        "thresholds": {},
+        "fwhm": null,
+        "centroid": null,
+        "full_search_window": [
+          -3.0,
+          5.0
+        ],
+        "valid_segments": [
+          {
+            "start": -3.0,
+            "end": 5.0,
+            "status": "no_peak_in_valid_interval"
+          }
+        ],
+        "missing_plane_count": 0,
+        "root_jumps": 0
+      },
+      "old_event": {
+        "status": "no_peak_in_valid_interval",
+        "tau_peak": null,
+        "thresholds": {},
+        "fwhm": null,
+        "centroid": null,
+        "full_search_window": [
+          -3.0,
+          5.0
+        ],
+        "valid_segments": [
+          {
+            "start": -3.0,
+            "end": 5.0,
+            "status": "no_peak_in_valid_interval"
+          }
+        ],
+        "missing_plane_count": 0,
+        "root_jumps": 0
+      },
+      "new_missing_planes": 0,
+      "old_missing_planes": 0,
+      "root_below_original_sampling_cell_count": 0,
+      "root_min": 5.4877215260239405
+    },
+    "6": {
+      "new_event": {
+        "status": "no_peak_in_valid_interval",
+        "tau_peak": null,
+        "thresholds": {},
+        "fwhm": null,
+        "centroid": null,
+        "full_search_window": [
+          -3.0,
+          5.0
+        ],
+        "valid_segments": [
+          {
+            "start": -3.0,
+            "end": 5.0,
+            "status": "no_peak_in_valid_interval"
+          }
+        ],
+        "missing_plane_count": 0,
+        "root_jumps": 0
+      },
+      "old_event": {
+        "status": "no_peak_in_valid_interval",
+        "tau_peak": null,
+        "thresholds": {},
+        "fwhm": null,
+        "centroid": null,
+        "full_search_window": [
+          -3.0,
+          5.0
+        ],
+        "valid_segments": [
+          {
+            "start": -3.0,
+            "end": 5.0,
+            "status": "no_peak_in_valid_interval"
+          }
+        ],
+        "missing_plane_count": 0,
+        "root_jumps": 0
+      },
+      "new_missing_planes": 0,
+      "old_missing_planes": 0,
+      "root_below_original_sampling_cell_count": 0,
+      "root_min": 7.7516248183959915
+    }
+  }
+}

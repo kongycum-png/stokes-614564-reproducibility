@@ -1,0 +1,58 @@
+# Manuscript 614564: reproducibility package
+
+**Topological-order-dependent axial advance of a local Stokes domain in Poincaré circular Airy beams**
+
+Youchao Kong, Weiwei Liu, Ze Chen, and Xiyuan Feng.
+
+This version accompanies the October 2026 revision. It provides the scalar
+propagation code, independently generated event coefficients, retained complex
+channels, detector simulations, figure data, and extended Technical Appendix.
+The authoritative main-matrix results are the source-tail-corrected
+`data/principal_refined/` records. All retained event states, including missing
+crossings and root-branch changes, are included.
+
+## Start here
+
+- [Reproduction instructions](REPRODUCE.md)
+- [Evidence index](EVIDENCE_INDEX.md)
+- [Extended Technical Appendix](technical_appendix/Technical_Appendix_614564.pdf)
+- [Release downloads](../../releases/tag/v1.0.0)
+
+The Git tree contains code, configuration, CSV/JSON results, figure inputs, and
+the Technical Appendix. The release additionally contains a complete code/table
+ZIP and independently extractable raw-field ZIPs. Extract the code/table
+ZIP into an empty folder, then extract each raw-field ZIP **into that same
+folder**. No binary concatenation is needed. See DOWNLOAD.md for verification.
+
+`DISTRIBUTION_MANIFEST.json` records every file's relative path, byte size,
+SHA-256 digest, and download part. `RELEASE_ASSETS.json` and `SHA256SUMS_ASSETS.txt`
+identify the downloadable archives. A tagged version fixes the code and records
+used for the manuscript; a DOI has not been assigned.
+
+## Evidence families
+
+`code/` contains propagation, event extraction, analytic coefficients, and
+detector models. `config/` records parameters, estimator rules, and random seeds.
+`data/focused_refinement/` contains Q/T and boundary comparisons;
+`data/focused_measurement/` contains stage events, count samples, covariance,
+and noise ablations. `figure_data/` contains the inputs for the five main figures.
+`residual_model/` retains the separate finite-radius analysis. The appendix uses
+the independent equation, figure, and table prefix **TA**.
+
+The five PNGs in `figures/` are the current manuscript figures. Figure 2 uses the
+final rectangular panel alignment. `figures/Figure_S1_source.pptx` is the editable
+source for the current SI optical scheme; `Figure_S1_optical_layout.pdf` is its
+native vector export. Only private source paths in the public PPT copy’s notes have been redacted; all slide objects are unchanged. The older `proposed_experimental_layout.*` files and
+`draw_experimental_layout.py` are historical schematic versions, not the current
+SI source. The proposed apparatus has not been built in this study.
+
+This package contains simulations, not measured experimental data. Exact-kz
+and matched unexpanded scalar R–S are implementation checks of the same boundary
+problem; Fresnel versus exact-kz measures an approximation difference.
+
+## Rights
+
+Source code is released under the MIT License. Data and figures are released
+under Creative Commons Attribution 4.0 International (CC BY 4.0). See COPYING.md
+and licenses/ for the scope and full terms. Technical Appendix prose and theory
+notes retain author copyright; no additional license is granted for those texts.

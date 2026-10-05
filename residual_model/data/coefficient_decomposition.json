@@ -1,0 +1,130 @@
+{
+  "basis": "compact-field epsilon series; algebraic grouping, not additive physical powers",
+  "rows": [
+    {
+      "n": 2,
+      "coefficient": 4.414678288930602,
+      "new_field": 4.414678288930592,
+      "lower_field_and_prefactor": 1.0436096431476471e-14,
+      "nonlinear_event": 0.0
+    },
+    {
+      "n": 3,
+      "coefficient": -1.440168079885,
+      "new_field": -2.5499803323625785,
+      "lower_field_and_prefactor": -3.757153976592828,
+      "nonlinear_event": 4.866966229070406
+    },
+    {
+      "n": 4,
+      "coefficient": 2.5876583492000798,
+      "new_field": -18.747593905987685,
+      "lower_field_and_prefactor": -9.675054381258303,
+      "nonlinear_event": 31.010306636446064
+    },
+    {
+      "n": 5,
+      "coefficient": 3.3668029994733613,
+      "new_field": 1.0403165682946558,
+      "lower_field_and_prefactor": 23.804794844499206,
+      "nonlinear_event": -21.478308413320498
+    },
+    {
+      "n": 6,
+      "coefficient": 13.352986041107503,
+      "new_field": 22.987827118030115,
+      "lower_field_and_prefactor": 54.38661509350732,
+      "nonlinear_event": -64.02145617042994
+    },
+    {
+      "n": 7,
+      "coefficient": 21.112897720452928,
+      "new_field": 81.42538509345687,
+      "lower_field_and_prefactor": -85.20188307045154,
+      "nonlinear_event": 24.889395697447615
+    },
+    {
+      "n": 8,
+      "coefficient": -49.888846395358655,
+      "new_field": -129.58517329776726,
+      "lower_field_and_prefactor": -20.85410632680562,
+      "nonlinear_event": 100.55043322921422
+    },
+    {
+      "n": 9,
+      "coefficient": 91.51756739677559,
+      "new_field": -302.60159527275647,
+      "lower_field_and_prefactor": 103.73724382617347,
+      "nonlinear_event": 290.38191884335856
+    },
+    {
+      "n": 10,
+      "coefficient": 237.8099361509654,
+      "new_field": 606.4825359407765,
+      "lower_field_and_prefactor": -434.55016429154665,
+      "nonlinear_event": 65.87756450173553
+    }
+  ],
+  "controls": [
+    {
+      "name": "full14",
+      "minimum_R": 36.371274165118585,
+      "minimum_value": 4.274502205696856,
+      "values": {
+        "24": 4.286134219420261,
+        "40": 4.274922040822999,
+        "96": 4.299865224585216
+      }
+    },
+    {
+      "name": "remove5",
+      "minimum_R": 28.066126927724273,
+      "minimum_value": 4.255873329310471,
+      "values": {
+        "24": 4.257498978402269,
+        "40": 4.261613583433721,
+        "96": 4.2962858194579665
+      }
+    },
+    {
+      "name": "remove6",
+      "minimum_R": 28.083360869528548,
+      "minimum_value": 4.261565125776316,
+      "values": {
+        "24": 4.262951951987783,
+        "40": 4.266576424547307,
+        "96": 4.298416332870686
+      }
+    },
+    {
+      "name": "remove5and6",
+      "minimum_R": 18.879822254335714,
+      "minimum_value": 4.23111141402248,
+      "values": {
+        "24": 4.234316710969791,
+        "40": 4.253267967158029,
+        "96": 4.294836927743437
+      }
+    },
+    {
+      "name": "through4",
+      "minimum_R": 12.913605134938905,
+      "minimum_value": 4.2142959530089374,
+      "values": {
+        "24": 4.228524308517102,
+        "40": 4.251659180365208,
+        "96": 4.294646524253018
+      }
+    },
+    {
+      "name": "through6",
+      "minimum_R": 34.41706613692925,
+      "minimum_value": 4.272325311404497,
+      "values": {
+        "24": 4.280341816967572,
+        "40": 4.273313254030178,
+        "96": 4.299674821094797
+      }
+    }
+  ]
+}

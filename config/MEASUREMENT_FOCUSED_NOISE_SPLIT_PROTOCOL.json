@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_AFTER_FIRST_ABLATION_AND_BEFORE_NOISE_SPLIT_DRAWS",
+  "reason": "The first ablation showed that counting alone does not reproduce the baseline failure, whereas counting plus read noise and mean background does. This second, disclosed protocol separates those two detector terms.",
+  "case": {"R0": 96, "eta": 0.7, "Nincident": 1000000.0},
+  "orders": [1, 2, 3, 4],
+  "calibration_replicates": 1000,
+  "validation_replicates": 3000,
+  "seed_base": 614565500,
+  "scenarios": {
+    "counting_plus_read": {"read_noise_e_per_pixel": 1.0, "background_e_per_pixel": 0.0},
+    "counting_plus_background": {"read_noise_e_per_pixel": 0.0, "background_e_per_pixel": 0.1}
+  },
+  "common_disabled_terms": ["gain variation", "background calibration error", "polarimetric asymmetry", "axial offset and drift", "monitor noise"]
+}

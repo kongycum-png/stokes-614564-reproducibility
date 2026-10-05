@@ -1,0 +1,506 @@
+{
+  "jobs": [
+    {
+      "case": "R128_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 39.178650458
+    },
+    {
+      "case": "R128_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 30.311923667000002
+    },
+    {
+      "case": "R128_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 27.292860125000004
+    },
+    {
+      "case": "R128_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 29.958658875000012
+    },
+    {
+      "case": "R128_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 26.45335225000001
+    },
+    {
+      "case": "R128_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 26.229768042000018
+    },
+    {
+      "case": "R128_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 23.983362959000004
+    },
+    {
+      "case": "R128_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 24.68122012500001
+    },
+    {
+      "case": "R128_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 25.25654400000002
+    },
+    {
+      "case": "R128_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 23.78444812500001
+    },
+    {
+      "case": "R16_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 11.908072458999982
+    },
+    {
+      "case": "R16_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 9.700893249999979
+    },
+    {
+      "case": "R16_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 9.031573708999986
+    },
+    {
+      "case": "R16_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 8.534593249999944
+    },
+    {
+      "case": "R16_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 7.8425655419999885
+    },
+    {
+      "case": "R16_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 8.144236459000012
+    },
+    {
+      "case": "R16_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 7.712948499999982
+    },
+    {
+      "case": "R16_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 7.474983000000009
+    },
+    {
+      "case": "R16_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 7.583047082999997
+    },
+    {
+      "case": "R16_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 7.673444582999991
+    },
+    {
+      "case": "R192_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 47.81923841700001
+    },
+    {
+      "case": "R192_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 43.250359249999974
+    },
+    {
+      "case": "R192_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 39.342389749999995
+    },
+    {
+      "case": "R192_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 36.27427
+    },
+    {
+      "case": "R192_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 36.19391541699997
+    },
+    {
+      "case": "R192_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 36.36913633300003
+    },
+    {
+      "case": "R192_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 33.28997025000001
+    },
+    {
+      "case": "R192_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 34.22557412499998
+    },
+    {
+      "case": "R192_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 34.7636376669999
+    },
+    {
+      "case": "R192_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 32.515030292000006
+    },
+    {
+      "case": "R24_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 13.959662000000094
+    },
+    {
+      "case": "R24_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 11.183092916999954
+    },
+    {
+      "case": "R24_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 10.390291457999979
+    },
+    {
+      "case": "R24_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 9.762294666999992
+    },
+    {
+      "case": "R24_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 10.057094832999951
+    },
+    {
+      "case": "R24_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 9.319676875000027
+    },
+    {
+      "case": "R24_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 8.784791917000007
+    },
+    {
+      "case": "R24_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 8.386443083999893
+    },
+    {
+      "case": "R24_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 8.791967709000005
+    },
+    {
+      "case": "R24_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 8.440956792000065
+    },
+    {
+      "case": "R256_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 56.61742662500001
+    },
+    {
+      "case": "R256_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 51.28385320799998
+    },
+    {
+      "case": "R256_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 46.722082916999966
+    },
+    {
+      "case": "R256_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 49.20369941699994
+    },
+    {
+      "case": "R256_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 42.945711458000005
+    },
+    {
+      "case": "R256_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 43.22688187500012
+    },
+    {
+      "case": "R256_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 43.56651895899995
+    },
+    {
+      "case": "R256_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 43.911584749999975
+    },
+    {
+      "case": "R256_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 44.325866541000096
+    },
+    {
+      "case": "R256_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 41.33731087499996
+    },
+    {
+      "case": "R32_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 15.671985292000045
+    },
+    {
+      "case": "R32_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 12.545743958999992
+    },
+    {
+      "case": "R32_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 11.650536125000144
+    },
+    {
+      "case": "R32_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 12.96888316699983
+    },
+    {
+      "case": "R32_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 11.340750041999854
+    },
+    {
+      "case": "R32_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 10.456146499999932
+    },
+    {
+      "case": "R32_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 9.793776083000012
+    },
+    {
+      "case": "R32_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 10.274615334000146
+    },
+    {
+      "case": "R32_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 9.796964750000143
+    },
+    {
+      "case": "R32_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 9.418371624999963
+    },
+    {
+      "case": "R40_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 17.419764958000087
+    },
+    {
+      "case": "R40_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 13.83265987499999
+    },
+    {
+      "case": "R40_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 14.849889542000028
+    },
+    {
+      "case": "R40_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 14.174001791999899
+    },
+    {
+      "case": "R40_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 12.8040621250002
+    },
+    {
+      "case": "R40_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 11.817489208000097
+    },
+    {
+      "case": "R40_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 12.073950458000127
+    },
+    {
+      "case": "R40_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 11.363628667000057
+    },
+    {
+      "case": "R40_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 10.816966958999956
+    },
+    {
+      "case": "R40_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 11.285566792000054
+    },
+    {
+      "case": "R56_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 20.54140458400002
+    },
+    {
+      "case": "R56_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 19.000079416999824
+    },
+    {
+      "case": "R56_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 17.427229249999982
+    },
+    {
+      "case": "R56_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 16.394843207999884
+    },
+    {
+      "case": "R56_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 14.934782249999898
+    },
+    {
+      "case": "R56_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 15.456363083000042
+    },
+    {
+      "case": "R56_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 14.13948404100006
+    },
+    {
+      "case": "R56_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 13.206541916999868
+    },
+    {
+      "case": "R56_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 13.793141999999989
+    },
+    {
+      "case": "R56_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 13.101297499999873
+    },
+    {
+      "case": "R72_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 23.276108415999943
+    },
+    {
+      "case": "R72_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 21.62455220800007
+    },
+    {
+      "case": "R72_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 19.768905292
+    },
+    {
+      "case": "R72_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 18.329244417000154
+    },
+    {
+      "case": "R72_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 18.63563716700014
+    },
+    {
+      "case": "R72_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 16.946718665999924
+    },
+    {
+      "case": "R72_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 15.707395833999954
+    },
+    {
+      "case": "R72_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 16.838743457999954
+    },
+    {
+      "case": "R72_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 15.845479000000068
+    },
+    {
+      "case": "R72_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 16.66627174999985
+    },
+    {
+      "case": "R96_eta0.2",
+      "status": "RUN_COMPLETED",
+      "seconds": 27.152258791000122
+    },
+    {
+      "case": "R96_eta0.3",
+      "status": "RUN_COMPLETED",
+      "seconds": 25.229523083999993
+    },
+    {
+      "case": "R96_eta0.35",
+      "status": "RUN_COMPLETED",
+      "seconds": 22.992017374999932
+    },
+    {
+      "case": "R96_eta0.4",
+      "status": "RUN_COMPLETED",
+      "seconds": 21.44076262500016
+    },
+    {
+      "case": "R96_eta0.5",
+      "status": "RUN_COMPLETED",
+      "seconds": 21.700774124999953
+    },
+    {
+      "case": "R96_eta0.6",
+      "status": "RUN_COMPLETED",
+      "seconds": 19.68003095800009
+    },
+    {
+      "case": "R96_eta0.7",
+      "status": "RUN_COMPLETED",
+      "seconds": 20.35451087499996
+    },
+    {
+      "case": "R96_eta0.8",
+      "status": "RUN_COMPLETED",
+      "seconds": 19.295123042000114
+    },
+    {
+      "case": "R96_eta0.9",
+      "status": "RUN_COMPLETED",
+      "seconds": 20.39507433300014
+    },
+    {
+      "case": "R96_eta1",
+      "status": "RUN_COMPLETED",
+      "seconds": 19.393351791999976
+    }
+  ],
+  "beam_cases_completed": 600,
+  "planned_beam_cases": 600
+}

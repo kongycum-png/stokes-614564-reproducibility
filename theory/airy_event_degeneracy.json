@@ -1,0 +1,11 @@
+{
+  "status": "NUMERICAL_DOUBLE_STATIONARY_POINT_NOT_GLOBAL_NONEXISTENCE_PROOF",
+  "tau": 1.8393255454546302,
+  "eta": 0.9365252229708503,
+  "root_solver_success": true,
+  "normalized_residual": [
+    1.0331852015886672e-16,
+    -1.3322676295501878e-15
+  ],
+  "conditions": "first-caustic Airy branch; root and peak classification require local derivative checks"
+}

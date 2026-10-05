@@ -1,0 +1,58 @@
+START GROUP R24_eta0.35
+<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/code/run_input_mismatch.py:28: ComplexWarning: Casting complex values to real discards the imaginary part
+  pin=2*np.pi*sol.w**2*np.dot(sol.weights,abs(source)**2*sol.s);ratio=pin/sol.Pin;power[name]=pin;mult=np.divide(source,sol.f,out=np.zeros_like(source,dtype=complex),where=abs(sol.f)>1e-280);omitted=float(np.max(abs(source[abs(sol.f)<=1e-280]))) if np.any(abs(sol.f)<=1e-280) else 0
+CASE R24_eta0.35_scale+0.01
+CASE R24_eta0.35_scale-0.01
+CASE R24_eta0.35_scale+0.02
+CASE R24_eta0.35_scale-0.02
+CASE R24_eta0.35_ring+0.005
+CASE R24_eta0.35_ring-0.005
+CASE R24_eta0.35_ring+0.01
+CASE R24_eta0.35_ring-0.01
+CASE R24_eta0.35_phase+0.1
+CASE R24_eta0.35_phase-0.1
+CASE R24_eta0.35_phase+0.3
+CASE R24_eta0.35_phase-0.3
+END GROUP R24_eta0.35 404.50951729200006
+START GROUP R24_eta0.7
+CASE R24_eta0.7_scale+0.01
+CASE R24_eta0.7_scale-0.01
+CASE R24_eta0.7_scale+0.02
+CASE R24_eta0.7_scale-0.02
+CASE R24_eta0.7_ring+0.005
+CASE R24_eta0.7_ring-0.005
+CASE R24_eta0.7_ring+0.01
+CASE R24_eta0.7_ring-0.01
+CASE R24_eta0.7_phase+0.1
+CASE R24_eta0.7_phase-0.1
+CASE R24_eta0.7_phase+0.3
+CASE R24_eta0.7_phase-0.3
+END GROUP R24_eta0.7 235.62555654199997
+START GROUP R96_eta0.35
+CASE R96_eta0.35_scale+0.01
+CASE R96_eta0.35_scale-0.01
+CASE R96_eta0.35_scale+0.02
+CASE R96_eta0.35_scale-0.02
+CASE R96_eta0.35_ring+0.005
+CASE R96_eta0.35_ring-0.005
+CASE R96_eta0.35_ring+0.01
+CASE R96_eta0.35_ring-0.01
+CASE R96_eta0.35_phase+0.1
+CASE R96_eta0.35_phase-0.1
+CASE R96_eta0.35_phase+0.3
+CASE R96_eta0.35_phase-0.3
+END GROUP R96_eta0.35 843.370757583
+START GROUP R96_eta0.7
+CASE R96_eta0.7_scale+0.01
+CASE R96_eta0.7_scale-0.01
+CASE R96_eta0.7_scale+0.02
+CASE R96_eta0.7_scale-0.02
+CASE R96_eta0.7_ring+0.005
+CASE R96_eta0.7_ring-0.005
+CASE R96_eta0.7_ring+0.01
+CASE R96_eta0.7_ring-0.01
+CASE R96_eta0.7_phase+0.1
+CASE R96_eta0.7_phase-0.1
+CASE R96_eta0.7_phase+0.3
+CASE R96_eta0.7_phase-0.3
+END GROUP R96_eta0.7 500.9674540409999

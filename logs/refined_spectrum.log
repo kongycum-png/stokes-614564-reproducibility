@@ -1,0 +1,34 @@
+START R16_eta0.2
+END R16_eta0.2 43.742328083000004 {'relative_complex_L2': 2.649705053783782e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R16_eta0.35
+END R16_eta0.35 36.01602875 {'relative_complex_L2': 2.2333610356761895e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R16_eta0.7
+END R16_eta0.7 29.265043000000006 {'relative_complex_L2': 1.531476699930712e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R24_eta0.2
+END R24_eta0.2 48.200877167000016 {'relative_complex_L2': 2.6136085679711973e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R24_eta0.35
+END R24_eta0.35 38.991602708000016 {'relative_complex_L2': 2.318421761049579e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R24_eta0.7
+END R24_eta0.7 31.44318095899999 {'relative_complex_L2': 1.7603654669722841e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R56_eta0.2
+END R56_eta0.2 104.19060983400001 {'relative_complex_L2': 1.7826332649288114e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R56_eta0.35
+END R56_eta0.35 83.22490916699996 {'relative_complex_L2': 1.6359136610781643e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R56_eta0.7
+END R56_eta0.7 63.26260816600001 {'relative_complex_L2': 1.38085983583543e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R96_eta0.2
+END R96_eta0.2 120.21937004200004 {'relative_complex_L2': 1.8663283310173258e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R96_eta0.35
+END R96_eta0.35 95.64774625000007 {'relative_complex_L2': 1.589558864598402e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R96_eta0.7
+END R96_eta0.7 71.46922791700001 {'relative_complex_L2': 1.721351075282644e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R192_eta0.2
+END R192_eta0.2 278.77093887499996 {'relative_complex_L2': 1.83107887684379e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R192_eta0.35
+END R192_eta0.35 217.44338783400008 {'relative_complex_L2': 1.7566610182913602e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R192_eta0.7
+END R192_eta0.7 156.94891966699993 {'relative_complex_L2': 2.2709981383505122e-09, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R256_eta0.9
+END R256_eta0.9 145.27781462500002 {'relative_complex_L2': 1.9938823552900995e-08, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}
+START R256_eta1
+END R256_eta1 136.699577375 {'relative_complex_L2': 4.854966195470018e-08, 'includes_radial_interpolation_error': True, 'tau': [-0.5, 0.0, 1.0], 'x': [0.0, 1.0, 3.0, 6.0], 'source_ds': 0.0125}

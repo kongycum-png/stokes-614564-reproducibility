@@ -1,0 +1,20 @@
+[
+  {
+    "R0": 24,
+    "normal": 4.286137373947542,
+    "target_peak_forced_to_reference": 4.527444157451267,
+    "target_peak_shift": 0.12336960886581372
+  },
+  {
+    "R0": 40,
+    "normal": 4.274925215708782,
+    "target_peak_forced_to_reference": 4.42926280744886,
+    "target_peak_shift": 0.07548622560104024
+  },
+  {
+    "R0": 96,
+    "normal": 4.29986838561027,
+    "target_peak_forced_to_reference": 4.369445044694919,
+    "target_peak_shift": 0.032374413895552734
+  }
+]

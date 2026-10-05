@@ -1,0 +1,318 @@
+{
+  "tag": "R96_eta0.7_common_half_shift_d0",
+  "R0": 96,
+  "eta": 0.7,
+  "fraction_w": 0,
+  "shift_mm": 0.0,
+  "family": "common_half_shift",
+  "events": {
+    "1": {
+      "status": "defined",
+      "window": [
+        -3.0,
+        5.0
+      ],
+      "tau_peak": 1.1775068030711673,
+      "q_peak": 0.00015957289851165505,
+      "thresholds": {
+        "0.1": {
+          "tau": -0.8181232568072526,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.8181232568072526
+          ],
+          "slope": 3.3211663339155514e-05,
+          "falling_tau": null
+        },
+        "0.2": {
+          "tau": -0.46130763925296836,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.46130763925296836
+          ],
+          "slope": 5.742625276640472e-05,
+          "falling_tau": null
+        },
+        "0.3": {
+          "tau": -0.22251777678677143,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.22251777678677143
+          ],
+          "slope": 7.631740648698881e-05,
+          "falling_tau": null
+        },
+        "0.4": {
+          "tau": -0.03168646995196027,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.03168646995196027
+          ],
+          "slope": 9.057794379605198e-05,
+          "falling_tau": null
+        },
+        "0.5": {
+          "tau": 0.13499445338893726,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.13499445338893726
+          ],
+          "slope": 0.00010028472864413487,
+          "falling_tau": null
+        },
+        "0.6": {
+          "tau": 0.28975445480259915,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.28975445480259915
+          ],
+          "slope": 0.00010511084080100972,
+          "falling_tau": null
+        },
+        "0.7": {
+          "tau": 0.4414381754366754,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.4414381754366754
+          ],
+          "slope": 0.00010423837696361869,
+          "falling_tau": 1.9609874447626976
+        },
+        "0.8": {
+          "tau": 0.5998145612711612,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.5998145612711612
+          ],
+          "slope": 9.59106114606225e-05,
+          "falling_tau": 1.7648454348095028
+        },
+        "0.9": {
+          "tau": 0.7838194698745984,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.7838194698745984
+          ],
+          "slope": 7.560581286116604e-05,
+          "falling_tau": 1.5708943508354218
+        }
+      },
+      "fwhm": null,
+      "centroid": 2.4704126273599862,
+      "all_stationary_maxima": [
+        1.1775068030711673,
+        3.2870153369653194,
+        4.813678939735964
+      ],
+      "peak_curvature": -0.00022205715788429833,
+      "window_signal_integral": 0.0007107103174905586,
+      "centroid_is_positive_weight": true
+    },
+    "2": {
+      "status": "defined",
+      "window": [
+        -3.0,
+        5.0
+      ],
+      "tau_peak": 1.1582975511491533,
+      "q_peak": 0.00021537296153159637,
+      "thresholds": {
+        "0.1": {
+          "tau": -0.8453214427030559,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.8453214427030559
+          ],
+          "slope": 4.463886800914042e-05,
+          "falling_tau": null
+        },
+        "0.2": {
+          "tau": -0.4869961399028834,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.4869961399028834
+          ],
+          "slope": 7.717667306902468e-05,
+          "falling_tau": null
+        },
+        "0.3": {
+          "tau": -0.24717615441535523,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.24717615441535523
+          ],
+          "slope": 0.00010255919392048425,
+          "falling_tau": null
+        },
+        "0.4": {
+          "tau": -0.05551365246758444,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.05551365246758444
+          ],
+          "slope": 0.0001217200573051584,
+          "falling_tau": null
+        },
+        "0.5": {
+          "tau": 0.11189542507733785,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.11189542507733785
+          ],
+          "slope": 0.00013476431737095772,
+          "falling_tau": null
+        },
+        "0.6": {
+          "tau": 0.2673290038539615,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.2673290038539615
+          ],
+          "slope": 0.00014125433021404364,
+          "falling_tau": null
+        },
+        "0.7": {
+          "tau": 0.41966478140409347,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.41966478140409347
+          ],
+          "slope": 0.000140092669458622,
+          "falling_tau": 1.9307511210764756
+        },
+        "0.8": {
+          "tau": 0.5787041137299432,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.5787041137299432
+          ],
+          "slope": 0.0001289203498231822,
+          "falling_tau": 1.7425648477760496
+        },
+        "0.9": {
+          "tau": 0.7634360891322209,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.7634360891322209
+          ],
+          "slope": 0.00010166103657497036,
+          "falling_tau": 1.5511230597437282
+        }
+      },
+      "fwhm": null,
+      "centroid": 2.4012794932787176,
+      "all_stationary_maxima": [
+        1.1582975511491533,
+        3.273154034533624,
+        4.798445235168787
+      ],
+      "peak_curvature": -0.0002985818564582482,
+      "window_signal_integral": 0.0009258179378985296,
+      "centroid_is_positive_weight": true
+    },
+    "4": {
+      "status": "defined",
+      "window": [
+        -3.0,
+        5.0
+      ],
+      "tau_peak": 1.1165399868635502,
+      "q_peak": 0.0002685154715003549,
+      "thresholds": {
+        "0.1": {
+          "tau": -0.9073770359076357,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.9073770359076357
+          ],
+          "slope": 5.512389562877015e-05,
+          "falling_tau": null
+        },
+        "0.2": {
+          "tau": -0.5455338499891278,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.5455338499891278
+          ],
+          "slope": 9.526416829009303e-05,
+          "falling_tau": null
+        },
+        "0.3": {
+          "tau": -0.3032744563621619,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.3032744563621619
+          ],
+          "slope": 0.00012656038951495922,
+          "falling_tau": null
+        },
+        "0.4": {
+          "tau": -0.10961609999234048,
+          "status": "defined",
+          "all_rising_crossings": [
+            -0.10961609999234048
+          ],
+          "slope": 0.00015017536765923778,
+          "falling_tau": null
+        },
+        "0.5": {
+          "tau": 0.0595656396839373,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.0595656396839373
+          ],
+          "slope": 0.00016624502815299925,
+          "falling_tau": null
+        },
+        "0.6": {
+          "tau": 0.2166636632770349,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.2166636632770349
+          ],
+          "slope": 0.00017423551215841468,
+          "falling_tau": 2.1018553920979324
+        },
+        "0.7": {
+          "tau": 0.370639392584029,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.370639392584029
+          ],
+          "slope": 0.00017279942637868587,
+          "falling_tau": 1.876078877314305
+        },
+        "0.8": {
+          "tau": 0.5313852654787871,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.5313852654787871
+          ],
+          "slope": 0.00015903445478654708,
+          "falling_tau": 1.6984443238897837
+        },
+        "0.9": {
+          "tau": 0.7180589163932235,
+          "status": "defined",
+          "all_rising_crossings": [
+            0.7180589163932235
+          ],
+          "slope": 0.00012545404908237837,
+          "falling_tau": 1.5101718755318831
+        }
+      },
+      "fwhm": null,
+      "centroid": 2.2488647180025807,
+      "all_stationary_maxima": [
+        1.1165399868635502,
+        3.245946856187328,
+        4.768754528847235
+      ],
+      "peak_curvature": -0.00036689104611768746,
+      "window_signal_integral": 0.0010746397077398123,
+      "centroid_is_positive_weight": true
+    }
+  },
+  "job_status": "RUN_COMPLETED",
+  "seconds": 0.498924333999998
+}
