@@ -3,9 +3,9 @@
   "assets": [
     {
       "name": "Reproducibility_Code_Tables_614564_v1.0.0.zip",
-      "bytes": 385178507,
-      "sha256": "5653ded6a45ccc24ffec1a6e767359f40c74f296babcb3cb02f7bc8e96d902bf",
-      "files": 1544,
+      "bytes": 385063434,
+      "sha256": "bd1b2767af16c7e3fd7f7ce05cf849f6631404665b7a7e53e1081f6578784799",
+      "files": 1472,
       "zip_crc": "passed"
     },
     {
@@ -57,5 +57,6 @@
       "files": 3,
       "zip_crc": "passed"
     }
-  ]
+  ],
+  "documentation_revision": "2026-10-06T12:52:02.170957+08:00"
 }

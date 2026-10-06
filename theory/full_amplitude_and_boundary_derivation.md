@@ -1,4 +1,7 @@
-# Full-amplitude audit and boundary prediction (derivation; propagation checks pending)
+# Full-amplitude audit and boundary prediction (historical derivation note)
+
+This note records the derivation before the subsequent propagation checks.
+The retained comparisons and extended derivation are indexed in EVIDENCE_INDEX.md.
 
 Conventions follow submitted Eqs. (1)–(11). Let ε=R0^(-1/2), a=ζ/2=ε^(-1)+τε/2,
 u0=a−iηε/2 and x=aR. All τ-dependent factors must remain when locating events.

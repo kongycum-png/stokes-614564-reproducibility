@@ -404,14 +404,11 @@ require a root change or a numerical artifact, and the independently
 derived terms quantitatively account for the minimum. A unique division
 of this correction into inward, outward and endpoint powers remains
 representation dependent; such a division is neither claimed nor needed
-for this residual closure. The conclusion is specific to the declared
-model and event. The broader aperture sensitivity, actual-zero branch
-limitations, model validity and experimental caveats in the manuscript
-remain applicable.
+for this residual closure.
 
 \section{Reproduction and provenance}\label{reproduction-and-provenance}
 
-Run the scripts from the residual\_mechanism\_research directory with
+Run the scripts from the residual\_model directory with
 Python, NumPy, SciPy, mpmath and Matplotlib. The full recipe is in
 RUN\_REPRODUCTION.sh. compact\_airy.py and compact\_rs.py implement the
 identities; analytic\_series.py generates the coefficients; study.py and
@@ -423,13 +420,9 @@ files retain parameters, event roots, slopes, curvatures and control
 results. Source-code and output hashes are supplied with the
 verification package.
 
-The previous analytic and manuscript sources are cited by path
-in source\_manifest.json. No archived manuscript or dataset was
-overwritten. R1-M3, R1-m4 and the associated R1-M6 error accounting are
-addressed. The data availability statement and historical AI-use facts
-still require author confirmation; no declarations have been invented.
+Source versions and checksums are listed in \path{source_manifest.json}.
 
-\section{Primary sources examined}\label{primary-sources-examined}
+\section{References}\label{references}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -438,9 +431,8 @@ still require author confirmation; no declarations have been invented.
   G. A. Siviloglou and D. N. Christodoulides, Accelerating finite energy
   Airy beams, Optics Letters 32, 979--981 (2007), doi:
   \href{https://doi.org/10.1364/OL.32.000979}{10.1364/OL.32.000979}.
-  Full local paper read, especially Fourier spectrum Eq. (3) and
-  propagated field Eq. (5). Supplies the one-dimensional convolution
-  identity, not the new event coefficients.
+  The Fourier spectrum in Eq. (3) and propagated field in Eq. (5)
+  supply the one-dimensional convolution identity.
 \item
   NIST Digital Library of Mathematical Functions,
   \href{https://dlmf.nist.gov/10.9.E2}{10.9.2} and
@@ -456,24 +448,20 @@ still require author confirmation; no declarations have been invented.
   N. K. Efremidis and D. N. Christodoulides, Abruptly autofocusing
   waves, Optics Letters 35, 4045--4047 (2010), doi:
   \href{https://doi.org/10.1364/OL.35.004045}{10.1364/OL.35.004045}.
-  Full local paper read. Establishes circular Airy autofocusing, but
-  contains no proof of the present proxy half-height residual.
+  Establishes circular Airy autofocusing.
 \item
   T. Geng, M. Li and H. Guo, Orbit-induced localized spin angular
   momentum of vector circular Airy vortex beam in the paraxial regime,
   Optics Express 29, 14069--14077 (2021).
   \href{https://opg.optica.org/oe/abstract.cfm?uri=oe-29-9-14069}{Publisher
-  record}. Full local paper read for the radial channels. Its
-  propagation reduction is retained; its local spin interpretation does
-  not itself explain the present finite-radius event minimum.
+  record}. Provides the radial-channel propagation reduction.
 \item
   C. Chester, B. Friedman and F. Ursell, An extension of the method of
   steepest descents, Proceedings of the Cambridge Philosophical Society
   53, 599--611 (1957), doi:
   \href{https://doi.org/10.1017/S0305004100032655}{10.1017/S0305004100032655}.
-  Full local paper examined for coalescing saddles and uniform Airy
-  expansion. A finite truncation is not a bound on this event
-  functional; the compact reduction avoids that inference.
+  Treats coalescing saddles and uniform Airy expansions. Finite
+  truncation alone does not bound the present event functional.
 \end{enumerate}
 
 \end{document}

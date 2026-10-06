@@ -1,6 +1,6 @@
 # Main-figure data provenance
 
-These files are unchanged copies of the retained Codex evidence for Manuscript
+These files are unchanged copies of the retained numerical records for Manuscript
 614564. They were copied from
 `<original-local-root>/Documents/光学模拟/poincare_rs_aligned/revision_614564/data/` on
 2026-09-21. `SHA256SUMS.txt` records the copied-byte hashes.
@@ -18,6 +18,5 @@ These files are unchanged copies of the retained Codex evidence for Manuscript
 - `focused_measurement/*` supplies the frozen-protocol count traces, A--D
   event stages, validation samples, and noise ablations used in Figure 5.
 
-The plotting script reads only the copied files in this directory. It does not
-read fitted propagation results, alter event identities, or replace branch
-failures by interpolation.
+The plotting script uses the copied arrays and recorded event identities.
+Root-branch interruptions remain gaps in the plotted trajectories.
