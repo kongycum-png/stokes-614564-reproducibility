@@ -16,3 +16,8 @@ If using a Git clone, extract both the code/table ZIP and all raw-field ZIPs
 into the clone root. The code/table archive also contains smaller NPZ arrays
 that are not stored in Git. Use a separate working copy for commands that
 write results so the archived evidence remains unchanged.
+
+For the final publication figure layouts, also download
+Publication_Figures_614564_20261006.zip. It creates a separate
+publication_figures/ folder and does not replace the numerical archives.
+Its checksum and source-panel details are in PUBLICATION_FIGURES.md.
