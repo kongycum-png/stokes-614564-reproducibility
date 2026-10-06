@@ -1,4 +1,4 @@
-"""Sequential local numerical queue; no agents, no scheduler, no external jobs."""
+"""Run the configured numerical calculations sequentially."""
 from pathlib import Path
 import time,json,subprocess,sys,datetime
 OUT=Path(__file__).resolve().parents[1]

@@ -1,5 +1,5 @@
 """Input mismatch tests; channels are separately propagated and normalized.
-Signed perturbations reuse their swapped radial-input pair. No fitting or deletion.
+Signed perturbations reuse their swapped radial-input pair.
 """
 from pathlib import Path
 import numpy as np,json,time,datetime,gc,hashlib

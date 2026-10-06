@@ -1,7 +1,7 @@
 """Focused count-level diagnosis of the retained measurement failure.
 
-The existing baseline results are not overwritten.  The frozen protocol adds
-m=3, separates ideal/detector/estimator/random stages, and compares the
+The protocol includes m=3 and separates ideal/detector/estimator/random
+stages. It compares the
 retained blind estimator with a known-peak-location-assisted diagnostic and
 one pre-frozen, wider-smoothing blind estimator.
 """

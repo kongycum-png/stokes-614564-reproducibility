@@ -1,6 +1,6 @@
 # Original equations (1)–(34): audit
 
-Numbering below belongs to the submitted source, not the revised manuscript. Source identity is recorded in provenance/source_identity.json. Algebraic checks are in equation_algebra_checks.json; field-level checks are linked in EVIDENCE_LEDGER.json. A correct algebraic identity is not a bound on the complete propagated field.
+The original equation numbering is retained below. Algebraic checks are stored in theory/equation_algebra_checks.json; field-level comparisons are indexed in EVIDENCE_INDEX.md. Algebraic identities alone do not bound the complete propagated field.
 
 | Original | Definition/result | Finding and applicable conditions |
 |---|---|---|
@@ -21,7 +21,7 @@ Numbering below belongs to the submitted source, not the revised manuscript. Sou
 | 15 | Half-height event | Requires an interior nondegenerate maximum and preceding rising crossing. An endpoint cannot replace the maximum. |
 | 16 | Relative advance | Delta=h1-hm; positive means earlier for m. Single-event error and difference error are separate. |
 | 17 | Scaled variables | R0=r0/w, R=rho/w, zeta=z/(kw^2), eta=2alpha sqrtR0 are dimensionless. |
-| 18 | Inward fold representation | Asymptotic, with endpoint/outward contributions outside the local fold series. Those components are being evaluated separately with a declared partition. No uniform full-field remainder is asserted. |
+| 18 | Inward fold representation | Asymptotic, with endpoint/outward contributions outside the local fold series. Partitioned calculations are recorded in data/hankel_branches/. No uniform full-field remainder is asserted. |
 | 19 | Slow amplitude | Full g sqrt(u) Jq and the first Debye correction must be expanded, not just sqrt(u)Jq. |
 | 20 | g and saddle location | s*=R0+(u+i alpha)^2. The next radial Airy-moment amplitude correction is also audited below. |
 | 21 | Airy control X | Completing the cubic with u0=zeta/2-i alpha gives X=R0-zeta^2/4+i alpha zeta; the alpha^2 terms cancel. |
@@ -41,6 +41,6 @@ Numbering below belongs to the submitted source, not the revised manuscript. Sou
 
 ## Next radial Airy-moment amplitude term
 
-Writing a=alpha-iu and s*=R0-a^2, the tilted Airy generating integral has central second moment 2a. Expanding sqrt(R0-x) about x=a^2 gives the multiplicative correction -a/(4 s*^2). In the fold variables it is i eps^3/16-i eps^4 t/16+O(eps^5). The constant imaginary term is a common field phase. After coherent multiplication and squaring, the additional normalized signal at eps^4 is -Re(A* A')/8, independent of m at the proxy boundary. The independent polynomial calculation confirms this common term and its cancellation from order differences through eps^4. It must not be omitted in a claim about individual fourth-order event coefficients. The previously frozen order-difference A,B,C coefficients have not been replaced or fitted.
+Writing a=alpha-iu and s*=R0-a^2, the tilted Airy generating integral has central second moment 2a. Expanding sqrt(R0-x) about x=a^2 gives the multiplicative correction -a/(4 s*^2). In the fold variables it is i eps^3/16-i eps^4 t/16+O(eps^5). The constant imaginary term is a common field phase. After coherent multiplication and squaring, the additional normalized signal at eps^4 is -Re(A* A')/8, independent of m at the proxy boundary. The independent polynomial calculation confirms this common term and its cancellation from order differences through eps^4. It must not be omitted in a claim about individual fourth-order event coefficients.
 
 The original N=4 numerical truncation is retained as a reproduced historical approximation. Its event error is not an error bound for the full revised field or a substitute for the separate propagation-model comparison.

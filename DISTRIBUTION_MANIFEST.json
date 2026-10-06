@@ -34,14 +34,14 @@
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 802,
-      "sha256": "0ce0970ec89493795b135c21f1c2dcb18e3d89ece670534c8911ae9d96258536",
+      "bytes": 808,
+      "sha256": "3def1b7dcd05de31d8e9e33f625d9895e1b4907d6786a61aad081eb65323f310",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
       "path": "README.md",
-      "bytes": 3297,
-      "sha256": "ec0e0c97f8265c1bc80fdee10f22555d206c2e8e938d41c22630ced2c0a5eb42",
+      "bytes": 3317,
+      "sha256": "068c0ab3f1c69541adcfc115e12feb3fcb02b376854eed1b31ddcfe1e9be869d",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -52,8 +52,8 @@
     },
     {
       "path": "REPRODUCE.md",
-      "bytes": 3545,
-      "sha256": "608779cd24f153735be3b11237be9460a8c9aa0455adaf10b48c420298045e40",
+      "bytes": 3543,
+      "sha256": "85a166b293acbf5e338dd13dddbed5e26542fb2addd5ae1630d1bbeb3917a565",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -82,14 +82,14 @@
     },
     {
       "path": "code/audit_principal.py",
-      "bytes": 5763,
-      "sha256": "8ad4a2e96044ac7893fe807d8c142a5255b1d9071f5e7faff4231cef96849f88",
+      "bytes": 5725,
+      "sha256": "fe124f9f1a80cacac0c301229bebb1408d76659224577035dab92f24a9cdd52d",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
       "path": "code/audit_principal_refined.py",
-      "bytes": 5779,
-      "sha256": "f0f025d04587f8ec3422c26e3813bc3fda93fdf7df7f0301515a83c3fe139e59",
+      "bytes": 5741,
+      "sha256": "0fe97e55305459df30a83fd6a7885b1bb391fe9a5bcb44b304694c55f45f2b36",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -178,8 +178,8 @@
     },
     {
       "path": "code/focused_measurement_diagnostics.py",
-      "bytes": 16977,
-      "sha256": "9a830d0b0d269dcd76c41efd9b65827bc3b793d9943d20acf738e36858c80972",
+      "bytes": 16924,
+      "sha256": "1490d890927eb01c0da126551c43fa908deeeb95960da84987f6a8bf879995e4",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -262,8 +262,8 @@
     },
     {
       "path": "code/numerical_queue.py",
-      "bytes": 1060,
-      "sha256": "31a453600e68e9da57ae17a27fb9ab0651d4fdff3a30c00bd69a135b5ed684eb",
+      "bytes": 1039,
+      "sha256": "1a35d79f4a9f2c014ffeeee1fe9897c8c5b00e4ed8952d12c2035b67143718c3",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -274,8 +274,8 @@
     },
     {
       "path": "code/plot_measurement_results.py",
-      "bytes": 4375,
-      "sha256": "1d601c94841297d7ca01a32f113c46b808209ced9dd20b3e821c30a4e19b686e",
+      "bytes": 4338,
+      "sha256": "26b3309e82dedafd79d5a3b14af7a5842504f94476d7170ea52cf5a1bc3cb788",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -346,8 +346,8 @@
     },
     {
       "path": "code/run_input_mismatch.py",
-      "bytes": 7039,
-      "sha256": "8628174b9464d5ff14c4cf73584174ca255153a830290ca95ca884a4e8da5ebe",
+      "bytes": 7015,
+      "sha256": "06c6461d735af098d3ef3a311ac375e531eb15079c0ddf05fc8cfc84c4d8b960",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -10216,8 +10216,8 @@
     },
     {
       "path": "figure_scripts/draw_narrative_result_figures.py",
-      "bytes": 25977,
-      "sha256": "373aec1c4accf112b12e7ed4260343e8b382dd03bb330fe9f64b11402036cd6c",
+      "bytes": 25955,
+      "sha256": "e062225257b071852cbdba27c581d2541d5272d7096cbb091a8af8ebeb616ede",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -10756,8 +10756,8 @@
     },
     {
       "path": "residual_model/METHOD_AUDIT.md",
-      "bytes": 4673,
-      "sha256": "14e9d03de7d12e82e2d63b315e1797be6d1969ff6f969d07f02140c6b97fb67a",
+      "bytes": 4472,
+      "sha256": "20922a763b9be76062a9bdfb9b3b83b3e0dfe97bc34d9eb68364d965f9b13c94",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -11038,20 +11038,20 @@
     },
     {
       "path": "residual_model/theory/Mechanism_Report.md",
-      "bytes": 18699,
-      "sha256": "3c2c9eb67244af2b084626b1512123762d27e920e02a69b0d26a9051e7fffe08",
+      "bytes": 18381,
+      "sha256": "54e5eb0cfa00e4bf279a23882261edcc1874046b8050ab2e467854684a1e589e",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
       "path": "residual_model/theory/Mechanism_Report.pdf",
-      "bytes": 290911,
-      "sha256": "dff2c9726c631bdbc03dc046df8ab8df63a8cc55deebfec27df483535e3608d4",
+      "bytes": 290830,
+      "sha256": "15b1ec347c938e7d534d87baa19a976ae3509edbad8675a9c2967cdcb427bdd1",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
       "path": "residual_model/theory/Mechanism_Report.tex",
-      "bytes": 22349,
-      "sha256": "97ad9118bbc088d6707be880151e84fbfeb42928c50a01a1c8423626ee8baaba",
+      "bytes": 22031,
+      "sha256": "dc28b94ab87fa66bd26fc258d93bd1536a80d080469af00318ef85de36c072ec",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     },
     {
@@ -11398,8 +11398,8 @@
     },
     {
       "path": "theory/original_equation_audit.md",
-      "bytes": 6027,
-      "sha256": "0d82c138d974a013776927b624cb32ac2cfc7e8376153d02067396faa7597cf1",
+      "bytes": 5844,
+      "sha256": "2475ba57948b52c046e17953ff4502f58f78f60fd761d43dd540447eae3a17e6",
       "asset": "Reproducibility_Code_Tables_614564_v1.0.0.zip"
     }
   ],
@@ -11408,6 +11408,8 @@
     "code": "MIT",
     "data_and_figures": "CC-BY-4.0"
   },
-  "documentation_revision": "2026-10-06T12:52:02.170957+08:00",
-  "scientific_code_and_data_changed": false
+  "documentation_revision": "2026-10-06T13:04:53.963963+08:00",
+  "calculation_logic_changed": false,
+  "numerical_data_changed": false,
+  "source_comments_changed": true
 }

@@ -45,7 +45,7 @@ its dependencies are in sibling figures/ and manuscript/references.bib. A
 compiled appendix PDF is also supplied. Its extended numerical
 tables retain their own TA numbering and are not compact SI tables.
 
-The release reuses the retained propagation and detector results; only the
-coefficient smoke check and file-integrity verification were run for packaging.
+The release reuses the retained propagation and detector results with their
+run logs. RELEASE_CHECKS.json contains the recorded coefficient smoke check.
 The original absolute user-home prefix is redacted in public log copies.
 Numerical records and complex arrays are preserved.

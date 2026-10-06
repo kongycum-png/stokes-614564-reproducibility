@@ -27,7 +27,7 @@ for ic,(R,e) in enumerate([(24,.35),(24,.7),(96,.35),(96,.7)]):
 ax[5].set(xlabel='Relative gain SD (%)',ylabel='95% interval width (mm)',title='$m=4$: gain covariance')
 for i,a in enumerate(ax):a.text(-.18,1.06,'abcdef'[i],transform=a.transAxes,fontweight='bold',fontsize=10)
 for ext in ['pdf','svg','png']:fig.savefig(OUT/'figures'/f'synthetic_measurement.{ext}',dpi=250,bbox_inches='tight')
-# Exhaustive machine-readable summary, no removal of difficult scenarios.
+# Summarize every retained scenario.
 for fn in sorted(D.glob('R[0-9]*.json')):
  if '_pilot' in fn.stem or '_stability' in fn.stem:continue
  v=json.loads(fn.read_text())

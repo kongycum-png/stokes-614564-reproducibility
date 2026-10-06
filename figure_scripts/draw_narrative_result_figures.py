@@ -49,7 +49,7 @@ plt.rcParams.update({
 
 
 def boxed(ax: plt.Axes) -> None:
-    """Apply the requested box-on style without a heavy frame."""
+    """Use boxed axes with inward ticks."""
     for side in ("left", "right", "top", "bottom"):
         ax.spines[side].set_visible(True)
         ax.spines[side].set_linewidth(0.7)

@@ -8,7 +8,7 @@ date: 4 October 2026
 
 The nonmonotonic scaled advance at $\eta=0.35$, $m=3$ is reproduced by an independent finite angular Airy integral and explained by the higher order terms of the same smooth peak and half-height event. The fourth order event series does not include enough terms to locate this minimum. Its non-fitted extension gives $c_5=3.36680300$ and $c_6=13.35298604$, followed by smaller corrections at the radii in question. The fourteenth order prediction locates the minimum at $R_0=36.37128$; the full Fresnel integral gives $36.37127$, and the manuscript's reduced R-S integral gives $36.37130$. The last two digits are numerical estimates, not certified interval endpoints.
 
-This report provides an exact integral reduction, a rigorous bound on the artificial negative-source extension, coefficient recursion, order ablations, new-radius predictions, independent positive-source quadrature and arbitrary precision checks. The integral identities and source-extension bound are analytic results. The reported event locations, absence of a branch change over the tested range and finite-order error envelopes are numerical evidence. We do not claim a computer-assisted interval proof of a unique global minimum for every radius or a universal result for other apertures, orders or damping parameters.
+The integral identities and source-extension bound are analytic results. The reported event locations, absence of a branch change over the tested range and finite-order error envelopes are numerical evidence. The sampled-radius checks do not establish an interval proof of global minimum uniqueness or a result for other apertures, orders or damping parameters.
 
 # Model and event definition
 
@@ -20,7 +20,7 @@ Apart from common phases and physical constants, the Fresnel radial integral is
 
 $$I_q(R,\zeta)=\int_0^\infty s\,\operatorname{Ai}(R_0-s)e^{\alpha(R_0-s)}e^{is^2/(2\zeta)}J_q(Rs/\zeta)\,ds.$$
 
-The reduced R-S model replaces $\zeta$ in the phase and Bessel argument by $d=\sqrt{\zeta^2+(R/kw)^2}$ and multiplies the integral by $\zeta/d^2$. The values used are $w=0.08$ mm, $\lambda=0.0006328$ mm and $kw=2\pi w/\lambda$. The original finite-radius data and all earlier delivery files are preserved.
+The reduced R-S model replaces $\zeta$ in the phase and Bessel argument by $d=\sqrt{\zeta^2+(R/kw)^2}$ and multiplies the integral by $\zeta/d^2$. The values used are $w=0.08$ mm, $\lambda=0.0006328$ mm and $kw=2\pi w/\lambda$.
 
 # Exact compact reduction
 
@@ -168,7 +168,7 @@ The mechanism supported here is a smooth, coherent high-order correction to the 
 
 Run the scripts from the residual_model directory with Python, NumPy, SciPy, mpmath and Matplotlib. The full recipe is in RUN_REPRODUCTION.sh. compact_airy.py and compact_rs.py implement the identities; analytic_series.py generates the coefficients; study.py and the N14 driver generate the radius predictions; direct_check.py and direct_events.py evaluate the original positive-source integral; high_precision.py uses arbitrary precision angular moments; decomposition.py gives the signed coefficient grouping. JSON and CSV files retain parameters, event roots, slopes, curvatures and control results. Source-code and output hashes are supplied with the verification package.
 
-Source versions and checksums are listed in `source_manifest.json`.
+Code and output checksums are listed in `DISTRIBUTION_MANIFEST.json` at the package root.
 
 # References
 

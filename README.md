@@ -27,7 +27,8 @@ folder**. No binary concatenation is needed. See DOWNLOAD.md for verification.
 `DISTRIBUTION_MANIFEST.json` records every file's relative path, byte size,
 SHA-256 digest, and download part. `RELEASE_ASSETS.json` and `SHA256SUMS_ASSETS.txt`
 identify the downloadable archives. The v1.0.0 tag fixes the original numerical code and records; the current
-code/table archive includes the 6 October 2026 documentation update. A DOI
+code/table archive includes the 6 October 2026 documentation and source-comment
+updates. A DOI
 has not been assigned.
 
 ## Evidence families

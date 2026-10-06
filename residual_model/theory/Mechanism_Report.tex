@@ -19,15 +19,11 @@ question. The fourteenth order prediction locates the minimum at
 manuscript's reduced R-S integral gives \(36.37130\). The last two
 digits are numerical estimates, not certified interval endpoints.
 
-This report provides an exact integral reduction, a rigorous bound on
-the artificial negative-source extension, coefficient recursion, order
-ablations, new-radius predictions, independent positive-source
-quadrature and arbitrary precision checks. The integral identities and
+The integral identities and
 source-extension bound are analytic results. The reported event
 locations, absence of a branch change over the tested range and
-finite-order error envelopes are numerical evidence. We do not claim a
-computer-assisted interval proof of a unique global minimum for every
-radius or a universal result for other apertures, orders or damping
+finite-order error envelopes are numerical evidence. The sampled-radius checks do not establish an interval proof of global
+minimum uniqueness or a result for other apertures, orders or damping
 parameters.
 
 \section{Model and event definition}\label{model-and-event-definition}
@@ -50,8 +46,7 @@ integral is
 The reduced R-S model replaces \(\zeta\) in the phase and Bessel
 argument by \(d=\sqrt{\zeta^2+(R/kw)^2}\) and multiplies the integral by
 \(\zeta/d^2\). The values used are \(w=0.08\) mm, \(\lambda=0.0006328\)
-mm and \(kw=2\pi w/\lambda\). The original finite-radius data and all
-earlier delivery files are preserved.
+mm and \(kw=2\pi w/\lambda\).
 
 \section{Exact compact reduction}\label{exact-compact-reduction}
 
@@ -420,7 +415,8 @@ files retain parameters, event roots, slopes, curvatures and control
 results. Source-code and output hashes are supplied with the
 verification package.
 
-Source versions and checksums are listed in \path{source_manifest.json}.
+Code and output checksums are listed in \path{DISTRIBUTION_MANIFEST.json}
+at the package root.
 
 \section{References}\label{references}
 

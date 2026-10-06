@@ -1,4 +1,4 @@
-"""Audit every retained case; no case selection based on agreement."""
+"""Audit every retained case."""
 from pathlib import Path
 import json,csv,collections
 import numpy as np
