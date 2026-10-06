@@ -39,12 +39,14 @@ and noise ablations. `figure_data/` contains the inputs for the five main figure
 `residual_model/` retains the separate finite-radius analysis. The appendix uses
 the independent equation, figure, and table prefix **TA**.
 
-The five PNGs in `figures/` are the current manuscript figures. Figure 2 uses the
-final rectangular panel alignment. `figures/Figure_S1_source.pptx` is the editable
-source for the current SI optical scheme; `Figure_S1_optical_layout.pdf` is its
-native vector export. Only private source paths in the public PPT copy’s notes have been redacted; all slide objects are unchanged. The older `proposed_experimental_layout.*` files and
-`draw_experimental_layout.py` are historical schematic versions, not the current
-SI source. The proposed apparatus has not been built in this study.
+The `figures/` folder retains the layouts used during the numerical revision.
+Final publication PDFs, corresponding PNG renderings, and the author-supplied
+source panels for the current SI optical diagram are in the separate
+`Publication_Figures_614564_20261006.zip` release asset. See
+[Publication figures](PUBLICATION_FIGURES.md) for its checksum and contents.
+The earlier editable `Figure_S1_source.pptx`, its vector export, and the
+`proposed_experimental_layout.*` files remain historical scheme versions.
+The proposed apparatus has not been built in this study.
 
 This package contains simulations, not measured experimental data. Exact-kz
 and matched unexpanded scalar R–S are implementation checks of the same boundary
